@@ -16,7 +16,7 @@ function formatTick(ms) {
     return format(new Date(ms), "MMM dd");
 }
 
-const fullDay = (1000 * 60 * 30) * 48;
+const fullDay = 86400000;
 
 class DateSlider extends Component {
     constructor() {
@@ -28,7 +28,7 @@ class DateSlider extends Component {
 
         this.state = {
             selected: fourDaysAgo,
-            updated: fourDaysAgo,
+            dateSelected: fourDaysAgo,
             min: oneWeekAgo,
             max: today
         };
@@ -42,11 +42,11 @@ class DateSlider extends Component {
 
     onUpdate = ([ms]) => {
         this.setState({
-            updated: new Date(ms)
+            dateSelected: new Date(ms)
         });
     };
 
-    renderDateTime(date, header) {
+    renderDateTime(date) {
         return (
             <div
                 style={{
@@ -56,14 +56,13 @@ class DateSlider extends Component {
                     margin: 5
                 }}
             >
-                <b>{header}:</b>
-                <div style={{ fontSize: 12 }}>{format(date, "MMM dd h:mm a")}</div>
+                <div style={{ fontSize: 35, fontWeight: "bold" }}>{format(date, "MMMM dd yyyy")}</div>
             </div>
         );
     }
 
     render() {
-        const { min, max, selected, updated } = this.state;
+        const { min, max, selected, dateSelected } = this.state;
 
         const dateTicks = scaleTime()
             .domain([min, max])
@@ -72,9 +71,8 @@ class DateSlider extends Component {
 
         return (
             <div>
-                {this.renderDateTime(selected, "Selected")}
-                {this.renderDateTime(updated, "Updated")}
-                <div style={{ margin: "5%", height: 120, width: "90%" }}>
+                {this.renderDateTime(dateSelected)}
+                <div style={{ margin: "2%", height: 120, width: "90%" }}>
                     <Slider
                         mode={1}
                         step={fullDay}
