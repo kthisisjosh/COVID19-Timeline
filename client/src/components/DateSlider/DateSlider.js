@@ -6,6 +6,7 @@ import Track from "./Track/Track";
 import Tick from "./Tick/Tick";
 import { subDays, startOfToday, format } from "date-fns";
 import { scaleTime } from "d3-scale";
+import Paper from "@material-ui/core/Paper";
 
 const sliderStyle = {
     position: "relative",
@@ -25,11 +26,12 @@ class DateSlider extends Component {
         const today = startOfToday();
         const fourDaysAgo = subDays(today, 4);
         const oneWeekAgo = subDays(today, 7);
+        const threeWeeksAgo = subDays(today, 24);
 
         this.state = {
             selected: fourDaysAgo,
             dateSelected: fourDaysAgo,
-            min: oneWeekAgo,
+            min: threeWeeksAgo,
             max: today
         };
     }
@@ -56,7 +58,7 @@ class DateSlider extends Component {
                     margin: 5
                 }}
             >
-                <div style={{ fontSize: 35, fontWeight: "bold" }}>{format(date, "MMMM dd yyyy")}</div>
+                <div style={{ fontSize: 50, fontWeight: "bold" }}>{format(date, "MMMM dd yyyy")}</div>
             </div>
         );
     }
@@ -70,9 +72,9 @@ class DateSlider extends Component {
             .map(d => +d);
 
         return (
-            <div>
+            <Paper>
                 {this.renderDateTime(dateSelected)}
-                <div style={{ margin: "2%", height: 120, width: "90%" }}>
+                <div style={{ margin: "1%", height: 60, width: "97%" }}>
                     <Slider
                         mode={1}
                         step={fullDay}
@@ -129,7 +131,7 @@ class DateSlider extends Component {
                         </Ticks>
                     </Slider>
                 </div>
-            </div>
+            </Paper>
         );
     }
 }
