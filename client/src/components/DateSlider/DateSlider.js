@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import { Slider, Rail, Handles, Tracks, Ticks } from "react-compound-slider";
 import SliderRail from "./SliderRail/SliderRail";
 import Handle from "./Handle/Handle";
@@ -7,6 +7,7 @@ import Tick from "./Tick/Tick";
 import { subDays, startOfToday, format } from "date-fns";
 import { scaleTime } from "d3-scale";
 import Paper from "@material-ui/core/Paper";
+import { DateContext } from "../../contexts/DateContext";
 
 const sliderStyle = {
     position: "relative",
@@ -20,6 +21,8 @@ function formatTick(ms) {
 const fullDay = 86400000;
 
 class DateSlider extends Component {
+    static contextType = DateContext;
+
     constructor() {
         super();
 
@@ -35,10 +38,8 @@ class DateSlider extends Component {
         };
     }
 
-    onChange = ([ms]) => {
-        this.setState({
-            selected: new Date(ms)
-        });
+    onChange = () => {
+        
     };
 
     onUpdate = ([ms]) => {
@@ -65,6 +66,7 @@ class DateSlider extends Component {
 
     render() {
         const { min, max, selected, dateSelected } = this.state;
+        const { updateSelectedDate } = this.context;
 
         const dateTicks = scaleTime()
             .domain([min, max])
@@ -72,7 +74,7 @@ class DateSlider extends Component {
             .map(d => +d);
 
         return (
-            <Paper style={{ backgroundColor: "#222831", height: "15vh"}}>
+            <Paper style={{ backgroundColor: "#222831", height: "15vh" }}>
                 {this.renderDateTime(dateSelected)}
                 <div style={{ margin: "2%", marginTop: "4%", height: 60, width: "97%" }}>
                     <Slider
@@ -81,7 +83,7 @@ class DateSlider extends Component {
                         domain={[+min, +max]}
                         rootStyle={sliderStyle}
                         onUpdate={this.onUpdate}
-                        onChange={this.onChange}
+                        onChange={updateSelectedDate}
                         values={[+selected]}
                     >
                         <Rail>
@@ -117,7 +119,7 @@ class DateSlider extends Component {
                         </Tracks>
                         <Ticks values={dateTicks}>
                             {({ ticks }) => (
-                                <div style={{paddingBottom: "1%"}}>
+                                <div style={{ paddingBottom: "1%" }}>
                                     {ticks.map(tick => (
                                         <Tick
                                             key={tick.id}
