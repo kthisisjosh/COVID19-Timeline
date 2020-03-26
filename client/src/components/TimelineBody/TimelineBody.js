@@ -5,33 +5,38 @@ import Typography from "@material-ui/core/Typography";
 import EventPane from "../EventPane/EventPane";
 import InfoHeader from "../InfoHeader/InfoHeader";
 import DateSlider from "../DateSlider/DateSlider";
-import MainMap from "../MainMap/MainMap.js"
+import MainGraph from "../MainGraph/MainGraph";
+import MainMap from "../MainMap/MainMap.js";
 
 const TimelineBody = () => {
     return (
-        <Paper>
-            <Grid container spacing={1}>
 
-                <Grid item md={5} xs={12} zeroMinWidth>
-                    <Paper>
-                        <Typography variant="h3" color="primary" align="center" gutterBottom>
-                            COVID-19 Timeline
+        <Grid container spacing={1} style={{ backgroundColor: "#222831" }}>
+
+            <Grid item md={5} xs={12} zeroMinWidth>
+                <Paper style={{ backgroundColor: "#393e46" }}>
+                    <Typography variant="h3" color="primary" align="center" gutterBottom>
+                        COVID-19 Timeline
                         </Typography>
-                        <EventPane />
-                        <DateSlider />
-                    </Paper>
-                </Grid>
-
-
-                <Grid item md={7} xs={12} zeroMinWidth>
-                    <Paper>
-                        <InfoHeader />
-                            
-                    </Paper>
-                </Grid>
-
+                    <EventPane />
+                </Paper>
+                <Paper style={{ backgroundColor: "#393e46", marginTop: "2%" }}>
+                    <DateSlider />
+                </Paper>
             </Grid>
-        </Paper>
+
+
+            <Grid item md={7} xs={12} zeroMinWidth>
+                <Paper style={{ backgroundColor: "#393e46" }}>
+                    <InfoHeader />
+                </Paper>
+                <Paper style={{ backgroundColor: "#393e46", marginTop: "1%" }}>
+                    <MainGraph />
+                </Paper>
+            </Grid>
+
+        </Grid>
+
     )
 }
 

@@ -11,7 +11,7 @@ const InfoHeader = (props) => {
 
             <Grid container spacing={2} alignContent="space-between" alignItems="space-between" justify="center">
 
-                <Grid container md={2} justify="center">
+                <Grid container sm={2} xs={2} justify="center">
                     <Grid item alignContent="center" alignItems="center">
                         <Typography variant="h3" color="secondary">
                             1043
@@ -22,7 +22,7 @@ const InfoHeader = (props) => {
                     </Grid>
                 </Grid>
 
-                <Grid container md={2} justify="center">
+                <Grid container sm={2} xs={2} justify="center">
                     <Grid item alignContent="center" alignItems="center">
                         <Typography variant="h3" color="secondary">
                             +14
@@ -33,7 +33,7 @@ const InfoHeader = (props) => {
                     </Grid>
                 </Grid>
 
-                <Grid container md={4} justify="center">
+                <Grid container xs={4} justify="center">
                     <Grid item alignContent="center" alignItems="center">
                         <Typography align="center" variant="h2" color="primary">
                             Canada
@@ -44,7 +44,7 @@ const InfoHeader = (props) => {
                     </Grid>
                 </Grid>
 
-                <Grid container md={2} justify="center">
+                <Grid container sm={2} xs={2} justify="center">
                     <Grid item alignContent="center" alignItems="center">
                         <Typography variant="h3" color="secondary">
                             1043
@@ -55,7 +55,7 @@ const InfoHeader = (props) => {
                     </Grid>
                 </Grid>
 
-                <Grid container md={2} justify="center">
+                <Grid container sm={2} xs={2} justify="center">
                     <Grid item alignContent="center" alignItems="center">
                         <Typography variant="h3" color="secondary">
                             +19

@@ -71,7 +71,7 @@ class DateSlider extends Component {
             .map(d => +d);
 
         return (
-            <Paper>
+            <Paper style={{backgroundColor: "#393e46"}}>
                 {this.renderDateTime(dateSelected)}
                 <div style={{ margin: "2%", marginTop: "4%", height: 60, width: "97%" }}>
                     <Slider

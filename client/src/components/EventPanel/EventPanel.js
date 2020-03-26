@@ -10,7 +10,7 @@ import Button from '@material-ui/core/Button';
 
 const EventPanel = (props) => {
     return (
-        <Card>
+        <Card style={{backgroundColor: "#393e46"}}>
             <CardActionArea>
                 <Grid container spacing={1}>
                     <Grid item md={3}>
