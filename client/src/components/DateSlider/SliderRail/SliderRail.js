@@ -7,7 +7,6 @@ const railOuterStyle = {
     height: 40,
     transform: "translate(0%, -50%)",
     cursor: "pointer",
-    border: "1px solid grey"
 };
 
 const railInnerStyle = {

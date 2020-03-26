@@ -8,7 +8,7 @@ const MainMap = () => {
 
     return (
         <div>
-            <Map center={[60.785, -95.481]} zoom={3.5} style={{ height: "35rem" }}>
+            <Map center={[60.785, -95.481]} zoom={3.5} style={{height: '55vh'}}>
                 <MapBoxGLLayer
                     accessToken={MAPBOX_ACCESS_TOKEN}
                     style="mapbox://styles/kthisisjosh/ck8822dgd16941jm7qidyc2t9"

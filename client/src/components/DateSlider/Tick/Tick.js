@@ -8,6 +8,7 @@ function Tick({ tick, count, format }) {
                 style={{
                     position: "absolute",
                     marginTop: 14,
+                    paddingBottom: "1%",
                     width: 1,
                     height: 5,
                     backgroundColor: "rgb(200,200,200)",
@@ -19,6 +20,7 @@ function Tick({ tick, count, format }) {
                     position: "absolute",
                     marginTop: 22,
                     fontSize: 10,
+                    paddingBottom: "1%",
                     textAlign: "center",
                     fontFamily: "Arial, san-serif",
                     marginLeft: `${-(100 / count) / 2}%`,

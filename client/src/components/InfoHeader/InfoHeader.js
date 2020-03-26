@@ -13,7 +13,7 @@ const InfoHeader = (props) => {
 
                 <Grid container sm={2} xs={2} justify="center">
                     <Grid item alignContent="center" alignItems="center">
-                        <Typography variant="h3" color="secondary">
+                        <Typography variant="h3">
                             1043
                             </Typography>
                         <Typography align="center" variant="subtitle1">
@@ -24,7 +24,7 @@ const InfoHeader = (props) => {
 
                 <Grid container sm={2} xs={2} justify="center">
                     <Grid item alignContent="center" alignItems="center">
-                        <Typography variant="h3" color="secondary">
+                        <Typography variant="h3">
                             +14
                             </Typography>
                         <Typography align="center" variant="subtitle1">
@@ -35,7 +35,7 @@ const InfoHeader = (props) => {
 
                 <Grid container xs={4} justify="center">
                     <Grid item alignContent="center" alignItems="center">
-                        <Typography align="center" variant="h2" color="primary">
+                        <Typography align="center" variant="h2">
                             Canada
                         </Typography>
                         <Typography align="center" variant="h6">
@@ -46,7 +46,7 @@ const InfoHeader = (props) => {
 
                 <Grid container sm={2} xs={2} justify="center">
                     <Grid item alignContent="center" alignItems="center">
-                        <Typography variant="h3" color="secondary">
+                        <Typography variant="h3">
                             1043
                             </Typography>
                         <Typography align="center" variant="subtitle1">
@@ -57,7 +57,7 @@ const InfoHeader = (props) => {
 
                 <Grid container sm={2} xs={2} justify="center">
                     <Grid item alignContent="center" alignItems="center">
-                        <Typography variant="h3" color="secondary">
+                        <Typography variant="h3">
                             +19
                             </Typography>
                         <Typography align="center" variant="subtitle1">

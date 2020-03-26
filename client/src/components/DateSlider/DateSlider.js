@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import { Slider, Rail, Handles, Tracks, Ticks } from "react-compound-slider";
 import SliderRail from "./SliderRail/SliderRail";
 import Handle from "./Handle/Handle";
@@ -54,6 +54,7 @@ class DateSlider extends Component {
                     width: "100%",
                     textAlign: "center",
                     fontFamily: "Arial",
+                    paddingBottom: "1%",
                     margin: 5
                 }}
             >
@@ -71,7 +72,7 @@ class DateSlider extends Component {
             .map(d => +d);
 
         return (
-            <Paper style={{backgroundColor: "#393e46"}}>
+            <Paper style={{ backgroundColor: "#222831", height: "15vh"}}>
                 {this.renderDateTime(dateSelected)}
                 <div style={{ margin: "2%", marginTop: "4%", height: 60, width: "97%" }}>
                     <Slider
@@ -116,7 +117,7 @@ class DateSlider extends Component {
                         </Tracks>
                         <Ticks values={dateTicks}>
                             {({ ticks }) => (
-                                <div>
+                                <div style={{paddingBottom: "1%"}}>
                                     {ticks.map(tick => (
                                         <Tick
                                             key={tick.id}

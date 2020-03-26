@@ -1,3 +1,12 @@
 body {
-    background-color: #222831;
+    background-color: #393e46;
 }
+
+h3 {
+    color: #c43a31
+}
+
+a {color:rgb(0, 0, 0);}         /* Unvisited link  */
+a:visited {color:rgb(0, 0, 0);} /* Visited link    */
+a:hover {color:#c43a31;}   /* Mouse over link */
+a:active {color:#0000FF;}  /* Selected link   */
