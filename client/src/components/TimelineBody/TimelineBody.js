@@ -11,7 +11,7 @@ const TimelineBody = () => {
         <Paper>
             <Grid container spacing={1}>
 
-                <Grid item md={4} xs={12} zeroMinWidth>
+                <Grid item md={5} xs={12} zeroMinWidth>
                     <Paper>
                         <Typography variant="h3" color="primary" align="center" gutterBottom>
                             COVID-19 Timeline
@@ -21,10 +21,10 @@ const TimelineBody = () => {
                 </Grid>
 
 
-                <Grid item md={8} xs={12} zeroMinWidth>
+                <Grid item md={7} xs={12} zeroMinWidth>
                     <Paper>
                         <InfoHeader />
-                        <MainMap />
+                            <MainMap />
                     </Paper>
                 </Grid>
 

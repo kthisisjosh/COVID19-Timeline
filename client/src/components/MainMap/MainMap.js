@@ -1,30 +1,22 @@
 import React from 'react';
 import { Map, TileLayer } from 'react-leaflet';
-import HeatmapLayer from "react-leaflet-heatmap-layer";
-import { addressPoints } from './realworld.1000.js';
+import MapBoxGLLayer from "./MapBoxGLLayer";
 
-class MainMap extends React.Component {
+const MAPBOX_ACCESS_TOKEN = "pk.eyJ1Ijoia3RoaXNpc2pvc2giLCJhIjoiY2s4ODZxYzdqMDVoYzNvbzMzNWwzcWMxOCJ9.42fWcwI1CrrODWXGrEVeFQ";
 
-    render() {
-        return (
+const MainMap = (geojson) => {
 
-            <Map center={[56.13, -106.34]} zoom={4} style={{ height: "35rem" }}>
-                <HeatmapLayer
-                    fitBoundsOnLoad
-                    fitBoundsOnUpdate
-                    points={addressPoints}
-                    longitudeExtractor={m => m[1]}
-                    latitudeExtractor={m => m[0]}
-                    intensityExtractor={m => parseFloat(m[2])} />
-                <TileLayer
-                    url='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
-                    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    return (
+        <div>
+            <Map center={[60.785, -95.481]} zoom={3.5} style={{ height: "35rem" }}>
+                <MapBoxGLLayer
+                    accessToken={MAPBOX_ACCESS_TOKEN}
+                    style="mapbox://styles/kthisisjosh/ck8822dgd16941jm7qidyc2t9"
+                    attribution='© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> , © <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, <a href="https://www.mapbox.com/map-feedback/">Improve this map</a>'
                 />
             </Map>
-
-        );
-    }
-
+        </div>
+    );
 }
 
 export default MainMap;
