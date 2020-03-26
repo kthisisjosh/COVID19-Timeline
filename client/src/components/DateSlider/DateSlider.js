@@ -53,12 +53,12 @@ class DateSlider extends Component {
                 style={{
                     width: "100%",
                     textAlign: "center",
-                    fontFamily: "Arial",
-                    paddingBottom: "1%",
+                    fontFamily: "Roboto",
+                    paddingTop: "0.8%",
                     margin: 5
                 }}
             >
-                <div style={{ fontSize: 50, fontWeight: "bold" }}>{format(date, "MMMM dd yyyy")}</div>
+                <div style={{ fontSize: 50, fontWeight: "bold", color: "#c43a31" }}>{format(date, "MMMM dd yyyy")}</div>
             </div>
         );
     }

@@ -35,7 +35,7 @@ const InfoHeader = (props) => {
 
                 <Grid container xs={4} justify="center">
                     <Grid item alignContent="center" alignItems="center">
-                        <Typography align="center" variant="h2">
+                        <Typography align="center" variant="h3">
                             Canada
                         </Typography>
                         <Typography align="center" variant="h6">

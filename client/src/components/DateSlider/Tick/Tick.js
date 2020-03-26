@@ -25,7 +25,8 @@ function Tick({ tick, count, format }) {
                     fontFamily: "Arial, san-serif",
                     marginLeft: `${-(100 / count) / 2}%`,
                     width: `${100 / count}%`,
-                    left: `${tick.percent}%`
+                    left: `${tick.percent}%`,
+                    color: "#c43a31"
                 }}
             >
                 {format(tick.value)}

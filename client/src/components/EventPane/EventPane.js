@@ -64,7 +64,7 @@ class EventPane extends React.Component {
         return (
             <div>
                 <Element name="test7" className="element" id="containerElement" style={{
-                    height: '68.5vh',
+                    height: '67vh',
                     overflow: 'scroll',
                 }}>
 
