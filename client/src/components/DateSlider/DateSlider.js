@@ -23,6 +23,27 @@ function formatTick(ms) {
 
 const fullDay = 86400000;
 
+const monthMSTimes = [{
+    start: 1581397200000,
+    end: 1582952400000
+},
+{
+    start: 1583038800000,
+    end: 1585627200000
+},
+{
+    start: 1585713600000,
+    end: 1588219200000
+},
+{
+    start: 1588305600000,
+    end: 1590897600000
+},
+{
+    start: 1590984000000,
+    end: 1593489600000
+}]
+
 class DateSlider extends Component {
     static contextType = DateContext;
 
@@ -31,19 +52,20 @@ class DateSlider extends Component {
 
         const today = startOfToday();
         const fourDaysAgo = subDays(today, 4);
-        const threeWeeksAgo = subDays(today, 24);
 
         this.state = {
+            currentMonth: 1,
             selected: fourDaysAgo,
-            dateSelected: fourDaysAgo,
-            min: threeWeeksAgo,
-            max: today
+            dateSelected: new Date(1583038800000),
+            min: new Date(1583038800000),
+            max: new Date(1585627200000)
         };
     }
 
-    onChange = () => {
-
-    };
+    changeMonth = (newMonthAdd) => {
+        this.setState({ min: new Date(monthMSTimes[this.state.currentMonth + newMonthAdd].start), max: new Date(monthMSTimes[this.state.currentMonth + newMonthAdd].end) });
+        this.setState({ currentMonth: this.state.currentMonth + newMonthAdd });
+    }
 
     onUpdate = ([ms]) => {
         this.setState({
@@ -84,11 +106,17 @@ class DateSlider extends Component {
         return (
             <Paper style={{ backgroundColor: "#222831", height: "15vh" }}>
 
-                <Fab style={{ float: "left", marginTop: "2%", marginLeft: "12%" }} aria-label="prev" size="small">
+                <Fab style={{ float: "left", marginTop: "2%", marginLeft: "12%" }} aria-label="prev" size="small" onClick={() => {
+                    if (this.state.currentMonth - 1 >= 0) {
+                        this.changeMonth(-1)
+                    }}}>
                     <ArrowLeftIcon />
                 </Fab>
 
-                <Fab style={{ float: "right", marginTop: "2%", marginRight: "12%"  }} aria-label="next" size="small">
+                <Fab style={{ float: "right", marginTop: "2%", marginRight: "12%" }} aria-label="next" size="small" onClick={() => {
+                    if (this.state.currentMonth + 1 <= 4) {
+                        this.changeMonth(1)
+                    }}}>
                     <ArrowRightIcon />
                 </Fab>
 

@@ -54,6 +54,7 @@ class MainGraph extends React.Component {
                                     allowResize={false}
                                     brushDimension="x"
                                     brushDomain={{ x: [firstDateBound, secondDateBound] }}
+                                    brushStyle={{fill: "black", fillOpacity: 0.6}}
                                     voronoiDimension="x"
                                     labelComponent={
                                         <VictoryTooltip
