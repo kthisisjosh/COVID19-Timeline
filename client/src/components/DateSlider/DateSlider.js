@@ -7,7 +7,10 @@ import Tick from "./Tick/Tick";
 import { subDays, startOfToday, format } from "date-fns";
 import { scaleTime } from "d3-scale";
 import Paper from "@material-ui/core/Paper";
+import Fab from "@material-ui/core/Fab";
 import { DateContext } from "../../contexts/DateContext";
+import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
+import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 
 const sliderStyle = {
     position: "relative",
@@ -39,7 +42,7 @@ class DateSlider extends Component {
     }
 
     onChange = () => {
-        
+
     };
 
     onUpdate = ([ms]) => {
@@ -52,14 +55,19 @@ class DateSlider extends Component {
         return (
             <div
                 style={{
-                    width: "100%",
+                    width: "80%",
                     textAlign: "center",
                     fontFamily: "Roboto",
                     paddingTop: "0.8%",
                     margin: 5
                 }}
             >
-                <div style={{ fontSize: 50, fontWeight: "bold", color: "#c43a31" }}>{format(date, "MMMM dd yyyy")}</div>
+                <div
+                    style={{ fontSize: 50, fontWeight: "bold", color: "#c43a31" }}>
+
+                    {format(date, "MMMM dd yyyy")}
+
+                </div>
             </div>
         );
     }
@@ -75,7 +83,17 @@ class DateSlider extends Component {
 
         return (
             <Paper style={{ backgroundColor: "#222831", height: "15vh" }}>
+
+                <Fab style={{ float: "left", marginTop: "2%", marginLeft: "12%" }} aria-label="prev" size="small">
+                    <ArrowLeftIcon />
+                </Fab>
+
+                <Fab style={{ float: "right", marginTop: "2%", marginRight: "12%"  }} aria-label="next" size="small">
+                    <ArrowRightIcon />
+                </Fab>
+
                 {this.renderDateTime(dateSelected)}
+
                 <div style={{ margin: "2%", marginTop: "4%", height: 60, width: "97%" }}>
                     <Slider
                         mode={1}
