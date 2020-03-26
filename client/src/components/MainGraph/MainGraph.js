@@ -1,9 +1,17 @@
 import React from "react";
-import { VictoryChart, VictoryLine, VictoryTheme, VictoryZoomContainer } from "victory";
+import { VictoryChart, createContainer, VictoryTheme, VictoryTooltip, VictoryArea } from "victory";
 import data from "./CasesData";
 
 let range = [0, 1, 2, 3, 4, 5, 6, 7];
 let caseDataArray = [];
+const month = new Array();
+month[0]="Jan";
+month[1]="Feb";
+month[2]="Mar";
+month[3]="Apr";
+month[4]="May";
+month[5]="June";
+month[6]="July";
 
 data.forEach((month) => {
     month.daily.forEach((day) => {
@@ -18,7 +26,7 @@ data.forEach((month) => {
     })
 })
 
-console.log(caseDataArray);
+const BrushCursorContainer = createContainer("brush", "voronoi");
 
 
 class MainGraph extends React.Component {
@@ -27,18 +35,41 @@ class MainGraph extends React.Component {
         return (
             <VictoryChart
                 theme={VictoryTheme.grayscale}
-                animate={{ duration: 3000 }}
+                animate={{ duration: 2000 }}
                 width={600}
-                height={130}
+                height={175}
                 scale={{ x: "time" }}
+                containerComponent={
+                    <BrushCursorContainer
+                    allowDrag={false}
+                    allowResize={false}
+                    brushDimension="x"
+                    brushDomain={{x: [new Date(2020, 1, 13), new Date(2020, 1, 15)]}}
+                    voronoiDimension="x"
+                    labelComponent={
+                        <VictoryTooltip 
+                            constrainToVisibleArea={true}
+                            flyoutHeight={30}
+                            flyoutWidth={50}
+                            pointerWidth={5}
+                            style={{fill: "red"}}
+                        />
+                    }
+                    labels={({datum}) => `${datum.y}
+                    ${
+                        month[datum.x.getMonth()]
+                        + " " + datum.x.getDate()}`
+                        }
+                    />
+                }
             >
-                <VictoryLine
+                <VictoryArea
                     style={{
-                        data: { stroke: "tomato", strokeWidth: "3" }
+                        data: { stroke: "tomato", strokeWidth: "3", fill: "#c43a31" }
                     }}
                     data={caseDataArray}
-
                 />
+
             </VictoryChart>
         );
     }

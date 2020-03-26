@@ -1,148 +1,7 @@
 const data = [
     {
-        month: 0,
-        daily: [
-            {
-                day: 8,
-                cases: 0
-            },
-            {
-                day: 9,
-                cases: 0
-            },
-            {
-                day: 10,
-                cases: 0
-            },
-            {
-                day: 11,
-                cases: 0
-            },
-            {
-                day: 12,
-                cases: 0
-            },
-            {
-                day: 13,
-                cases: 0
-            },
-            {
-                day: 14,
-                cases: 0
-            },
-            {
-                day: 15,
-                cases: 1
-            },
-            {
-                day: 16,
-                cases: 1
-            },
-            {
-                day: 17,
-                cases: 2
-            },
-            {
-                day: 18,
-                cases: 2
-            },
-            {
-                day: 19,
-                cases: 2
-            },
-            {
-                day: 20,
-                cases: 2
-            },
-            {
-                day: 21,
-                cases: 3
-            },
-            {
-                day: 22,
-                cases: 5
-            },
-            {
-                day: 23,
-                cases: 5
-            },
-            {
-                day: 24,
-                cases: 7
-            },
-            {
-                day: 25,
-                cases: 8
-            },
-            {
-                day: 26,
-                cases: 8
-            },
-            {
-                day: 27,
-                cases: 9
-            },
-            {
-                day: 28,
-                cases: 9
-            },
-            {
-                day: 29,
-                cases: 9
-            },
-            {
-                day: 30,
-                cases: 9
-            },
-            {
-                day: 31,
-                cases: 9
-            },
-        ]
-    },
-    {
         month: 1,
         daily: [
-            {
-                day: 1,
-                cases: 9
-            },
-            {
-                day: 2,
-                cases: 9
-            },
-            {
-                day: 3,
-                cases: 10
-            },
-            {
-                day: 4,
-                cases: 10
-            },
-            {
-                day: 5,
-                cases: 11
-            },
-            {
-                day: 6,
-                cases: 11
-            },
-            {
-                day: 7,
-                cases: 11
-            },
-            {
-                day: 8,
-                cases: 12
-            },
-            {
-                day: 9,
-                cases: 13
-            },
-            {
-                day: 10,
-                cases: 13
-            },
             {
                 day: 11,
                 cases: 13
@@ -218,6 +77,107 @@ const data = [
             {
                 day: 29,
                 cases: 82
+            },
+        ]
+    },
+    {
+        month: 2,
+        daily: [
+            {
+                day: 1,
+                cases: 99
+            },
+            {
+                day: 2,
+                cases: 113
+            },
+            {
+                day: 3,
+                cases: 147
+            },
+            {
+                day: 4,
+                cases: 176
+            },
+            {
+                day: 5,
+                cases: 198
+            },
+            {
+                day: 6,
+                cases: 224
+            },
+            {
+                day: 7,
+                cases: 259
+            },
+            {
+                day: 8,
+                cases: 303
+            },
+            {
+                day: 9,
+                cases: 388
+            },
+            {
+                day: 10,
+                cases: 497
+            },
+            {
+                day: 11,
+                cases: 601
+            },
+            {
+                day: 12,
+                cases: 709
+            },
+            {
+                day: 13,
+                cases: 802
+            },
+            {
+                day: 14,
+                cases: 881
+            },
+            {
+                day: 15,
+                cases: 960
+            },
+            {
+                day: 16,
+                cases: 1049
+            },
+            {
+                day: 17,
+                cases: 1129
+            },
+            {
+                day: 18,
+                cases: 1220
+            },
+            {
+                day: 19,
+                cases: 1321
+            },
+            {
+                day: 20,
+                cases: 1409
+            },
+            {
+                day: 21,
+                cases: 1481
+            },
+            {
+                day: 22,
+                cases: 1555
+            },
+            {
+                day: 23,
+                cases: 1599
+            },
+            {
+                day: 24,
+                cases: 1602
             },
         ]
     }
