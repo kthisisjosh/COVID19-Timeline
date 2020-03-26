@@ -1,10 +1,10 @@
 import React from 'react';
-import { Map, TileLayer } from 'react-leaflet';
+import { Map } from 'react-leaflet';
 import MapBoxGLLayer from "./MapBoxGLLayer";
 
 const MAPBOX_ACCESS_TOKEN = "pk.eyJ1Ijoia3RoaXNpc2pvc2giLCJhIjoiY2s4ODZxYzdqMDVoYzNvbzMzNWwzcWMxOCJ9.42fWcwI1CrrODWXGrEVeFQ";
 
-const MainMap = (geojson) => {
+const MainMap = () => {
 
     return (
         <div>

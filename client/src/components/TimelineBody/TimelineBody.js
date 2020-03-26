@@ -4,6 +4,7 @@ import Paper from "@material-ui/core/Paper"
 import Typography from "@material-ui/core/Typography";
 import EventPane from "../EventPane/EventPane";
 import InfoHeader from "../InfoHeader/InfoHeader";
+import DateSlider from "../DateSlider/DateSlider";
 import MainMap from "../MainMap/MainMap.js"
 
 const TimelineBody = () => {
@@ -17,6 +18,7 @@ const TimelineBody = () => {
                             COVID-19 Timeline
                         </Typography>
                         <EventPane />
+                        <DateSlider />
                     </Paper>
                 </Grid>
 
@@ -24,7 +26,7 @@ const TimelineBody = () => {
                 <Grid item md={7} xs={12} zeroMinWidth>
                     <Paper>
                         <InfoHeader />
-                            <MainMap />
+                            
                     </Paper>
                 </Grid>
 

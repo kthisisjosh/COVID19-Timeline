@@ -1,8 +1,11 @@
 import React from 'react'
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
+import { startOfToday, format } from "date-fns";
 
 const InfoHeader = (props) => {
+
+    const today = startOfToday();
     return (
         <div style={{ margin: "1rem", marginTop: "0.75%" }}>
 
@@ -34,6 +37,9 @@ const InfoHeader = (props) => {
                     <Grid item alignContent="center" alignItems="center">
                         <Typography align="center" variant="h2" color="primary">
                             Canada
+                        </Typography>
+                        <Typography align="center" variant="h6">
+                            on {format(today, "MMMM dd yyyy") }
                         </Typography>
                     </Grid>
                 </Grid>

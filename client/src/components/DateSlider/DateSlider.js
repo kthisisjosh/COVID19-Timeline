@@ -25,7 +25,6 @@ class DateSlider extends Component {
 
         const today = startOfToday();
         const fourDaysAgo = subDays(today, 4);
-        const oneWeekAgo = subDays(today, 7);
         const threeWeeksAgo = subDays(today, 24);
 
         this.state = {
@@ -74,7 +73,7 @@ class DateSlider extends Component {
         return (
             <Paper>
                 {this.renderDateTime(dateSelected)}
-                <div style={{ margin: "1%", height: 60, width: "97%" }}>
+                <div style={{ margin: "2%", marginTop: "4%", height: 60, width: "97%" }}>
                     <Slider
                         mode={1}
                         step={fullDay}

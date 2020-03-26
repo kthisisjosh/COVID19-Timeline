@@ -1,12 +1,7 @@
 import React from 'react';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Element, Events, animateScroll as scroll, scroller } from 'react-scroll'
 import EventPanel from "../EventPanel/EventPanel";
 import Typography from "@material-ui/core/Typography";
-
-const styles = {
-    fontFamily: 'sans-serif',
-    textAlign: 'center',
-};
 
 class EventPane extends React.Component {
 
