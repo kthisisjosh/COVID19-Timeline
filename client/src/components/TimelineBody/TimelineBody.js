@@ -4,6 +4,7 @@ import Paper from "@material-ui/core/Paper"
 import Typography from "@material-ui/core/Typography";
 import EventPane from "../EventPane/EventPane";
 import InfoHeader from "../InfoHeader/InfoHeader";
+import MainMap from "../MainMap/MainMap.js"
 
 const TimelineBody = () => {
     return (
@@ -23,6 +24,7 @@ const TimelineBody = () => {
                 <Grid item md={8} xs={12} zeroMinWidth>
                     <Paper>
                         <InfoHeader />
+                        <MainMap />
                     </Paper>
                 </Grid>
 
