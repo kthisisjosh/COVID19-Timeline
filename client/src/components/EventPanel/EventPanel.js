@@ -19,6 +19,9 @@ const EventPanel = (props) => {
                             image={props.img}
                             title="Event Image"
                         />
+                        <Typography variant="caption" align="center">
+                            {props.credit}
+                        </Typography>
                     </Grid>
                     <Grid item md={9}>
                         <CardContent>

@@ -46,7 +46,8 @@ class TimelineBody extends Component {
                             <div style={{ textAlign: "center", margin: "auto" }}>
                                 <Typography variant="body1" align="center">
                                     | Data from:
-                        <a href="https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/health-professionals/epidemiological-summary-covid-19-cases.html" target="_blank">CAN</a> |
+                        <a href="https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/health-professionals/epidemiological-summary-covid-19-cases.html" target="_blank">CAN</a>, 
+                        <a href="http://cmajnews.com/2020/03/26/coronavirus-1095847/"> CMAJ News </a> |
 
                         <a href="https://github.com/kthisisjosh/COVID19-Timeline/" target="_blank"> View on Github </a> |
 

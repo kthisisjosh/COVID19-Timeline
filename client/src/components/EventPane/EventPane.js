@@ -88,6 +88,7 @@ class EventPane extends React.Component {
                         Key Events</Typography>
 
                     {data[month - 1][day - 1].articles.map((article) => {
+
                         return (
                             <Element name="firstInsideContainer" style={{
                                 marginBottom: '1%',
@@ -98,6 +99,7 @@ class EventPane extends React.Component {
                                     content={article.content}
                                     img={article.img}
                                     link={article.link}
+                                    credit={article.credit}
                                 />
                             </Element>
                         )
