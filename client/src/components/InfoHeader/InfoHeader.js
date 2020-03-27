@@ -13,7 +13,7 @@ const InfoHeader = (props) => {
     let recovered = "N/A";
     let recoveredYes = "N/A";
 
-    const selectedDate = new Date(props.date[0]);
+    const selectedDate = new Date(props.date);
 
     const month = selectedDate.getMonth();
     const day = selectedDate.getDate();

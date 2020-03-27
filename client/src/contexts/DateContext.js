@@ -6,7 +6,7 @@ const Mar24MapStyle = "mapbox://styles/kthisisjosh/ck8822dgd16941jm7qidyc2t9";
 
 class DateContextProvider extends Component {
     state = {
-        selectedDate: [1584853200000],
+        selectedDate: 1583038800000,
         selectedStyle: Mar24MapStyle
     }
 

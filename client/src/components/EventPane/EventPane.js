@@ -65,7 +65,7 @@ class EventPane extends React.Component {
     }
     render() {
         const { selectedDate } = this.context;
-        const date = new Date(selectedDate[0]);
+        const date = new Date(selectedDate);
 
         const month = date.getMonth();
         const day = date.getDate();

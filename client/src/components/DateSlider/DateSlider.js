@@ -55,8 +55,8 @@ class DateSlider extends Component {
 
         this.state = {
             currentMonth: 1,
-            selected: fourDaysAgo,
-            dateSelected: new Date(1583038800000),
+            selected: 1583038800000,
+            dateSelected: 1583038800000,
             min: new Date(1583038800000),
             max: new Date(1585627200000)
         };
@@ -67,9 +67,17 @@ class DateSlider extends Component {
         this.setState({ currentMonth: this.state.currentMonth + newMonthAdd });
     }
 
+    changeDay = (toAdd) => {
+        if (toAdd === 1) {
+            this.setState({ dateSelected: this.state.dateSelected + fullDay, selected: this.state.dateSelected + fullDay });
+        } else {
+            this.setState({ dateSelected: this.state.dateSelected - fullDay, selected: this.state.dateSelected - fullDay });
+        }
+    }
+
     onUpdate = ([ms]) => {
         this.setState({
-            dateSelected: new Date(ms)
+            dateSelected: ms
         });
     };
 
@@ -96,7 +104,7 @@ class DateSlider extends Component {
 
     render() {
         const { min, max, selected, dateSelected } = this.state;
-        const { updateSelectedDate, getSelectedStyle } = this.context;
+        const { updateSelectedDate } = this.context;
 
         const dateTicks = scaleTime()
             .domain([min, max])
@@ -104,38 +112,122 @@ class DateSlider extends Component {
             .map(d => +d);
 
         return (
-            <Paper style={{ backgroundColor: "#222831", height: "15vh"}}>
+            <Paper style={{ backgroundColor: "#222831", height: "15vh" }}>
 
                 <Fab style={{ float: "left", marginTop: "2%", marginLeft: "5%" }} aria-label="prev" size="small" onClick={() => {
                     if (this.state.currentMonth - 1 >= 0) {
-                        this.changeMonth(-1)
-                        getSelectedStyle();
+                        this.changeMonth(-1);
                     }
                 }}>
                     <ArrowLeftIcon />
                 </Fab>
 
                 <Fab style={{ float: "left", marginTop: "2%", marginLeft: "10%" }} aria-label="prev" size="small" onClick={() => {
-                    
-
-
+                    if (this.state.currentMonth === 0) {
+                        if (this.state.dateSelected === 1582952400000) {
+                            this.changeDay(-1);
+                            updateSelectedDate(this.state.dateSelected - fullDay);
+                        }
+                        if (this.state.dateSelected < 1582952400000 && this.state.dateSelected > 1581397200000) {
+                            this.changeDay(-1);
+                            updateSelectedDate(this.state.dateSelected - fullDay);
+                        }
+                    } else if (this.state.currentMonth === 1) {
+                        if (this.state.dateSelected === 1585627200000) {
+                            this.changeDay(-1);
+                            updateSelectedDate(this.state.dateSelected - fullDay);
+                        }
+                        if (this.state.dateSelected < 1585627200000 && this.state.dateSelected > 1583038800000) {
+                            this.changeDay(-1);
+                            updateSelectedDate(this.state.dateSelected - fullDay);
+                        }
+                    } else if (this.state.currentMonth === 2) {
+                        if (this.state.dateSelected === 1588219200000) {
+                            this.changeDay(-1);
+                            updateSelectedDate(this.state.dateSelected - fullDay);
+                        }
+                        if (this.state.dateSelected < 1588219200000 && this.state.dateSelected > 1585713600000) {
+                            this.changeDay(-1);
+                            updateSelectedDate(this.state.dateSelected - fullDay);
+                        }
+                    } else if (this.state.currentMonth === 3) {
+                        if (this.state.dateSelected === 1590897600000) {
+                            this.changeDay(-1);
+                            updateSelectedDate(this.state.dateSelected - fullDay);
+                        }
+                        if (this.state.dateSelected < 1590897600000 && this.state.dateSelected > 1588305600000) {
+                            this.changeDay(-1);
+                            updateSelectedDate(this.state.dateSelected - fullDay);
+                        }
+                    } else if (this.state.currentMonth === 4) {
+                        if (this.state.dateSelected === 1593489600000) {
+                            this.changeDay(-1);
+                            updateSelectedDate(this.state.dateSelected - fullDay);
+                        }
+                        if (this.state.dateSelected < 1593489600000 && this.state.dateSelected > 1590984000000) {
+                            this.changeDay(-1);
+                            updateSelectedDate(this.state.dateSelected - fullDay);
+                        }
+                    }
                 }}>
                     <ArrowLeftIcon />
                 </Fab>
 
                 <Fab style={{ float: "right", marginTop: "2%", marginRight: "5%" }} aria-label="next" size="small" onClick={() => {
                     if (this.state.currentMonth + 1 <= 4) {
-                        getSelectedStyle();
-                        this.changeMonth(1)
+                        this.changeMonth(1);
                     }
                 }}>
                     <ArrowRightIcon />
                 </Fab>
 
                 <Fab style={{ float: "right", marginTop: "2%", marginRight: "10%" }} aria-label="next" size="small" onClick={() => {
-                    
-
-
+                    if (this.state.currentMonth === 0) {
+                        if (this.state.dateSelected === 1581397200000) {
+                            this.changeDay(1);
+                            updateSelectedDate(this.state.dateSelected + fullDay);
+                        }
+                        if (this.state.dateSelected < 1582952400000 && this.state.dateSelected > 1581397200000) {
+                            this.changeDay(1);
+                            updateSelectedDate(this.state.dateSelected + fullDay);
+                        }
+                    } else if (this.state.currentMonth === 1) {
+                        if (this.state.dateSelected === 1583038800000) {
+                            this.changeDay(1);
+                            updateSelectedDate(this.state.dateSelected + fullDay);
+                        }
+                        if (this.state.dateSelected < 1585627200000 && this.state.dateSelected > 1583038800000) {
+                            this.changeDay(1);
+                            updateSelectedDate(this.state.dateSelected + fullDay);
+                        }
+                    } else if (this.state.currentMonth === 2) {
+                        if (this.state.dateSelected === 1585713600000) {
+                            this.changeDay(1);
+                            updateSelectedDate(this.state.dateSelected + fullDay);
+                        }
+                        if (this.state.dateSelected < 1588219200000 && this.state.dateSelected > 1585713600000) {
+                            this.changeDay(1);
+                            updateSelectedDate(this.state.dateSelected + fullDay);
+                        }
+                    } else if (this.state.currentMonth === 3) {
+                        if (this.state.dateSelected === 1588305600000) {
+                            this.changeDay(1);
+                            updateSelectedDate(this.state.dateSelected + fullDay);
+                        }
+                        if (this.state.dateSelected < 1590897600000 && this.state.dateSelected > 1588305600000) {
+                            this.changeDay(1);
+                            updateSelectedDate(this.state.dateSelected + fullDay);
+                        }
+                    } else if (this.state.currentMonth === 4) {
+                        if (this.state.dateSelected === 1590984000000) {
+                            this.changeDay(1);
+                            updateSelectedDate(this.state.dateSelected + fullDay);
+                        }
+                        if (this.state.dateSelected < 1593489600000 && this.state.dateSelected > 1590984000000) {
+                            this.changeDay(1);
+                            updateSelectedDate(this.state.dateSelected + fullDay);
+                        }
+                    }
                 }}>
                     <ArrowRightIcon />
                 </Fab>
@@ -149,7 +241,7 @@ class DateSlider extends Component {
                         domain={[+min, +max]}
                         rootStyle={sliderStyle}
                         onUpdate={this.onUpdate}
-                        onChange={updateSelectedDate}
+                        onChange={() => updateSelectedDate(this.state.dateSelected)}
                         values={[+selected]}
                     >
                         <Rail>

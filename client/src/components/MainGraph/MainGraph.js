@@ -34,9 +34,9 @@ class MainGraph extends React.Component {
     render() {
         return (
             <DateContext.Consumer>{(context) => {
-                const {selectedDate} = context;
-                let firstDateBound = new Date(selectedDate[0]-100000000);
-                let secondDateBound = new Date(selectedDate[0]+100000000);
+                const { selectedDate } = context;
+                let firstDateBound = new Date(selectedDate - 100000000);
+                let secondDateBound = new Date(selectedDate + 100000000);
 
                 return (
                     <Paper style={{ backgroundColor: "#222831", height: "21.6vh" }}>
@@ -53,7 +53,7 @@ class MainGraph extends React.Component {
                                     allowResize={false}
                                     brushDimension="x"
                                     brushDomain={{ x: [firstDateBound, secondDateBound] }}
-                                    brushStyle={{fill: "black", fillOpacity: 0.6}}
+                                    brushStyle={{ fill: "black", fillOpacity: 0.6 }}
                                     voronoiDimension="x"
                                     labelComponent={
                                         <VictoryTooltip
