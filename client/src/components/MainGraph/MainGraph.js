@@ -3,7 +3,6 @@ import { VictoryChart, createContainer, VictoryTheme, VictoryTooltip, VictoryAre
 import data from "./CasesData";
 import Paper from "@material-ui/core/Paper";
 import { DateContext } from "../../contexts/DateContext";
-import { scaleLog } from "d3-scale";
 
 let caseDataArray = [];
 const month = new Array();

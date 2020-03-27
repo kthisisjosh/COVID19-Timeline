@@ -19,7 +19,7 @@ MapBoxGLLayer.propTypes = {
 };
 
 MapBoxGLLayer.defaultProps = {
-    style: "mapbox://styles/kthisisjosh/ck8822dgd16941jm7qidyc2t9"
+    style: "mapbox://styles/kthisisjosh/ck89gkzb602l71ipr3sxx8sve"
 };
 
 export default withLeaflet(MapBoxGLLayer);  

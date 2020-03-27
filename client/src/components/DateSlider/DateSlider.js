@@ -96,7 +96,7 @@ class DateSlider extends Component {
 
     render() {
         const { min, max, selected, dateSelected } = this.state;
-        const { updateSelectedDate } = this.context;
+        const { updateSelectedDate, getSelectedStyle } = this.context;
 
         const dateTicks = scaleTime()
             .domain([min, max])
@@ -109,12 +109,14 @@ class DateSlider extends Component {
                 <Fab style={{ float: "left", marginTop: "2%", marginLeft: "12%" }} aria-label="prev" size="small" onClick={() => {
                     if (this.state.currentMonth - 1 >= 0) {
                         this.changeMonth(-1)
+                        getSelectedStyle();
                     }}}>
                     <ArrowLeftIcon />
                 </Fab>
 
                 <Fab style={{ float: "right", marginTop: "2%", marginRight: "12%" }} aria-label="next" size="small" onClick={() => {
                     if (this.state.currentMonth + 1 <= 4) {
+                        getSelectedStyle();
                         this.changeMonth(1)
                     }}}>
                     <ArrowRightIcon />
