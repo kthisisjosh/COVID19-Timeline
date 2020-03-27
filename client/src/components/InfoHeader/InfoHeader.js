@@ -70,11 +70,11 @@ const InfoHeader = (props) => {
 
                 <Grid container xs={4} item={true} justify="center">
                     <Grid item >
-                        <Typography align="center" variant="h3">
+                        <Typography align="center" variant="h3" style={{fontWeight: "bold"}}>
                             Canada
                         </Typography>
                         <Typography align="center" variant="h6" style={{ color: "#c6c1ba" }}>
-                            map updated: {format(today, "MMMM dd yyyy")}
+                            map updated as of {format(today, "MMMM dd yyyy")}
                         </Typography>
                     </Grid>
                 </Grid>

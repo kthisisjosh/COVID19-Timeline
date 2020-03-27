@@ -24,7 +24,7 @@ class TimelineBody extends Component {
 
                             <Grid item md={5} xs={12} zeroMinWidth style={{ height: "98" }}>
                                 <Paper style={{ backgroundColor: "#222831", height: "91.5vh" }}>
-                                    <Typography variant="h3" align="center">
+                                    <Typography variant="h3" align="center" style={{paddingTop: "0.9rem"}}>
                                         COVID-19 Timeline
                                     </Typography>
                                     <EventPane />
@@ -37,7 +37,7 @@ class TimelineBody extends Component {
                             <Grid item md={7} xs={12} zeroMinWidth style={{ height: "98" }}>
                                 <Paper style={{ backgroundColor: "#222831", height: "91.5vh" }}>
                                     <InfoHeader date={selectedDate} />
-                                    <MainMap />
+
                                     <MainGraph />
                                 </Paper>
                             </Grid>

@@ -1,5 +1,7 @@
 body {
     background-color: #393e46;
+    height: 100%;
+    overflow: hidden;
 }
 
 h3 {
