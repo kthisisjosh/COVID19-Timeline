@@ -4,79 +4,79 @@ const data = [
         daily: [
             {
                 day: 11,
-                cases: 13
-            },
-            {
-                day: 12,
                 cases: 14
             },
             {
-                day: 13,
+                day: 12,
                 cases: 15
             },
             {
-                day: 14,
-                cases: 17
+                day: 13,
+                cases: 16
             },
             {
-                day: 15,
+                day: 14,
                 cases: 18
             },
             {
+                day: 15,
+                cases: 19
+            },
+            {
                 day: 16,
-                cases: 21
+                cases: 22
             },
             {
                 day: 17,
-                cases: 21
+                cases: 22
             },
             {
                 day: 18,
-                cases: 22
+                cases: 23
             },
             {
                 day: 19,
-                cases: 22
+                cases: 23
             },
             {
                 day: 20,
-                cases: 25
+                cases: 26
             },
             {
                 day: 21,
-                cases: 28
+                cases: 29
             },
             {
                 day: 22,
-                cases: 30
+                cases: 32
             },
             {
                 day: 23,
-                cases: 35
+                cases: 37
             },
             {
                 day: 24,
-                cases: 40
+                cases: 42
             },
             {
                 day: 25,
-                cases: 47
+                cases: 49
             },
             {
                 day: 26,
-                cases: 50
+                cases: 52
             },
             {
                 day: 27,
-                cases: 58
+                cases: 60
             },
             {
                 day: 28,
-                cases: 65
+                cases: 67
             },
             {
                 day: 29,
-                cases: 82
+                cases: 85
             },
         ]
     },
@@ -85,99 +85,103 @@ const data = [
         daily: [
             {
                 day: 1,
-                cases: 99
+                cases: 102
             },
             {
                 day: 2,
-                cases: 113
+                cases: 115
             },
             {
                 day: 3,
-                cases: 147
+                cases: 149
             },
             {
                 day: 4,
-                cases: 176
+                cases: 180
             },
             {
                 day: 5,
-                cases: 198
+                cases: 204
             },
             {
                 day: 6,
-                cases: 224
+                cases: 230
             },
             {
                 day: 7,
-                cases: 259
+                cases: 271
             },
             {
                 day: 8,
-                cases: 303
+                cases: 319
             },
             {
                 day: 9,
-                cases: 388
+                cases: 406
             },
             {
                 day: 10,
-                cases: 497
+                cases: 523
             },
             {
                 day: 11,
-                cases: 601
+                cases: 641
             },
             {
                 day: 12,
-                cases: 709
+                cases: 766
             },
             {
                 day: 13,
-                cases: 802
+                cases: 868
             },
             {
                 day: 14,
-                cases: 881
+                cases: 966
             },
             {
                 day: 15,
-                cases: 960
+                cases: 1070
             },
             {
                 day: 16,
-                cases: 1049
+                cases: 1183
             },
             {
                 day: 17,
-                cases: 1129
+                cases: 1305
             },
             {
                 day: 18,
-                cases: 1220
+                cases: 1424
             },
             {
                 day: 19,
-                cases: 1321
+                cases: 1556
             },
             {
                 day: 20,
-                cases: 1409
+                cases: 1679
             },
             {
                 day: 21,
-                cases: 1481
+                cases: 1787
             },
             {
                 day: 22,
-                cases: 1555
+                cases: 1890
             },
             {
                 day: 23,
-                cases: 1599
+                cases: 1969
             },
             {
                 day: 24,
-                cases: 1602
+                cases: 2013
+            },
+            {
+                day: 25,
+                cases: 2018
             },
         ]
     }

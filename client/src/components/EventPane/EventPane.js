@@ -1,10 +1,12 @@
 import React from 'react';
-import { Element, Events, animateScroll as scroll, scroller } from 'react-scroll'
+import { Element, Events, animateScroll as scroll, scroller } from 'react-scroll';
 import EventPanel from "../EventPanel/EventPanel";
 import Typography from "@material-ui/core/Typography";
+import { DateContext } from "../../contexts/DateContext";
+import data from "./EventData";
 
 class EventPane extends React.Component {
-
+    static contextType = DateContext;
     constructor(props) {
         super(props);
         this.scrollToTop = this.scrollToTop.bind(this);
@@ -61,56 +63,51 @@ class EventPane extends React.Component {
         Events.scrollEvent.remove('end');
     }
     render() {
+        const { selectedDate } = this.context;
+        const date = new Date(selectedDate[0]);
+
+        const month = date.getMonth();
+        const day = date.getDate();
+
         return (
+
             <div>
                 <Element name="test7" className="element" id="containerElement" style={{
                     height: '67vh',
                     overflow: 'scroll',
                 }}>
 
-                    <Typography varient="h2">Key Events</Typography>
-                    <Element name="firstInsideContainer" style={{
-                        marginBottom: '1%',
-                        marginLeft: "2%",
-                        marginRight: "2%"
-                    }}>
-                        <EventPanel />
-                    </Element>
-                    
-                    <Element name="firstInsideContainer" style={{
-                        marginBottom: '1%',
-                        marginLeft: "2%",
-                        marginRight: "2%"
-                    }}>
-                        <EventPanel />
-                    </Element>
+                    <Typography
+                        variant="h4"
+                        style={{
+                            marginBottom: '1%',
+                            marginLeft: "2%",
+                            marginRight: "2%",
+                            color: "#c6c1ba"
+                        }}>
+                        Key Events</Typography>
 
-                    <Element name="firstInsideContainer" style={{
-                        marginBottom: '1%',
-                        marginLeft: "2%",
-                        marginRight: "2%"
-                    }}>
-                        <EventPanel />
-                    </Element>
+                    {data[month - 1][day - 1].articles.map((article) => {
+                        return (
+                            <Element name="firstInsideContainer" style={{
+                                marginBottom: '1%',
+                                marginLeft: "2%",
+                                marginRight: "2%"
+                            }}>
+                                <EventPanel
+                                    content={article.content}
+                                    img={article.img}
+                                    link={article.link}
+                                />
+                            </Element>
+                        )
+                    })}
 
-                    <Element name="firstInsideContainer" style={{
-                        marginBottom: '1%',
-                        marginLeft: "2%",
-                        marginRight: "2%"
-                    }}>
-                        <EventPanel />
-                    </Element>
-
-                    <Element name="firstInsideContainer" style={{
-                        marginBottom: '1%',
-                        marginLeft: "2%",
-                        marginRight: "2%"
-                    }}>
-                        <EventPanel />
-                    </Element>
 
                 </Element>
             </div>
+
+
         );
     }
 };
