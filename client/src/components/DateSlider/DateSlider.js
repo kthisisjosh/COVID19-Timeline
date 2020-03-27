@@ -85,7 +85,7 @@ class DateSlider extends Component {
                 }}
             >
                 <div
-                    style={{ fontSize: 50, fontWeight: "bold", color: "#c43a31" }}>
+                    style={{ fontSize: 48, fontWeight: "bold", color: "#c43a31" }}>
 
                     {format(date, "MMMM dd yyyy")}
 
@@ -104,9 +104,9 @@ class DateSlider extends Component {
             .map(d => +d);
 
         return (
-            <Paper style={{ backgroundColor: "#222831", height: "15vh" }}>
+            <Paper style={{ backgroundColor: "#222831", height: "15vh"}}>
 
-                <Fab style={{ float: "left", marginTop: "2%", marginLeft: "12%" }} aria-label="prev" size="small" onClick={() => {
+                <Fab style={{ float: "left", marginTop: "2%", marginLeft: "5%" }} aria-label="prev" size="small" onClick={() => {
                     if (this.state.currentMonth - 1 >= 0) {
                         this.changeMonth(-1)
                         getSelectedStyle();
@@ -115,11 +115,27 @@ class DateSlider extends Component {
                     <ArrowLeftIcon />
                 </Fab>
 
-                <Fab style={{ float: "right", marginTop: "2%", marginRight: "12%" }} aria-label="next" size="small" onClick={() => {
+                <Fab style={{ float: "left", marginTop: "2%", marginLeft: "10%" }} aria-label="prev" size="small" onClick={() => {
+                    
+
+
+                }}>
+                    <ArrowLeftIcon />
+                </Fab>
+
+                <Fab style={{ float: "right", marginTop: "2%", marginRight: "5%" }} aria-label="next" size="small" onClick={() => {
                     if (this.state.currentMonth + 1 <= 4) {
                         getSelectedStyle();
                         this.changeMonth(1)
                     }
+                }}>
+                    <ArrowRightIcon />
+                </Fab>
+
+                <Fab style={{ float: "right", marginTop: "2%", marginRight: "10%" }} aria-label="next" size="small" onClick={() => {
+                    
+
+
                 }}>
                     <ArrowRightIcon />
                 </Fab>

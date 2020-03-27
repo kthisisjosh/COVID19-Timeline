@@ -5,7 +5,7 @@ import Paper from "@material-ui/core/Paper";
 import { DateContext } from "../../contexts/DateContext";
 
 let caseDataArray = [];
-const month = new Array();
+const month = [];
 month[0] = "Jan";
 month[1] = "Feb";
 month[2] = "Mar";
@@ -39,7 +39,7 @@ class MainGraph extends React.Component {
                 let secondDateBound = new Date(selectedDate[0]+100000000);
 
                 return (
-                    <Paper style={{ backgroundColor: "#222831", height: "25vh" }}>
+                    <Paper style={{ backgroundColor: "#222831", height: "21.6vh" }}>
                         <VictoryChart
                             theme={VictoryTheme.grayscale}
                             animate={{ duration: 2000 }}

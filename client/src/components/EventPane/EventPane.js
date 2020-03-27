@@ -4,6 +4,7 @@ import EventPanel from "../EventPanel/EventPanel";
 import Typography from "@material-ui/core/Typography";
 import { DateContext } from "../../contexts/DateContext";
 import data from "./EventData";
+import { v4 as uuidv4 } from "uuid";
 
 class EventPane extends React.Component {
     static contextType = DateContext;
@@ -72,10 +73,7 @@ class EventPane extends React.Component {
         return (
 
             <div>
-                <Element name="test7" className="element" id="containerElement" style={{
-                    height: '67vh',
-                    overflow: 'scroll',
-                }}>
+                <Element name="test7" className="element" id="containerElement" style={{ height: '67vh', overflow: 'scroll', }}>
 
                     <Typography
                         variant="h4"
@@ -90,11 +88,7 @@ class EventPane extends React.Component {
                     {data[month - 1][day - 1].articles.map((article) => {
 
                         return (
-                            <Element name="firstInsideContainer" style={{
-                                marginBottom: '1%',
-                                marginLeft: "2%",
-                                marginRight: "2%"
-                            }}>
+                            <Element name="firstInsideContainer" style={{ marginBottom: '1%', marginLeft: "2%", marginRight: "2%" }} key={uuidv4()}>
                                 <EventPanel
                                     content={article.content}
                                     img={article.img}

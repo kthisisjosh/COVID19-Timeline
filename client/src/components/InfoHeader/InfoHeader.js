@@ -44,10 +44,10 @@ const InfoHeader = (props) => {
     return (
         <div style={{ margin: "1rem", marginTop: "0.75%" }}>
 
-            <Grid container spacing={2} alignContent="space-between" alignItems="space-between" justify="center">
+            <Grid container spacing={2} alignContent="space-between" alignItems="center" justify="center">
 
-                <Grid container sm={2} xs={2} justify="center">
-                    <Grid item alignContent="center" alignItems="center">
+                <Grid container sm={2} xs={2} item={true} justify="center">
+                    <Grid item >
                         <Typography variant="h3">
                             {confirmed}
                         </Typography>
@@ -57,8 +57,8 @@ const InfoHeader = (props) => {
                     </Grid>
                 </Grid>
 
-                <Grid container sm={2} xs={2} justify="center">
-                    <Grid item alignContent="center" alignItems="center">
+                <Grid container sm={2} xs={2} item={true} justify="center">
+                    <Grid item >
                         <Typography variant="h3">
                             +{confirmedYes}
                         </Typography>
@@ -68,8 +68,8 @@ const InfoHeader = (props) => {
                     </Grid>
                 </Grid>
 
-                <Grid container xs={4} justify="center">
-                    <Grid item alignContent="center" alignItems="center">
+                <Grid container xs={4} item={true} justify="center">
+                    <Grid item >
                         <Typography align="center" variant="h3">
                             Canada
                         </Typography>
@@ -79,8 +79,8 @@ const InfoHeader = (props) => {
                     </Grid>
                 </Grid>
 
-                <Grid container sm={2} xs={2} justify="center">
-                    <Grid item alignContent="center" alignItems="center">
+                <Grid container sm={2} xs={2} item={true} justify="center">
+                    <Grid item >
                         <Typography variant="h3">
                             {recovered}
                         </Typography>
@@ -90,8 +90,8 @@ const InfoHeader = (props) => {
                     </Grid>
                 </Grid>
 
-                <Grid container sm={2} xs={2} justify="center">
-                    <Grid item alignContent="center" alignItems="center">
+                <Grid container sm={2} xs={2} item={true} justify="center">
+                    <Grid item >
                         <Typography variant="h3">
                             +{recoveredYes}
                         </Typography>

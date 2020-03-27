@@ -7,7 +7,7 @@ import InfoHeader from "../InfoHeader/InfoHeader";
 import DateSlider from "../DateSlider/DateSlider";
 import MainGraph from "../MainGraph/MainGraph";
 import MainMap from "../MainMap/MainMap.js";
-import GitHubIcon from '@material-ui/icons/GitHub';
+import Footer from "../Footer/Footer";
 import { DateContext } from "../../contexts/DateContext";
 
 class TimelineBody extends Component {
@@ -18,14 +18,15 @@ class TimelineBody extends Component {
                 const { selectedDate } = context;
 
                 return (
-                    <Grid container spacing={1} style={{ backgroundColor: "#393e46", height: "98vh", width: "99.5vw", marginTop: "1vh" }}>
+                    <Grid container spacing={1} style={{ backgroundColor: "#393e46", height: "98.2vh", width: "99.5vw", paddingTop: "1.9vh", paddingBottom: 0 }}>
 
                         <Grid container spacing={1}>
+
                             <Grid item md={5} xs={12} zeroMinWidth style={{ height: "98" }}>
-                                <Paper style={{ backgroundColor: "#222831", height: "90vh" }}>
+                                <Paper style={{ backgroundColor: "#222831", height: "91.5vh" }}>
                                     <Typography variant="h3" align="center">
                                         COVID-19 Timeline
-                        </Typography>
+                                    </Typography>
                                     <EventPane />
                                     <DateSlider />
                                 </Paper>
@@ -34,31 +35,20 @@ class TimelineBody extends Component {
 
 
                             <Grid item md={7} xs={12} zeroMinWidth style={{ height: "98" }}>
-                                <Paper style={{ backgroundColor: "#222831", height: "90vh" }}>
-                                    <InfoHeader date={selectedDate}/>
+                                <Paper style={{ backgroundColor: "#222831", height: "91.5vh" }}>
+                                    <InfoHeader date={selectedDate} />
                                     <MainMap />
                                     <MainGraph />
                                 </Paper>
                             </Grid>
+
                         </Grid>
 
+
+
+
                         <Grid container style={{ height: "2vh", marginTop: "3vh" }}>
-                            <div style={{ textAlign: "center", margin: "auto" }}>
-                                <Typography variant="body1" align="center">
-                                    | Data from:
-                        <a href="https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/health-professionals/epidemiological-summary-covid-19-cases.html" target="_blank">CAN</a>, 
-                        <a href="http://cmajnews.com/2020/03/26/coronavirus-1095847/"> CMAJ News </a> |
-
-                        <a href="https://github.com/kthisisjosh/COVID19-Timeline/" target="_blank"> View on Github </a> |
-
-                        <a href="http://kthisisjosh.github.io/" target="_blank">  ©Joshua Bautista </a> |
-
-                        <a href="https://github.com/kthisisjosh/" target="_blank"><GitHubIcon /></a> |
-
-                        Last updated: March 26, 2020 16:43:20 GMT-0400 |
-
-                    </Typography>
-                            </div>
+                            <Footer />
                         </Grid>
                     </Grid>
                 )

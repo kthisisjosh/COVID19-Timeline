@@ -17,7 +17,7 @@ const EventPanel = (props) => {
                         <CardMedia
                             component="img"
                             image={props.img}
-                            title="Event Image"
+                            title="Article Image"
                         />
                         <Typography variant="caption" align="center">
                             {props.credit}
@@ -30,7 +30,7 @@ const EventPanel = (props) => {
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <Link style={{color: "#c6c1ba"}} href={props.link} target="_blank" rel="noopener">
+                            <Link style={{color: "#c6c1ba"}} href={props.link} target="_blank" rel="noopener noreferrer">
                                 <Typography variant="button" display="block" gutterBottom>
                                     Click for the article
                                 </Typography>

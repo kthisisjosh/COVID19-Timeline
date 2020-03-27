@@ -322,7 +322,7 @@ const data = [
                     credit: "Global National"
                 },
                 {
-                    content: "Military shifts to \'pre-pandemic planning\'. Canada’s military has shifted to “pre-pandemic planning” mode and is preparing for an absentee rate among its ranks of about 25%.",
+                    content: "Military shifts to \"pre-pandemic planning\". Canada’s military has shifted to “pre-pandemic planning” mode and is preparing for an absentee rate among its ranks of about 25%.",
                     img: "articleImages/military.JPG",
                     link: "https://globalnews.ca/news/6631960/coronavirus-canadian-military-pandemic-planning/",
                     credit: "Global News"
@@ -724,7 +724,7 @@ const data = [
             day: 24,
             articles: [
                 {
-                    content: "Tensions rise over social distancing in Canada and internationally. Prime Minister Justin Trudeau warned again that the federal government will put \'much more stringent\' measures in place if people do not abide by social distancing recommendations.",
+                    content: "Tensions rise over social distancing in Canada and internationally. Prime Minister Justin Trudeau warned again that the federal government will put \"much more stringent\" measures in place if people do not abide by social distancing recommendations.",
                     img: "articleImages/Trudeau-coronavirus-transcript-march-24-getty-images-810x454.jpg",
                     link: "https://www.macleans.ca/news/canada/justin-trudeau-canada-coronavirus-update-march-24-2020-full-transcript/",
                     credit: "(Dave Chan / AFP)"
