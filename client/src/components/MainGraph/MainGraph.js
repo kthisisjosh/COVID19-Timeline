@@ -83,7 +83,7 @@ class MainGraph extends React.Component {
                                 style={
                                     {
                                         tickLabels: {
-                                            stroke: "tomato",
+                                            stroke: "#c6c1ba",
                                             fontSize: 8,
                                             padding: 6,
                                         },

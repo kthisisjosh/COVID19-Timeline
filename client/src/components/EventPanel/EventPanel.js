@@ -27,7 +27,7 @@ const EventPanel = (props) => {
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small" color="primary">
+                            <Button size="small" style={{color: "#c6c1ba"}}>
                                 Click for the article
                             </Button>
                         </CardActions>

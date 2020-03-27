@@ -26,7 +26,7 @@ function Tick({ tick, count, format }) {
                     marginLeft: `${-(100 / count) / 2}%`,
                     width: `${100 / count}%`,
                     left: `${tick.percent}%`,
-                    color: "#c43a31"
+                    color: "#c6c1ba"
                 }}
             >
                 {format(tick.value)}

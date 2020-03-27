@@ -110,7 +110,8 @@ class DateSlider extends Component {
                     if (this.state.currentMonth - 1 >= 0) {
                         this.changeMonth(-1)
                         getSelectedStyle();
-                    }}}>
+                    }
+                }}>
                     <ArrowLeftIcon />
                 </Fab>
 
@@ -118,7 +119,8 @@ class DateSlider extends Component {
                     if (this.state.currentMonth + 1 <= 4) {
                         getSelectedStyle();
                         this.changeMonth(1)
-                    }}}>
+                    }
+                }}>
                     <ArrowRightIcon />
                 </Fab>
 

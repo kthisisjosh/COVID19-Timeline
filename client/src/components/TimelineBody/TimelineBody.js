@@ -35,7 +35,7 @@ class TimelineBody extends Component {
 
                             <Grid item md={7} xs={12} zeroMinWidth style={{ height: "98" }}>
                                 <Paper style={{ backgroundColor: "#222831", height: "90vh" }}>
-                                    <InfoHeader />
+                                    <InfoHeader date={selectedDate}/>
                                     <MainMap />
                                     <MainGraph />
                                 </Paper>
