@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper"
 import Typography from "@material-ui/core/Typography";
@@ -10,51 +10,50 @@ import MainMap from "../MainMap/MainMap.js";
 import Footer from "../Footer/Footer";
 import { DateContext } from "../../contexts/DateContext";
 
-class TimelineBody extends Component {
-    render() {
+const TimelineBody = (props) => {
 
-        return (
-            <DateContext.Consumer>{(context) => {
-                const { selectedDate } = context;
 
-                return (
-                    <Grid container spacing={1} style={{ backgroundColor: "#393e46", height: "98.2vh", width: "99.5vw", paddingTop: "1.9vh", paddingBottom: 0 }}>
+    return (
+        <DateContext.Consumer>{(context) => {
+            const { selectedDate } = context;
 
-                        <Grid container spacing={1}>
+            return (
+                <Grid container spacing={1} style={{ backgroundColor: "#393e46", height: "98.2vh", width: "99.5vw", paddingTop: "1.9vh", paddingBottom: 0 }}>
 
-                            <Grid item md={5} xs={12} zeroMinWidth style={{ height: "98" }}>
-                                <Paper style={{ backgroundColor: "#222831", height: "91.5vh" }}>
-                                    <Typography variant="h3" align="center" style={{paddingTop: "0.9rem"}}>
-                                        COVID-19 Timeline
+                    <Grid container spacing={1}>
+
+                        <Grid item md={5} xs={12} zeroMinWidth style={{ height: "98" }}>
+                            <Paper style={{ backgroundColor: "#222831", height: "91.5vh" }}>
+                                <Typography variant="h3" align="center" style={{ paddingTop: "0.9rem" }}>
+                                    COVID-19 Timeline
                                     </Typography>
-                                    <EventPane />
-                                    <DateSlider />
-                                </Paper>
-
-                            </Grid>
-
-
-                            <Grid item md={7} xs={12} zeroMinWidth style={{ height: "98" }}>
-                                <Paper style={{ backgroundColor: "#222831", height: "91.5vh" }}>
-                                    <InfoHeader date={selectedDate} />
-
-                                    <MainGraph />
-                                </Paper>
-                            </Grid>
+                                <EventPane data={props.articleData}/>
+                                <DateSlider />
+                            </Paper>
 
                         </Grid>
 
 
-
-
-                        <Grid container style={{ height: "2vh", marginTop: "3vh" }}>
-                            <Footer />
+                        <Grid item md={7} xs={12} zeroMinWidth style={{ height: "98" }}>
+                            <Paper style={{ backgroundColor: "#222831", height: "91.5vh" }}>
+                                <InfoHeader date={selectedDate} country={props.country} data={props.caseData}/>
+                                <MainMap style={props.mapStyle}/>
+                                <MainGraph data={props.caseData}/>
+                            </Paper>
                         </Grid>
+
                     </Grid>
-                )
-            }}</DateContext.Consumer>
-        )
-    }
+
+
+
+
+                    <Grid container style={{ height: "2vh", marginTop: "3vh" }}>
+                        <Footer />
+                    </Grid>
+                </Grid>
+            )
+        }}</DateContext.Consumer>
+    )
 }
 
 export default TimelineBody;

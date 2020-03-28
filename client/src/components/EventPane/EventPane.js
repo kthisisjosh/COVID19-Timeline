@@ -3,7 +3,6 @@ import { Element, Events, animateScroll as scroll, scroller } from 'react-scroll
 import EventPanel from "../EventPanel/EventPanel";
 import Typography from "@material-ui/core/Typography";
 import { DateContext } from "../../contexts/DateContext";
-import data from "./EventData";
 import { v4 as uuidv4 } from "uuid";
 
 class EventPane extends React.Component {
@@ -85,7 +84,7 @@ class EventPane extends React.Component {
                         }}>
                         Key Events</Typography>
 
-                    {data[month - 1][day - 1].articles.map((article) => {
+                    {this.props.data[month - 1][day - 1].articles.map((article) => {
 
                         return (
                             <Element name="firstInsideContainer" style={{ marginBottom: '1%', marginLeft: "2%", marginRight: "2%" }} key={uuidv4()}>

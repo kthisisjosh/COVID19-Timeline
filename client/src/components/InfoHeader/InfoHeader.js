@@ -2,7 +2,6 @@ import React from 'react'
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import { startOfToday, format } from "date-fns";
-import data from "../MainGraph/CasesData"
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
@@ -42,21 +41,21 @@ const InfoHeader = (props) => {
     const day = selectedDate.getDate();
 
     if (month === 1) {
-        confirmed = ((data[month - 1].daily[day - 11].cases));
+        confirmed = ((props.data[month - 1].daily[day - 11].cases));
         if (day === 11) {
             confirmedYes = 0;
         } else {
-            confirmedYes = ((data[month - 1].daily[day - 11].cases) - (data[month - 1].daily[day - 12].cases));
+            confirmedYes = ((props.data[month - 1].daily[day - 11].cases) - (props.data[month - 1].daily[day - 12].cases));
         }
     }
 
     try {
         if (month > 1) {
-            confirmed = ((data[month - 1].daily[day - 1].cases));
+            confirmed = ((props.data[month - 1].daily[day - 1].cases));
             if (day === 1) {
-                confirmedYes = ((data[month - 1].daily[day - 1].cases) - 82);
+                confirmedYes = ((props.data[month - 1].daily[day - 1].cases) - 82);
             } else {
-                confirmedYes = ((data[month - 1].daily[day - 1].cases) - (data[month - 1].daily[day - 2].cases));
+                confirmedYes = ((props.data[month - 1].daily[day - 1].cases) - (props.data[month - 1].daily[day - 2].cases));
             }
         }
     } catch (err) {
@@ -131,7 +130,7 @@ const InfoHeader = (props) => {
                                     <Button onClick={toggleDrawer(anchor, true)} aria-label="change">
                                         <Paper style={{ paddingRight: "2.6vw", backgroundColor: "#393e46" }}>
                                             <Typography align="center" variant="h3" style={{ fontWeight: "bold", paddingLeft: "2.6vw" }}>
-                                                Canada
+                                                {props.country}
                                         </Typography>
                                         </Paper>
                                     </Button>

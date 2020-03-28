@@ -4,7 +4,7 @@ import SliderRail from "./SliderRail/SliderRail";
 import Handle from "./Handle/Handle";
 import Track from "./Track/Track";
 import Tick from "./Tick/Tick";
-import { subDays, startOfToday, format } from "date-fns";
+import { format } from "date-fns";
 import { scaleTime } from "d3-scale";
 import Paper from "@material-ui/core/Paper";
 import Fab from "@material-ui/core/Fab";
@@ -22,7 +22,6 @@ function formatTick(ms) {
 }
 
 const fullDay = 86400000;
-const fullMonth = 2592000000;
 
 const monthMSTimes = [{
     start: 1581397200000,
@@ -50,8 +49,6 @@ class DateSlider extends Component {
 
     constructor() {
         super();
-
-        const today = startOfToday();
 
         this.state = {
             currentMonth: 1,
