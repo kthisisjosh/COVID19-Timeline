@@ -7,7 +7,8 @@ const Footer = () => {
         <div style={{ textAlign: "center", margin: "auto" }}>
             <Typography variant="body1" align="center">
                 | Data from:
-                        <a href="https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/health-professionals/epidemiological-summary-covid-19-cases.html" target="_blank" rel="noopener noreferrer">CAN</a>,
+                        <a href="https://github.com/CSSEGISandData/COVID-19" target="_blank" rel="noopener noreferrer">JHU</a>,
+                        <a href="https://www.cdc.gov/coronavirus/2019-ncov/">CDC</a>,
                         <a href="http://cmajnews.com/2020/03/26/coronavirus-1095847/" target="_blank" rel="noopener noreferrer"> CMAJ News </a> |
 
                         <a href="https://github.com/kthisisjosh/COVID19-Timeline/" target="_blank" rel="noopener noreferrer"> View on Github </a> |
@@ -16,7 +17,7 @@ const Footer = () => {
 
                         <a href="https://github.com/kthisisjosh/" target="_blank" rel="noopener noreferrer"><GitHubIcon /></a> |
 
-                        Last updated: March 26, 2020 16:43:20 GMT-0400 |
+                        Last updated: March 28, 2020 15:20:20 GMT-0400 |
 
                 </Typography>
         </div>

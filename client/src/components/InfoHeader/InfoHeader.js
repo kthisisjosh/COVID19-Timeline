@@ -83,6 +83,9 @@ const InfoHeader = (props) => {
         >
             <List >
                 <ListItem button key={uuidv4()} style={{ border: "0.5px solid black" }}>
+                    <Link to="/world" style={{ fontSize: 30, color: "#c43a31", fontWeight: "bold", textDecorationLine: "none" }}>The World</Link>
+                </ListItem>
+                <ListItem button key={uuidv4()} style={{ border: "0.5px solid black" }}>
                     <Link to="/canada" style={{ fontSize: 30, color: "#c43a31", fontWeight: "bold", textDecorationLine: "none" }}>Canada</Link>
                 </ListItem>
                 <ListItem button key={uuidv4()} style={{ border: "0.5px solid black" }}>
@@ -128,10 +131,10 @@ const InfoHeader = (props) => {
                             <React.Fragment key={anchor}>
                                 <ToolTip title="Change" arrow disableFocusListener>
                                     <Button onClick={toggleDrawer(anchor, true)} aria-label="change">
-                                        <Paper style={{ paddingRight: "2.6vw", backgroundColor: "#393e46" }}>
+                                        <Paper style={{ paddingRight: "2.7vw", backgroundColor: "#393e46" }}>
                                             <Typography align="center" variant="h3" style={{ fontWeight: "bold", paddingLeft: "2.6vw" }}>
                                                 {props.country}
-                                        </Typography>
+                                            </Typography>
                                         </Paper>
                                     </Button>
                                 </ToolTip>

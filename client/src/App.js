@@ -1,4 +1,5 @@
 import React from 'react';
+import World from "./countrypages/World";
 import Canada from "./countrypages/Canada";
 import USA from "./countrypages/USA";
 import DateContextProvider from "./contexts/DateContext";
@@ -10,7 +11,8 @@ function App() {
       <DateContextProvider>
         <Router>
           <Switch>
-            <Route path="/" exact component={Canada} />
+            <Route path="/" exact component={World} />
+            <Route path="/world" component={World} />
             <Route path="/canada" component={Canada} />
             <Route path="/usa" component={USA} />
           </Switch>

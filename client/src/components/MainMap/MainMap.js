@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Map } from 'react-leaflet';
 import MapBoxGLLayer from "./MapBoxGLLayer";
-import { DateContext } from "../../contexts/DateContext";
 
 const MAPBOX_ACCESS_TOKEN = "pk.eyJ1Ijoia3RoaXNpc2pvc2giLCJhIjoiY2s4ODZxYzdqMDVoYzNvbzMzNWwzcWMxOCJ9.42fWcwI1CrrODWXGrEVeFQ";
 

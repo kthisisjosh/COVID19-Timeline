@@ -792,7 +792,24 @@ const data = [
         {
             day: 27,
             articles: [
-
+                {
+                    content: "Domestic air, rail travel barred for anyone showing COVID-19 symptoms: Trudeau",
+                    img: "articleImages/viatrain.jpg",
+                    link: "https://www.cp24.com/news/domestic-air-rail-travel-barred-for-anyone-showing-covid-19-symptoms-trudeau-1.4872535",
+                    credit: "THE CANADIAN PRESS/Adrian Wyld"
+                },
+                {
+                    content: "Ottawa announces wage subsidy for small, medium businesses. Canada’s unemployment rate could rise to 15% by the end of the year, according to a federal forecast based on the possibility of physical distancing lasting until August.",
+                    img: "articleImages/justin_trudeau.jpg",
+                    link: "https://globalnews.ca/news/6740289/pbo-report-coronavirus-pandemic/",
+                    credit: "Adrian Wyld / The Canadian Press"
+                },
+                {
+                    content: "Manitoba to deliver online cognitive behavioural training for pandemic anxiety. Manitobans experiencing anxiety because of the pandemic crisis will soon be able to access a 12-week cognitive behavioural counselling course online.",
+                    img: "articleImages/empty-winnipeg-streets-covid-19.webp",
+                    link: "https://www.cbc.ca/news/canada/manitoba/pallister-covid-19-update-1.5512111",
+                    credit: "(Tyson Koschik/CBC)"
+                }
             ]
         },
         {
