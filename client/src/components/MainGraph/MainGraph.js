@@ -14,21 +14,26 @@ month[5] = "June";
 month[6] = "July";
 
 const BrushCursorContainer = createContainer("brush", "voronoi");
+let toAddData = true;
 
 const MainGraph = (props) => {
-    props.data.forEach((month) => {
-        month.daily.forEach((day) => {
-            const year = 2020;
-            const monthNum = month.month;
-            const date = day.day;
+    if (toAddData) {
+        props.data.forEach((month) => {
+            month.daily.forEach((day) => {
+                const year = 2020;
+                const monthNum = month.month;
+                const date = day.day;
 
-            caseDataArray.push({
-                x: new Date(year, monthNum, date),
-                y: day.cases
+                caseDataArray.push({
+                    x: new Date(year, monthNum, date),
+                    y: day.cases
+                })
             })
         })
-    })
+        toAddData = false;
+    }
 
+    console.log(caseDataArray)
 
     return (
         <DateContext.Consumer>{(context) => {
@@ -40,7 +45,7 @@ const MainGraph = (props) => {
                 <Paper style={{ backgroundColor: "#222831", height: "21.6vh" }}>
                     <VictoryChart
                         theme={VictoryTheme.grayscale}
-                        animate={{ duration: 500 }}
+                        animate={{ duration: 5000 }}
                         width={600}
                         height={125}
                         scale={{ x: "time" }}
