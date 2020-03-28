@@ -4,7 +4,7 @@ import Timelinebody from "../components/TimelineBody/TimelineBody";
 const USA = () => {
     return (
         <Fragment>
-            <Timelinebody />
+            <h1>Under construction.</h1>
         </Fragment>
     )
 }

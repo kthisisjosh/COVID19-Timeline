@@ -22,6 +22,7 @@ function formatTick(ms) {
 }
 
 const fullDay = 86400000;
+const fullMonth = 2592000000;
 
 const monthMSTimes = [{
     start: 1581397200000,
@@ -51,18 +52,47 @@ class DateSlider extends Component {
         super();
 
         const today = startOfToday();
-        const fourDaysAgo = subDays(today, 4);
 
         this.state = {
             currentMonth: 1,
-            selected: 1583038800000,
-            dateSelected: 1583038800000,
+            selected: 1583211600000,
+            dateSelected: 1583211600000,
             min: new Date(1583038800000),
             max: new Date(1585627200000)
         };
     }
 
-    changeMonth = (newMonthAdd) => {
+    changeMonth = (newMonthAdd, updateSelectedDate) => {
+        if (newMonthAdd === 1) {
+            if (this.state.currentMonth === 0) {
+                this.setState({dateSelected: 1583038800000, selected: 1583038800000});
+                updateSelectedDate(1583038800000);
+            } else if (this.state.currentMonth === 1) {
+                this.setState({dateSelected: 1585713600000, selected: 1585713600000});
+                updateSelectedDate(1585713600000);
+            } else if (this.state.currentMonth === 2) {
+                this.setState({dateSelected: 1588305600000, selected: 1588305600000});
+                updateSelectedDate(1588305600000);
+            } else if (this.state.currentMonth === 3) {
+                this.setState({dateSelected: 1590897600000, selected: 1590897600000});
+                updateSelectedDate(1590897600000);
+            }
+        } else {
+            if (this.state.currentMonth === 1) {
+                this.setState({dateSelected: 1582952400000, selected: 1582952400000});
+                updateSelectedDate(1582952400000);
+            } else if (this.state.currentMonth === 2) {
+                this.setState({dateSelected: 1585627200000, selected: 1585627200000});
+                updateSelectedDate(1585627200000);
+            } else if (this.state.currentMonth === 3) {
+                this.setState({dateSelected: 1588219200000, selected: 1588219200000});
+                updateSelectedDate(1588219200000);
+            } else if (this.state.currentMonth === 4) {
+                this.setState({dateSelected: 1590984000000, selected: 1590984000000});
+                updateSelectedDate(1590984000000);
+            }
+        }
+
         this.setState({ min: new Date(monthMSTimes[this.state.currentMonth + newMonthAdd].start), max: new Date(monthMSTimes[this.state.currentMonth + newMonthAdd].end) });
         this.setState({ currentMonth: this.state.currentMonth + newMonthAdd });
     }
@@ -116,7 +146,7 @@ class DateSlider extends Component {
 
                 <Fab style={{ float: "left", marginTop: "2%", marginLeft: "5%" }} aria-label="prev" size="small" onClick={() => {
                     if (this.state.currentMonth - 1 >= 0) {
-                        this.changeMonth(-1);
+                        this.changeMonth(-1, updateSelectedDate);
                     }
                 }}>
                     <ArrowLeftIcon />
@@ -175,7 +205,7 @@ class DateSlider extends Component {
 
                 <Fab style={{ float: "right", marginTop: "2%", marginRight: "5%" }} aria-label="next" size="small" onClick={() => {
                     if (this.state.currentMonth + 1 <= 4) {
-                        this.changeMonth(1);
+                        this.changeMonth(1, updateSelectedDate);
                     }
                 }}>
                     <ArrowRightIcon />
