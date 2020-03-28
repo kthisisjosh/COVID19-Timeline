@@ -43,7 +43,7 @@ const MainGraph = (props) => {
                 <Paper style={{ backgroundColor: "#222831", height: "21.6vh" }}>
                     <VictoryChart
                         theme={VictoryTheme.grayscale}
-                        animate={{ duration: 5000 }}
+                        animate={{ duration: 2500 }}
                         width={600}
                         height={125}
                         scale={{ x: "time" }}

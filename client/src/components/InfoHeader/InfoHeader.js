@@ -131,7 +131,7 @@ const InfoHeader = (props) => {
                             <React.Fragment key={anchor}>
                                 <ToolTip title="Change" arrow disableFocusListener>
                                     <Button onClick={toggleDrawer(anchor, true)} aria-label="change">
-                                        <Paper style={{ paddingRight: "2.7vw", backgroundColor: "#393e46" }}>
+                                        <Paper style={{ paddingRight: "2.8vw", backgroundColor: "#393e46" }}>
                                             <Typography align="center" variant="h3" style={{ fontWeight: "bold", paddingLeft: "2.6vw" }}>
                                                 {props.country}
                                             </Typography>
