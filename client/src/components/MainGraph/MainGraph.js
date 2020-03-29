@@ -40,7 +40,7 @@ const MainGraph = (props) => {
             let secondDateBound = new Date(selectedDate + 100000000);
 
             return (
-                <Paper style={{ backgroundColor: "#222831", height: "21.6vh" }}>
+                <Paper style={{ backgroundColor: "#12171d", height: "21.6vh" }}>
                     <VictoryChart
                         theme={VictoryTheme.grayscale}
                         animate={{ duration: 2500 }}

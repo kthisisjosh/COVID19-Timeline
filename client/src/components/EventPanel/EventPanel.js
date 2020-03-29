@@ -10,7 +10,7 @@ import Link from '@material-ui/core/Link';
 
 const EventPanel = (props) => {
     return (
-        <Card style={{backgroundColor: "#393e46"}}>
+        <Card style={{backgroundColor: "#222831"}}>
             <CardActionArea>
                 <Grid container spacing={1}>
                     <Grid item md={3}>

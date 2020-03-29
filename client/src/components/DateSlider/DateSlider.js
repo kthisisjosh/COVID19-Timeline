@@ -139,7 +139,7 @@ class DateSlider extends Component {
             .map(d => +d);
 
         return (
-            <Paper style={{ backgroundColor: "#222831", height: "15vh" }}>
+            <Paper style={{ backgroundColor: "#12171d", height: "15vh" }}>
 
                 <Fab style={{ float: "left", marginTop: "2%", marginLeft: "5%" }} aria-label="prev" size="small" onClick={() => {
                     if (this.state.currentMonth - 1 >= 0) {

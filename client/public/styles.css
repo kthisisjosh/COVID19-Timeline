@@ -1,5 +1,5 @@
 body {
-    background-color: #393e46;
+    background-color: #222831;
     height: 100%;
     overflow: hidden;
 }
@@ -8,7 +8,33 @@ h3 {
     color: #c43a31
 }
 
-a {color:rgb(0, 0, 0);}         /* Unvisited link  */
-a:visited {color:rgb(0, 0, 0);} /* Visited link    */
-a:hover {color:#c43a31;}   /* Mouse over link */
-a:active {color:#0000FF;}  /* Selected link   */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #07080a; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1c1f27; 
+}
+
+a {
+    color:rgb(0, 0, 0);
+}
+a:visited {
+    color:rgb(0, 0, 0);
+}
+a:hover {
+    color:#c43a31;
+}
+a:active {
+    color:#0000FF;
+}
