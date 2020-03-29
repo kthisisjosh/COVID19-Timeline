@@ -71,10 +71,11 @@ class EventPane extends React.Component {
 
         return (
 
-            <div>
+            <div className="article-container">
                 <Element name="test7" className="element" id="containerElement" style={{ height: '67vh', overflowY: 'scroll', }}>
 
                     <Typography
+                        className="keyevents-text"
                         variant="h4"
                         style={{
                             marginBottom: '1%',

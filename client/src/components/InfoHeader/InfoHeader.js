@@ -104,10 +104,10 @@ const InfoHeader = (props) => {
 
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
-                        <Typography variant="h3">
+                        <Typography className="infoheader-confirmed-num-text" variant="h3">
                             {confirmed}
                         </Typography>
-                        <Typography align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
+                        <Typography className="infoheader-confirmed-text" align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
                             confirmed
                         </Typography>
                     </Grid>
@@ -115,10 +115,10 @@ const InfoHeader = (props) => {
 
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
-                        <Typography variant="h3">
+                        <Typography className="infoheader-confirmed-yes-num-text" variant="h3">
                             +{confirmedYes}
                         </Typography>
-                        <Typography align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
+                        <Typography className="infoheader-confirmed-yes-text" align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
                             from yesterday
                             </Typography>
                     </Grid>
@@ -132,7 +132,7 @@ const InfoHeader = (props) => {
                                 <ToolTip title="Change" arrow disableFocusListener>
                                     <Button onClick={toggleDrawer(anchor, true)} aria-label="change">
                                         <Paper style={{ paddingRight: "2.8vw", backgroundColor: "#222831" }}>
-                                            <Typography align="center" variant="h3" style={{ fontWeight: "bold", paddingLeft: "2.6vw" }}>
+                                            <Typography className="infoheader-country-text" align="center" variant="h3" style={{ fontWeight: "bold", paddingLeft: "2.6vw" }}>
                                                 {props.country}
                                             </Typography>
                                         </Paper>
@@ -144,7 +144,7 @@ const InfoHeader = (props) => {
                             </React.Fragment>
                         ))}
 
-                        <Typography align="center" variant="h6" style={{ color: "#c6c1ba" }}>
+                        <Typography className="infoheader-country-update-text" align="center" variant="h6" style={{ color: "#c6c1ba" }}>
                             map updated as of {format(today, "MMMM dd yyyy")}.
                         </Typography>
 
@@ -153,10 +153,10 @@ const InfoHeader = (props) => {
 
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
-                        <Typography variant="h3">
+                        <Typography className="infoheader-recovered-num-text" variant="h3">
                             {recovered}
                         </Typography>
-                        <Typography align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
+                        <Typography className="infoheader-recovered-text" align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
                             recovered
                             </Typography>
                     </Grid>
@@ -164,10 +164,10 @@ const InfoHeader = (props) => {
 
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
-                        <Typography variant="h3">
+                        <Typography className="infoheader-recovered-yes-num-text" variant="h3">
                             +{recoveredYes}
                         </Typography>
-                        <Typography align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
+                        <Typography className="infoheader-recovered-yes-text" align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
                             from yesterday
                         </Typography>
                     </Grid>

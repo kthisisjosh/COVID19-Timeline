@@ -38,3 +38,98 @@ a:hover {
 a:active {
     color:#0000FF;
 }
+
+@media screen and (max-width: 813px) {
+  .main-container {
+    padding: 0 !important;
+  }
+  .second-container {
+    height: 60vh !important;
+  }
+  div#containerElement.element {
+    height: 19vh !important;
+  }
+  .first-container {
+    height: 37vh
+  }
+  .dateslider-date-container .dateslider-date {
+    font-size: 22.6px !important; 
+  }
+  .dateslider-button {
+    width: 25px !important;
+    height: 15px !important;
+  }
+  .covid-title {
+    font-size: 25px !important;
+    font-weight: bold !important;
+    padding: 0 !important;
+  }
+  .keyevents-text {
+    font-size: 15px !important;
+  }
+  .cardmedia-image {
+    display: none !important;
+  }
+  .cardmedia-content {
+    font-size: 11px !important;
+  }
+  .cardmedia-credit {
+    display: none !important;
+  }
+  .cardmedia-article-text {
+    font-size: 10px !important;
+    margin-bottom: 0 !important;
+    padding-left: 8px;
+  }
+  .cardmedia-container {
+    padding-bottom: 5px !important;
+  }
+  .infoheader-confirmed-num-text {
+    font-size: 20px !important;
+    text-align: center;
+  }
+  .infoheader-confirmed-text {
+    font-size: 10px !important;
+  }
+  .infoheader-confirmed-yes-num-text {
+    font-size: 15px !important;
+    text-align: center;
+    margin-right: 4px !important;
+  }
+  .infoheader-confirmed-yes-text {
+    display: none;
+  }
+  .infoheader-country-text {
+    font-size: 25px !important;
+  }
+  .infoheader-country-update-text {
+    font-size: 10px !important;
+  }
+  .infoheader-recovered-num-text {
+    font-size: 20px !important;
+    text-align: center;
+    margin-left: 17px !important;
+  }
+  .infoheader-recovered-text {
+    font-size: 10px !important;
+    padding-left: 2px;
+    margin-left: 17px !important;
+  }
+  .infoheader-recovered-yes-num-text {
+    font-size: 15px !important;
+    text-align: center;
+    margin-left: 10px !important;
+  }
+  .infoheader-recovered-yes-text {
+    display: none;
+  }
+  .mainmap {
+    height: 35vh !important;
+  }
+  .footer {
+    height: 0;
+  }
+  .footer-text {
+    font-size: 18px !important;
+  }
+}

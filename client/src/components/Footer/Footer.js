@@ -4,8 +4,8 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 const Footer = () => {
     return (
-        <div style={{ textAlign: "center", margin: "auto" }}>
-            <Typography variant="body1" align="center">
+        <div className="footer" style={{ textAlign: "center", margin: "auto" }}>
+            <Typography className="footer-text" variant="body1" align="center">
                 | Data from:
                         <a href="https://github.com/CSSEGISandData/COVID-19" target="_blank" rel="noopener noreferrer">JHU</a>,
                         <a href="https://www.cdc.gov/coronavirus/2019-ncov/" target="_blank" rel="noopener noreferrer">CDC</a>,

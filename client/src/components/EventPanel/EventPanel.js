@@ -15,23 +15,24 @@ const EventPanel = (props) => {
                 <Grid container spacing={1}>
                     <Grid item md={3}>
                         <CardMedia
+                            className="cardmedia-image"
                             component="img"
                             image={props.img}
                             title="Article Image"
                         />
-                        <Typography variant="caption" align="center">
+                        <Typography className="cardmedia-credit" variant="caption" align="center">
                             {props.credit}
                         </Typography>
                     </Grid>
                     <Grid item md={9}>
-                        <CardContent>
-                            <Typography variant="subtitle1" style={{color: "#c6c1ba"}}>
+                        <CardContent className="cardmedia-container">
+                            <Typography className="cardmedia-content" variant="subtitle1" style={{color: "#c6c1ba"}}>
                                 {props.content}
                             </Typography>
                         </CardContent>
                         <CardActions>
                             <Link style={{color: "#c6c1ba"}} href={props.link} target="_blank" rel="noopener noreferrer">
-                                <Typography variant="button" display="block" gutterBottom>
+                                <Typography className="cardmedia-article-text" variant="button" display="block" gutterBottom>
                                     Click for the article
                                 </Typography>
                             </Link>

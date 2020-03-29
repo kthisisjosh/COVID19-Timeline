@@ -111,6 +111,7 @@ class DateSlider extends Component {
     renderDateTime(date) {
         return (
             <div
+                className="dateslider-date-container"
                 style={{
                     width: "80%",
                     textAlign: "center",
@@ -120,6 +121,7 @@ class DateSlider extends Component {
                 }}
             >
                 <div
+                    className="dateslider-date"
                     style={{ fontSize: 46, fontWeight: "bold", color: "#c43a31" }}>
 
                     {format(date, "MMMM dd yyyy")}
@@ -139,9 +141,9 @@ class DateSlider extends Component {
             .map(d => +d);
 
         return (
-            <Paper style={{ backgroundColor: "#12171d", height: "19vh" }}>
+            <Paper className="dateslider-container" style={{ backgroundColor: "#12171d", height: "19vh" }}>
 
-                <Fab style={{ float: "left", marginTop: "2%", marginLeft: "2%" }} aria-label="prev" size="small" onClick={() => {
+                <Fab className="dateslider-button" style={{ float: "left", marginTop: "2%", marginLeft: "2%" }} aria-label="prev" size="small" onClick={() => {
                     if (this.state.currentMonth - 1 >= 0) {
                         this.changeMonth(-1, updateSelectedDate);
                     }
@@ -149,7 +151,7 @@ class DateSlider extends Component {
                     <ArrowLeftIcon />
                 </Fab>
 
-                <Fab style={{ float: "left", marginTop: "2%", marginLeft: "8%" }} aria-label="prev" size="small" onClick={() => {
+                <Fab className="dateslider-button" style={{ float: "left", marginTop: "2%", marginLeft: "8%" }} aria-label="prev" size="small" onClick={() => {
                     if (this.state.currentMonth === 0) {
                         if (this.state.dateSelected === 1582952400000) {
                             this.changeDay(-1);
@@ -200,7 +202,7 @@ class DateSlider extends Component {
                     <ArrowLeftIcon />
                 </Fab>
 
-                <Fab style={{ float: "right", marginTop: "2%", marginRight: "2%" }} aria-label="next" size="small" onClick={() => {
+                <Fab className="dateslider-button" style={{ float: "right", marginTop: "2%", marginRight: "2%" }} aria-label="next" size="small" onClick={() => {
                     if (this.state.currentMonth + 1 <= 4) {
                         this.changeMonth(1, updateSelectedDate);
                     }
@@ -208,7 +210,7 @@ class DateSlider extends Component {
                     <ArrowRightIcon />
                 </Fab>
 
-                <Fab style={{ float: "right", marginTop: "2%", marginRight: "8%" }} aria-label="next" size="small" onClick={() => {
+                <Fab className="dateslider-button" style={{ float: "right", marginTop: "2%", marginRight: "8%" }} aria-label="next" size="small" onClick={() => {
                     if (this.state.currentMonth === 0) {
                         if (this.state.dateSelected === 1581397200000) {
                             this.changeDay(1);
