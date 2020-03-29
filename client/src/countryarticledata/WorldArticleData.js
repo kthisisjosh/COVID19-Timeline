@@ -205,7 +205,12 @@ const data = [
         {
             day: 3,
             articles: [
-
+                {
+                    content: "Italy cases top 3,000 with over 100 dead, as the sick in South Korea wait for beds. Globally, there are 93,090 cases of COVID-19 and 3,198 deaths, according to WHO on Wednesday.",
+                    img: "articleImages/WHO.jpg",
+                    link: "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200304-sitrep-44-covid-19.pdf?sfvrsn=783b4c9d_2",
+                    credit: null
+                }
             ]
         },
         {

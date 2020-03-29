@@ -9,7 +9,7 @@ const Footer = () => {
                 | Data from:
                         <a href="https://github.com/CSSEGISandData/COVID-19" target="_blank" rel="noopener noreferrer">JHU</a>,
                         <a href="https://www.cdc.gov/coronavirus/2019-ncov/" target="_blank" rel="noopener noreferrer">CDC</a>,
-                        <a href="http://cmajnews.com/2020/03/26/coronavirus-1095847/" target="_blank" rel="noopener noreferrer"> CMAJ News </a> |
+                        <a href="http://cmajnews.com/2020/03/26/coronavirus-1095847/" target="_blank" rel="noopener noreferrer"> CMAJ News </a>,
                         <a href="https://www.nbcnews.com/health/health-news/coronavirus-timeline-tracking-critical-moments-covid-19-n1154341" target="_blank" rel="noopener noreferrer">NBC</a> |
 
                         <a href="https://github.com/kthisisjosh/COVID19-Timeline/" target="_blank" rel="noopener noreferrer"> View on Github </a> |
