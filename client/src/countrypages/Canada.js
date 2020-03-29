@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
+import MediaQuery from "react-responsive";
 import CanadaCaseData from "../countrycasedata/CanadaCaseData";
 import CanadaArticleData from "../countryarticledata/CanadaArticleData";
 import TimelineBody from "../components/TimelineBody/TimelineBody";
@@ -10,13 +11,18 @@ const MapStart = [[58.783, -96.469], 3.58];
 const Canada = () => {
     return (
         <Fragment>
-            <TimelineBody 
-                country="Canada"
-                caseData={CanadaCaseData}
-                articleData={CanadaArticleData}
-                mapStyle={CanadaMar24MapStyle}
-                mapStart={MapStart}
-            />
+            <MediaQuery maxWidth={500}>
+                <h1>Phone experience</h1>
+            </MediaQuery>
+            <MediaQuery minWidth={501}>
+                <TimelineBody
+                    country="Canada"
+                    caseData={CanadaCaseData}
+                    articleData={CanadaArticleData}
+                    mapStyle={CanadaMar24MapStyle}
+                    mapStart={MapStart}
+                />
+            </MediaQuery>
         </Fragment>
     )
 }

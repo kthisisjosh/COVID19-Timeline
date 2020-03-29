@@ -10,6 +10,7 @@ import MainMap from "../MainMap/MainMap.js";
 import Footer from "../Footer/Footer";
 import { DateContext } from "../../contexts/DateContext";
 
+// <MainMap style={props.mapStyle} mapStart={props.mapStart}/>
 const TimelineBody = (props) => {
 
 
@@ -37,7 +38,7 @@ const TimelineBody = (props) => {
                         <Grid item md={7} xs={12} zeroMinWidth style={{ height: "98", marginTop:"0.8vh" }}>
                             <Paper style={{ backgroundColor: "#12171d", height: "91.5vh" }}>
                                 <InfoHeader date={selectedDate} country={props.country} data={props.caseData}/>
-                                <MainMap style={props.mapStyle} mapStart={props.mapStart}/>
+                                
                                 <MainGraph data={props.caseData}/>
                             </Paper>
                         </Grid>
