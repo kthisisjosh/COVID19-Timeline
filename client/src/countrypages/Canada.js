@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import MediaQuery from "react-responsive";
-import CanadaCaseData from "../countrycasedata/CanadaCaseData";
-import CanadaArticleData from "../countryarticledata/CanadaArticleData";
+import CanadaCaseData from "../data/countrycasedata/CanadaCaseData";
+import CanadaArticleData from "../data/countryarticledata/CanadaArticleData";
 import TimelineBody from "../components/TimelineBody/TimelineBody";
 
 // const CanadaFebMapStyle = "mapbox://styles/kthisisjosh/ck89gkzb602l71ipr3sxx8sve";
