@@ -21,7 +21,7 @@ const EventPanel = (props) => {
                             image={props.img}
                             title="Article Image"
                         />
-                        <Typography className="cardmedia-credit" variant="caption" align="center">
+                        <Typography className="cardmedia-credit" variant="caption" align="center" style={{color: "#c6c1ba"}}>
                             {props.credit}
                         </Typography>
                     </Grid>
