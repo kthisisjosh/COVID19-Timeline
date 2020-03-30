@@ -10,17 +10,18 @@ Made with React
 
 View day-by-day stats & news events all in one place, alongside a linear graph from <a href="https://www.npmjs.com/package/victory-chart">VictoryCharts</a> and choropleth map via <a href="https://www.mapbox.com/">Mapbox</a>.
 
-# Screenshots! 
-
-Canada
-<img src="https://github.com/kthisisjosh/readme-assets/blob/master/covid19-timeline/canada.jpg" />
+# Showcase
+![Showcase](https://github.com/kthisisjosh/readme-assets/blob/master/covid19-timeline/Showcase.gif)
 
 <details>
   <summary>More Screenshots</summary>
-  The World
+  <h3>The World</h3>
   <img src="https://github.com/kthisisjosh/readme-assets/blob/master/covid19-timeline/world.jpg" />
 
-  United States of America
+  <h3>Canada</h3>
+  <img src="https://github.com/kthisisjosh/readme-assets/blob/master/covid19-timeline/canada.jpg" />
+
+  <h3>United States of America</h3>
   <img src="https://github.com/kthisisjosh/readme-assets/blob/master/covid19-timeline/usa.jpg" />
 
 </details>

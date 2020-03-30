@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 import Paper from "@material-ui/core/Paper";
 import ToolTip from "@material-ui/core/Tooltip";
+var commaNumber = require("comma-number");
 
 const useStyles = makeStyles({
     list: {
@@ -102,7 +103,7 @@ const InfoHeader = (props) => {
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
                         <Typography className="infoheader-confirmed-num-text" variant="h3" style={{fontSize: "38px"}}>
-                            {confirmed}
+                            {commaNumber(confirmed)}
                         </Typography>
                         <Typography className="infoheader-confirmed-text" align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
                             confirmed
@@ -113,7 +114,7 @@ const InfoHeader = (props) => {
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
                         <Typography className="infoheader-confirmed-yes-num-text" variant="h3" style={{fontSize: "38px"}}>
-                            +{confirmedYes}
+                            +{commaNumber(confirmedYes)}
                         </Typography>
                         <Typography className="infoheader-confirmed-yes-text" align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
                             from yesterday
