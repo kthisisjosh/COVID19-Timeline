@@ -13,15 +13,15 @@ View day-by-day stats & news events all in one place, alongside a linear graph f
 # Screenshots! 
 
 Canada
-<img src="https://github.com/kthisisjosh/readme-assets/covid19-timeline/canada.jpg" />
+<img src="https://github.com/kthisisjosh/readme-assets/blob/master/covid19-timeline/canada.jpg" />
 
 <details>
   <summary>More Screenshots</summary>
   The World
-  <img src="https://github.com/kthisisjosh/readme-assets/covid19-timeline/world.jpg" />
+  <img src="https://github.com/kthisisjosh/readme-assets/blob/master/covid19-timeline/world.jpg" />
 
   United States of America
-  <img src="https://github.com/kthisisjosh/readme-assets/covid19-timeline/usa.jpg" />
+  <img src="https://github.com/kthisisjosh/readme-assets/blob/master/covid19-timeline/usa.jpg" />
 
 </details>
 
