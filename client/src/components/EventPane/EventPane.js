@@ -86,7 +86,10 @@ class EventPane extends React.Component {
                         Key Events</Typography>
 
                     {this.props.data[month - 1][day - 1].articles.map((article) => {
-
+                        let isImage = false;
+                        if (article.img !== null) {
+                            isImage = true;
+                        }
                         return (
                             <Element name="firstInsideContainer" style={{ marginBottom: '1%', marginLeft: "2%", marginRight: "2%" }} key={uuidv4()}>
                                 <EventPanel
@@ -94,6 +97,7 @@ class EventPane extends React.Component {
                                     img={article.img}
                                     link={article.link}
                                     credit={article.credit}
+                                    isImage={isImage}
                                 />
                             </Element>
                         )

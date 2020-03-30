@@ -122,7 +122,7 @@ class DateSlider extends Component {
             >
                 <div
                     className="dateslider-date"
-                    style={{ fontSize: 46, fontWeight: "bold", color: "#c43a31" }}>
+                    style={{ fontSize: 42, fontWeight: "bold", color: "#c43a31" }}>
 
                     {format(date, "MMMM dd yyyy")}
 

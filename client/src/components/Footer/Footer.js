@@ -18,7 +18,7 @@ const Footer = () => {
 
                         <a href="https://github.com/kthisisjosh/" target="_blank" rel="noopener noreferrer"><GitHubIcon /></a> |
 
-                        Last updated: March 28, 2020 15:20:20 GMT-0400 |
+                        Last updated: March 29, 2020 18:52:20 GMT-0400 |
 
                 </Typography>
         </div>

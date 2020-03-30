@@ -1,7 +1,6 @@
 import React from 'react'
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
-import { startOfToday, format } from "date-fns";
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
@@ -27,8 +26,6 @@ const InfoHeader = (props) => {
     const [state, setState] = React.useState({
         right: false,
     });
-
-    const today = startOfToday();
 
     let confirmed = 0;
     let confirmedYes = 0;
@@ -104,7 +101,7 @@ const InfoHeader = (props) => {
 
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
-                        <Typography className="infoheader-confirmed-num-text" variant="h3">
+                        <Typography className="infoheader-confirmed-num-text" variant="h3" style={{fontSize: "38px"}}>
                             {confirmed}
                         </Typography>
                         <Typography className="infoheader-confirmed-text" align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
@@ -115,7 +112,7 @@ const InfoHeader = (props) => {
 
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
-                        <Typography className="infoheader-confirmed-yes-num-text" variant="h3">
+                        <Typography className="infoheader-confirmed-yes-num-text" variant="h3" style={{fontSize: "38px"}}>
                             +{confirmedYes}
                         </Typography>
                         <Typography className="infoheader-confirmed-yes-text" align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
@@ -145,7 +142,7 @@ const InfoHeader = (props) => {
                         ))}
 
                         <Typography className="infoheader-country-update-text" align="center" variant="h6" style={{ color: "#c6c1ba" }}>
-                            map updated as of {format(today, "MMMM dd yyyy")}.
+                            map updated as of March 28 2020.
                         </Typography>
 
                     </Grid>

@@ -35,7 +35,7 @@ const TimelineBody = (props) => {
                         </Grid>
 
 
-                        <Grid item md={7} xs={12} zeroMinWidth style={{ height: "98", marginTop:"0.4vh" }}>
+                        <Grid item md={7} xs={12} zeroMinWidth style={{ height: "98", marginTop:"1vh" }}>
                             <Paper className="second-container" style={{ backgroundColor: "#12171d", height: "91.5vh" }}>
                                 <InfoHeader date={selectedDate} country={props.country} data={props.caseData}/>
                                 <MainMap style={props.mapStyle} mapStart={props.mapStart}/>
