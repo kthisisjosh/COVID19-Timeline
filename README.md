@@ -10,6 +10,8 @@ Made with React
 
 View day-by-day stats & news events all in one place, alongside a linear graph from <a href="https://www.npmjs.com/package/victory-chart">VictoryCharts</a> and choropleth map via <a href="https://www.mapbox.com/">Mapbox</a>.
 
+Received funding from DigitalOcean's COVID-19 <a href="https://www.digitalocean.com/community/pages/covid-19">support fund</a> for projects related to COVID-19.
+
 # Showcase
 ![Showcase](https://github.com/kthisisjosh/readme-assets/blob/master/covid19-timeline/Showcase.gif)
 
