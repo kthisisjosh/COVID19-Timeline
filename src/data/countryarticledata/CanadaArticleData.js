@@ -821,19 +821,53 @@ const data = [
         {
             day: 29,
             articles: [
-
+                
             ]
         },
         {
             day: 30,
             articles: [
-
+                {
+                    content: "Ten people dead in Ontario nursing home outbreak.",
+                    img: null,
+                    link: "https://globalnews.ca/news/6749652/coronavirus-bobcaygeon-nursing-home-deaths/",
+                    credit: null
+                },
+                {
+                    content: "1 in 4 patients in critical care in Ontario may have COVID-19",
+                    img: null,
+                    link: "https://www.cbc.ca/news/canada/toronto/covid-19-ontario-hospital-intensive-care-patients-suspected-1.5514041",
+                    credit: null
+                },
+                {
+                    content: "Canada mobilizes industry, military. Canadian companies are stepping up to begin producing personal protective equipment and other medical supplies, said Innovation, Science and Industry Minister Navdeep Bains.",
+                    img: null,
+                    link: "https://globalnews.ca/news/6748083/coronavirus-canada-navdeep-bains/",
+                    credit: null
+                },
             ]
         },
         {
             day: 31,
             articles: [
-
+                {
+                    content: "Ontario warns people over 70 years of age to self-isolate. Ontario’s Chief Medical Officer of Health is “strongly recommending” that all people over 70 and those with compromised immune systems stop going out and rely on friends, family and neighbours for help with essential errands. ",
+                    img: null,
+                    link: "https://www.thestar.com/politics/provincial/2020/03/30/everyone-should-stay-home-ontarios-top-doctor-says-and-self-isolate-if-youre-over-70.html",
+                    credit: null
+                },
+                {
+                    content: "PPE shortages and police checkpoints in Quebec. There have been 286 hospitalizations and 31 related to COVID-19 in Quebec and shortages of personal protective equipment are becoming dire.",
+                    img: "",
+                    link: "https://www.cbc.ca/news/canada/montreal/covid-19-in-quebec-tuesday-1.5515825",
+                    credit: ""
+                },
+                {
+                    content: "Canada signs deals to produce protective equipment. Canada signed agreements with three Canadian companies to produce medical supplies, including ventilators, face masks and testing kits for COVID-19, with some shipments expected to arrive this week.",
+                    img: "",
+                    link: "https://www.cbc.ca/news/politics/trudeau-medical-supplies-procurement-1.5516068",
+                    credit: ""
+                },
             ]
         },
     ],
@@ -845,7 +879,24 @@ const data = [
         {
             day: 1,
             articles: [
-
+                {
+                    content: "More than 100 deaths in Canada linked to COVID-19. Canada reported 105 deaths related to COVID-19 and more than 9,000 confirmed cases. Quebec has the most cases in Canada, with 4,162 infections and 31 deaths.",
+                    img: null,
+                    link: "https://globalnews.ca/news/6761997/coronavirus-cases-canada-april-1/",
+                    credit: null
+                },
+                {
+                    content: "Provinces building makeshift hospitals. Three provinces announced plans to set up makeshift hospitals in repurposed buildings.",
+                    img: null,
+                    link: "https://www.theglobeandmail.com/canada/article-ontario-bc-quebec-begin-building-makeshift-hospitals-in/",
+                    credit: null
+                },
+                {
+                    content: " Looming drug shortages. Global supply chain problems related to COVID-19 will probably lead to shortages of drugs and medical devices, according to deputy health minister Stephen Lucas.",
+                    img: null,
+                    link: "https://www.theglobeandmail.com/canada/article-covid-19-pandemic-could-lead-to-shortages-of-drugs-medical-devices-in/?cmpid=rss&utm_source=dlvr.it",
+                    credit: null
+                }
             ]
         },
         {

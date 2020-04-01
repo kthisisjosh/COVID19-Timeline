@@ -14,11 +14,11 @@ const Footer = () => {
 
                         <a href="https://github.com/kthisisjosh/COVID19-Timeline/" target="_blank" rel="noopener noreferrer"> View on Github </a> |
 
-                        <a href="http://kthisisjosh.github.io/" target="_blank" rel="noopener noreferrer">  ©Joshua Bautista </a> |
+                        © <a href="http://joshbautista.com" target="_blank" rel="noopener noreferrer"> Joshua Bautista </a>
 
                         <a href="https://github.com/kthisisjosh/" target="_blank" rel="noopener noreferrer"><GitHubIcon /></a> |
 
-                        Last updated: March 29, 2020 18:52:20 GMT-0400 |
+                        Last updated: April 1, 2020 17:28:20 GMT-0400 |
 
                 </Typography>
         </div>

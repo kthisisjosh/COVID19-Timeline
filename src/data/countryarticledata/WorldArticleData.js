@@ -833,7 +833,18 @@ const data = [
         {
             day: 27,
             articles: [
-
+                {
+                    content: "Retired respirologist posts his ventilator design, free for everyone. A London, Ont. respirologist who developed a low-cost ventilator to respond to the COVID-19 crisis has posted the design on an open-source website so anyone can use it.",
+                    img: null,
+                    link: "https://www.cbc.ca/news/canada/london/pandemic-ventilator-design-covid19-1.5511412",
+                    credit: null
+                },
+                {
+                    content: "Italy reports highest single-day fatalities, likely to extend lockdown",
+                    img: null,
+                    link: "https://www.bloomberg.com/news/articles/2020-03-27/italy-has-deadliest-day-from-coronavirus-with-969-fatalities",
+                    credit: null
+                }
             ]
         },
         {
@@ -851,13 +862,23 @@ const data = [
         {
             day: 30,
             articles: [
-
+                {
+                    content: "Mixed messages on wearing masks",
+                    img: null,
+                    link: "https://www.theglobeandmail.com/canada/british-columbia/article-cultures-clash-over-wearing-masks-amid-virus/?utm_medium=Referrer:+Social+Network+/+Media&utm_campaign=Shared+Web+Article+Links",
+                    credit: null
+                }
             ]
         },
         {
             day: 31,
             articles: [
-
+                {
+                    content: "White House predicts as many as 240,000 coronavirus deaths in US",
+                    img: null,
+                    link: "https://www.ctvnews.ca/world/white-house-projects-up-to-240-000-deaths-trump-says-life-and-death-at-stake-1.4875388",
+                    credit: null
+                }
             ]
         },
     ],
@@ -869,7 +890,18 @@ const data = [
         {
             day: 1,
             articles: [
-
+                {
+                    content: "Many COVID-19 cases may be asymptomatic. A quarter of people with COVID-19 may not show symptoms but still spread the virus, according to the United States Centers for Disease Control and Prevention.",
+                    img: null,
+                    link: "https://www.cnn.com/2020/04/01/health/us-coronavirus-updates-wednesday/index.html",
+                    credit: null
+                },
+                {
+                    content: "Researchers face layoffs as non-essential trials shut down",
+                    img: null,
+                    link: "https://ipolitics.ca/2020/03/31/with-clinical-trials-halted-funding-drop-uhn-fears-layoffs-among-researchers-working-on-covid-19/",
+                    credit: null
+                }
             ]
         },
         {

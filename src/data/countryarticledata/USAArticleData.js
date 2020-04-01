@@ -226,7 +226,12 @@ const data = [
         {
             day: 3,
             articles: [
-
+                {
+                    content: "Coronavirus death toll rises to 9 in Washington state",
+                    img: "articleImages/200303-life-care-center-washington-coronavirus-ew-309p_36d7cb83378013319e4ff24a30a13d7b.fit-2000w.jpg",
+                    link: "https://www.cbsnews.com/live-updates/coronavirus-outbreak-death-toll-us-infections-latest-news-updates-2020-03-03/",
+                    credit: "David Ryder / Reuters"
+                }
             ]
         },
         {
@@ -738,13 +743,35 @@ const data = [
         {
             day: 30,
             articles: [
-
+                {
+                    content: "US approves limited use of anti-malaria drugs",
+                    img: null,
+                    link: "https://www.ctvnews.ca/health/u-s-regulator-approves-limited-use-of-malaria-drugs-for-covid-19-1.4873751",
+                    credit: null
+                },
+                {
+                    content: "More than 1,200 dead in New York",
+                    img: null,
+                    link: "https://www.nytimes.com/2020/03/30/nyregion/coronavirus-new-york-update.html",
+                    credit: null
+                }
             ]
         },
         {
             day: 31,
             articles: [
-
+                {
+                    content: "US reports more deaths than China. The United States reported more than 3,500 deaths related to COVID-19, surpassing China’s reported death toll of 3,300.",
+                    img: null,
+                    link: "https://www.pbs.org/newshour/health/watch-live-new-york-gov-andrew-cuomo-gives-update-on-coronavirus-response",
+                    credit: null
+                },
+                {
+                    content: "White House predicts as many as 240,000 coronavirus deaths in US. In a reversal of his earlier desire to reopen the country by Easter, United States President Donald Trump warned Americans to prepare for a “hell of a bad two weeks” as health officials projected the country may see 100,000 to 240,000 deaths related to COVID-19, even if social distancing guidelines are maintained.",
+                    img: null,
+                    link: "https://www.ctvnews.ca/world/white-house-projects-up-to-240-000-deaths-trump-says-life-and-death-at-stake-1.4875388",
+                    credit: null
+                }
             ]
         },
     ],
@@ -756,7 +783,12 @@ const data = [
         {
             day: 1,
             articles: [
-
+                {
+                    content: "Many COVID-19 cases may be asymptomatic. A quarter of people with COVID-19 may not show symptoms but still spread the virus, according to the United States Centers for Disease Control and Prevention.",
+                    img: null,
+                    link: "https://www.cnn.com/2020/04/01/health/us-coronavirus-updates-wednesday/index.html",
+                    credit: null
+                }
             ]
         },
         {

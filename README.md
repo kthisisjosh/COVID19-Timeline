@@ -10,20 +10,28 @@ Made with React
 
 View day-by-day stats & key news events all in one place, alongside a graph from <a href="https://www.npmjs.com/package/victory-chart">VictoryCharts</a> and choropleth map via <a href="https://www.mapbox.com/">Mapbox</a> to visualize the spread of COVID-19.
 
-Received funding from DigitalOcean's COVID-19 <a href="https://www.digitalocean.com/community/pages/covid-19">support fund</a> for projects related to COVID-19.
+  - Received funding from DigitalOcean's COVID-19 <a href="https://www.digitalocean.com/community/pages/covid-19">support fund</a> for projects related to COVID-19.
+
+# Features
+View day-by-day COVID-19 stats, daily key news events, and a choropleth map for:
+  - The World
+  - Canada
+  - United States of America
+
+More countries to come.
 
 # Showcase
 ![Showcase Demo](https://github.com/kthisisjosh/readme-assets/blob/master/covid19-timeline/Showcase.gif)
 
 <details>
   <summary>More Screenshots</summary>
-  <h3>The World</h3>
+  <h2>The World</h2>
   <img src="https://github.com/kthisisjosh/readme-assets/blob/master/covid19-timeline/world.jpg" />
 
-  <h3>Canada</h3>
+  <h2>Canada</h2>
   <img src="https://github.com/kthisisjosh/readme-assets/blob/master/covid19-timeline/canada.jpg" />
 
-  <h3>United States of America</h3>
+  <h2>United States of America</h2>
   <img src="https://github.com/kthisisjosh/readme-assets/blob/master/covid19-timeline/usa.jpg" />
 
 </details>

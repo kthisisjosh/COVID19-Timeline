@@ -198,6 +198,14 @@ const data = [
             {
                 day: 29,
                 cases: 6320
+            },
+            {
+                day: 30,
+                cases: 7448
+            },
+            {
+                day: 31,
+                cases: 8612
             }
         ]
     }
