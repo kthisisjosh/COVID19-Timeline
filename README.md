@@ -12,6 +12,8 @@ View day-by-day stats & key news events all in one place, alongside a graph from
 
   - Received funding from DigitalOcean's COVID-19 <a href="https://www.digitalocean.com/community/pages/covid-19">support fund</a> for projects related to COVID-19.
 
+View the <a target="_blank" href="https://trello.com/b/w5cCK8un">trello</a> board.
+
 # Features
 View day-by-day COVID-19 stats, daily key news events, and a choropleth map for:
   - The World
