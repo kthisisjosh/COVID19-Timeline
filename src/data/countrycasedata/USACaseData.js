@@ -215,6 +215,10 @@ const data = [
             {
                 day: 1,
                 cases: 215003
+            },
+            {
+                day: 2,
+                cases: 244877
             }
         ]
     }
