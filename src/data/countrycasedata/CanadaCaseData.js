@@ -208,6 +208,15 @@ const data = [
                 cases: 8612
             }
         ]
+    },
+    {
+        month: 3,
+        daily: [
+            {
+                day: 1,
+                cases: 9731
+            }
+        ]
     }
 ]
 
