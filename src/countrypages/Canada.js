@@ -8,6 +8,7 @@ const CanadaMar26MapStyle = "mapbox://styles/kthisisjosh/ck89g7hh2026e1jnuqbqg44
 const MapStart = [[58.783, -96.469], 3.58];
 
 const Canada = () => {
+    console.log(CanadaCaseData)
     return (
         <Fragment>
             <TimelineBody

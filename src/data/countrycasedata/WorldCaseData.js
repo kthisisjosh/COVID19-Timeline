@@ -1,4 +1,4 @@
-const data = [
+const WorldCaseData = [
     {
         month: 1,
         daily: [
@@ -207,21 +207,21 @@ const data = [
                 day: 31,
                 cases: 858355
             },
+        ]
+    },
+    {
+        month: 3,
+        daily: [
             {
-                month: 3,
-                daily: [
-                    {
-                        day: 1,
-                        cases: 935232
-                    },
-                    {
-                        day: 2,
-                        cases: 1015065
-                    }
-                ]
+                day: 1,
+                cases: 935232
+            },
+            {
+                day: 2,
+                cases: 1015065
             }
         ]
     }
 ]
 
-export default data;
+export default WorldCaseData;

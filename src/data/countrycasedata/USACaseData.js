@@ -1,4 +1,4 @@
-const data = [
+const USACaseData = [
     {
         month: 1,
         daily: [
@@ -224,4 +224,4 @@ const data = [
     }
 ]
 
-export default data;
+export default USACaseData;

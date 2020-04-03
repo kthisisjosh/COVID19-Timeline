@@ -129,14 +129,14 @@ const InfoHeader = (props) => {
                             <React.Fragment key={anchor}>
                                 <ToolTip title="Change" arrow disableFocusListener>
                                     <Button onClick={toggleDrawer(anchor, true)} aria-label="change">
-                                        <Paper className="glowing-border" variant="outlined" elevation="3" style={{ paddingRight: "2.8vw", backgroundColor: "#b0aca7"}}>
+                                        <Paper className="glowing-border" variant="outlined" style={{ paddingRight: "2.8vw", backgroundColor: "#b0aca7"}}>
                                             <Typography className="infoheader-country-text" align="center" variant="h3" style={{ fontWeight: "bold", paddingLeft: "2.6vw" }}>
                                                 {props.country}
                                             </Typography>
                                         </Paper>
                                     </Button>
                                 </ToolTip>
-                                <SwipeableDrawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)} >
+                                <SwipeableDrawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)} onOpen={toggleDrawer(anchor, false)} >
                                     {list(anchor)}
                                 </SwipeableDrawer>
                             </React.Fragment>

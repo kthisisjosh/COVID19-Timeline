@@ -32,7 +32,6 @@ const MainGraph = (props) => {
         })
     })
 
-
     return (
         <DateContext.Consumer>{(context) => {
             const { selectedDate } = context;
