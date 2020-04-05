@@ -219,6 +219,10 @@ const CanadaCaseData = [
             {
                 day: 2,
                 cases: 11283
+            },
+            {
+                day: 3,
+                cases: 12375
             }
         ]
     }
