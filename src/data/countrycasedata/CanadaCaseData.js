@@ -235,7 +235,39 @@ const CanadaCaseData = [
             {
                 day: 6,
                 cases: 16667
-            }
+            },
+            {
+                day: 7,
+                cases: 17897
+            },
+            {
+                day: 8,
+                cases: 19438
+            },
+            {
+                day: 9,
+                cases: 20765
+            },
+            {
+                day: 10,
+                cases: 22148
+            },
+            {
+                day: 11,
+                cases: 23318
+            },
+            {
+                day: 12,
+                cases: 24383
+            },
+            {
+                day: 13,
+                cases: 25680
+            },
+            {
+                day: 14,
+                cases: 27063
+            },
         ]
     }
 ];
