@@ -268,6 +268,10 @@ const WorldCaseData = [
                 day: 14,
                 cases: 1997906
             },
+            {
+                day: 15,
+                cases: 2086332
+            },
         ]
     }
 ]

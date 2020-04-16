@@ -268,6 +268,10 @@ const CanadaCaseData = [
                 day: 14,
                 cases: 27063
             },
+            {
+                day: 15,
+                cases: 28379
+            },
         ]
     }
 ];

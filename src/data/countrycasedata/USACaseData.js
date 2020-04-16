@@ -268,6 +268,10 @@ const USACaseData = [
                 day: 14,
                 cases: 613886
             },
+            {
+                day: 15,
+                cases: 648003
+            },
         ]
     }
 ]
