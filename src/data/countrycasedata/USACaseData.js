@@ -272,6 +272,42 @@ const USACaseData = [
                 day: 15,
                 cases: 648003
             },
+            {
+                day: 16,
+                cases: 682454
+            },
+            {
+                day: 17,
+                cases: 714822
+            },
+            {
+                day: 18,
+                cases: 743901
+            },
+            {
+                day: 19,
+                cases: 770014
+            },
+            {
+                day: 20,
+                cases: 789145
+            },
+            {
+                day: 21,
+                cases: 824229
+            },
+            {
+                day: 22,
+                cases: 854385
+            },
+            {
+                day: 23,
+                cases: 886274
+            },
+            {
+                day: 24,
+                cases: 925038
+            },
         ]
     }
 ]

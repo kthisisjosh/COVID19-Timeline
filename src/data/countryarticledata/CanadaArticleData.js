@@ -902,7 +902,12 @@ const data = [
         {
             day: 2,
             articles: [
-
+                {
+                    content: "The province releases its first projections, saying there could be just under 1,600 COVID-19 deaths and 80,000 cases by the end of April if the current measures in place are upheld.",
+                    img: null,
+                    link: "https://globalnews.ca/news/6773486/ontario-coronavirus-covid19-number-modelling",
+                    credit: null
+                }
             ]
         },
         {
@@ -926,7 +931,12 @@ const data = [
         {
             day: 6,
             articles: [
-
+                {
+                    content: "The first COVID-19 case surfaces in a northwestern Ontario Indigenous community, prompting calls for a military hospital to be set up.",
+                    img: null,
+                    link: "https://globalnews.ca/news/6787212/coronavirus-eabametoong-first-nation/",
+                    credit: null
+                }
             ]
         },
         {
@@ -938,7 +948,18 @@ const data = [
         {
             day: 8,
             articles: [
-
+                {
+                    content: "Ontario reports 550 new cases of the novel coronavirus and 21 more deaths, bringing the provincial totals to 5,276 cases and 174 deaths. Provincial officials also report that 2,074 patients have recovered from the virus.",
+                    img: null,
+                    link: "https://globalnews.ca/news/6793268/ontario-coronavirus-covid19-cases-april-8/",
+                    credit: null
+                },
+                {
+                    content: "Ontario orders grocery stores and pharmacies to be closed on Friday and Sunday of the holiday weekend across the province in an effort to ensure employees get a breather.",
+                    img: null,
+                    link: "https://globalnews.ca/news/6794650/ontario-grocery-pharmacies-closed-friday-sunday-april-long-weekend/",
+                    credit: null
+                }
             ]
         },
         {
@@ -974,7 +995,12 @@ const data = [
         {
             day: 14,
             articles: [
-
+                {
+                    content: "Ontario extends the state of emergency for another four weeks and pledges further resources to long-term care homes, which have become the epicentre of the crisis in the province.",
+                    img: null,
+                    link: "https://globalnews.ca/news/6814747/ontario-state-of-emergency-extended-coronavirus/",
+                    credit: null
+                }
             ]
         },
         {
@@ -1010,7 +1036,12 @@ const data = [
         {
             day: 20,
             articles: [
-
+                {
+                    content: "The Ontario government releases the latest modelling, which shows that community spread may have peaked across the province, but officials also warn that numbers continue to grow in long-term care homes, retirement homes and other congregate settings.",
+                    img: null,
+                    link: "https://globalnews.ca/news/6841797/ontario-coronavirus-covid19-updated-projections-modelling/",
+                    credit: null
+                }
             ]
         },
         {
@@ -1028,7 +1059,12 @@ const data = [
         {
             day: 23,
             articles: [
-
+                {
+                    content: "Doug Ford confirms his mother-in-law, who is a resident of a Toronto long-term care home, has tested positive for COVID-19.",
+                    img: null,
+                    link: "https://globalnews.ca/news/6859073/coronavirus-doug-ford-mother-in-law-covid-19/",
+                    credit: null
+                }
             ]
         },
         {

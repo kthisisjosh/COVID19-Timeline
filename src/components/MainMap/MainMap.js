@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Map } from 'react-leaflet';
 import MapBoxGLLayer from "./MapBoxGLLayer";
 
-const MAPBOX_ACCESS_TOKEN = "pk.eyJ1Ijoia3RoaXNpc2pvc2giLCJhIjoiY2s5M2Yzc2hlMDFuNDNybnRqNGpuazBoNSJ9._wmHa0R80nNEzXpDNqZvsQ";
+const MAPBOX_ACCESS_TOKEN = "pk.eyJ1Ijoia3RoaXNpc2pvc2giLCJhIjoiY2s5ZXp6dWRkMDd1NjNobzRjcW4yd3kxdSJ9.zaKm0uSBxhOyoiEz_547rA";
 
 class MainMap extends Component {
     constructor(props) {

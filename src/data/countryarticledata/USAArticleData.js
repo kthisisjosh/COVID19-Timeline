@@ -926,7 +926,18 @@ const data = [
         {
             day: 24,
             articles: [
-
+                {
+                    content: "Coronavirus has now killed over 50,000 people in the U.S",
+                    img: null,
+                    link: "https://globalnews.ca/news/6861070/coronavirus-us-50000-deaths/",
+                    credit: null
+                },
+                {
+                    content: "Light, heat, bleach: Doctors reject Trump’s ‘idiotic’ coronavirus cures",
+                    img: null,
+                    link: "https://globalnews.ca/news/6862555/coronavirus-disinfectant-donald-trump/",
+                    credit: null
+                }
             ]
         },
         {
