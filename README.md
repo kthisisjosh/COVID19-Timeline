@@ -2,7 +2,7 @@
 COVID-19 Timeline
 </h1>
 <p align="center">
-Made with React
+Made with React.js
 </p>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d8e8961c-c6c8-4840-9ac9-187b654a8652/deploy-status)](https://app.netlify.com/sites/covid19-timeline/deploys) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) 
