@@ -308,6 +308,30 @@ const WorldCaseData = [
                 day: 24,
                 cases: 2828617
             },
+            {
+                day: 25,
+                cases: 2915365
+            },
+            {
+                day: 26,
+                cases: 2989175
+            },
+            {
+                day: 27,
+                cases: 3055800
+            },
+            {
+                day: 28,
+                cases: 3132312
+            },
+            {
+                day: 29,
+                cases: 3213960
+            },
+            {
+                day: 30,
+                cases: 3299603
+            }
         ]
     }
 ]
