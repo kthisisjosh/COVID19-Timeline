@@ -333,6 +333,123 @@ const WorldCaseData = [
                 cases: 3299603
             }
         ]
+    },
+    {
+        month: 4,
+        daily: [
+            {
+                day: 1,
+                cases: 3394153
+            },
+            {
+                day: 2,
+                cases: 3477488
+            },
+            {
+                day: 3,
+                cases: 3559748
+            },
+            {
+                day: 4,
+                cases: 3639330
+            },
+            {
+                day: 5,
+                cases: 3720577
+            },
+            {
+                day: 6,
+                cases: 3815902
+            },
+            {
+                day: 7,
+                cases: 3912156
+            },
+            {
+                day: 8,
+                cases: 4009284
+            },
+            {
+                day: 9,
+                cases: 4098272
+            },
+            {
+                day: 10,
+                cases: 4178097
+            },
+            {
+                day: 11,
+                cases: 4252290
+            },
+            {
+                day: 12,
+                cases: 4337445
+            },
+            {
+                day: 13,
+                cases: 4425666
+            },
+            {
+                day: 14,
+                cases: 4522009
+            },
+            {
+                day: 15,
+                cases: 4621410
+            },
+            {
+                day: 16,
+                cases: 4717009
+            },
+            {
+                day: 17,
+                cases: 4799266
+            },
+            {
+                day: 18,
+                cases: 4888124
+            },
+            {
+                day: 19,
+                cases: 4982937
+            },
+            {
+                day: 20,
+                cases: 5085449
+            },
+            {
+                day: 21,
+                cases: 5192530
+            },
+            {
+                day: 22,
+                cases: 5300051
+            },
+            {
+                day: 23,
+                cases: 5399989
+            },
+            {
+                day: 24,
+                cases: 5496494
+            },
+            {
+                day: 25,
+                cases: 5586306
+            },
+            {
+                day: 26,
+                cases: 5678128
+            },
+            {
+                day: 27,
+                cases: 5784603
+            },
+            {
+                day: 28,
+                cases: 5900907
+            },
+        ]
     }
 ]
 
