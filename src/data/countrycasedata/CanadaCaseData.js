@@ -308,6 +308,30 @@ const CanadaCaseData = [
                 day: 24,
                 cases: 42888
             },
+            {
+                day: 25,
+                cases: 45345
+            },
+            {
+                day: 26,
+                cases: 46895
+            },
+            {
+                day: 27,
+                cases: 48500
+            },
+            {
+                day: 28,
+                cases: 50026
+            },
+            {
+                day: 29,
+                cases: 51597
+            },
+            {
+                day: 30,
+                cases: 53236
+            },
         ]
     }
 ];
