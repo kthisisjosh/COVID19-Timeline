@@ -15,7 +15,7 @@ class MainMap extends Component {
     render() {
         return (
             <div>
-                <Map className="mainmap" center={this.props.mapStart[0]} zoom={this.props.mapStart[1]} style={{ height: '55vh' }} key={this.state.keyMAP}>
+                <Map className="mainmap" center={this.props.mapStart[0]} zoom={this.props.mapStart[1]} style={{ height: "65vh" }} key={this.state.keyMAP}>
                     <MapBoxGLLayer
                         accessToken={MAPBOX_ACCESS_TOKEN}
                         style={this.props.style}

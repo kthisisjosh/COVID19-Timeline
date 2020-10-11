@@ -9,37 +9,38 @@ import MainGraph from "../MainGraph/MainGraph";
 import MainMap from "../MainMap/MainMap.js";
 import Footer from "../Footer/Footer";
 import { DateContext } from "../../contexts/DateContext";
+import { useMediaQuery } from 'react-responsive'
 
 // <MainMap style={props.mapStyle} mapStart={props.mapStart}/>
 const TimelineBody = (props) => {
-
+    const isMobile = useMediaQuery({ query: '(min-device-width: 960px)' })
 
     return (
         <DateContext.Consumer>{(context) => {
             const { selectedDate } = context;
 
             return (
-                <Grid container className="main-container" spacing={1} style={{ backgroundColor: "#222831", height: "98.2vh", width: "99.5vw", paddingTop: "1vh", paddingBottom: 0 }}>
+                <Grid container className="main-container" spacing={1} style={{ backgroundColor: "#222831", height: "90%", paddingTop: "1vh", paddingBottom: 0 }}>
 
                     <Grid className="secondary-container" container spacing={1}>
 
-                        <Grid className="first-container" item md={5} xs={12} zeroMinWidth style={{ height: "98" }}>
-                            <Paper style={{ backgroundColor: "#12171d", height: "91.5vh" }}>
-                                <Typography className="covid-title" variant="h3" align="center" style={{ paddingTop: "0.9rem" }}>
+                        <Grid className="first-container" item md={5} xs={12} zeroMinWidth>
+                            <Paper style={{ backgroundColor: "#12171d"}}>
+                                <Typography className="covid-title" variant="h3" align="center" style={{ paddingTop: "0.9rem", fontSize: 36 }}>
                                     COVID-19 Timeline
                                     </Typography>
-                                <EventPane data={props.articleData}/>
-                                <DateSlider />
+                                <EventPane isMobile={isMobile} data={props.articleData}/>
+                                <DateSlider isMobile={isMobile} />
                             </Paper>
 
                         </Grid>
 
 
                         <Grid item md={7} xs={12} zeroMinWidth style={{ height: "98", marginTop:"1vh" }}>
-                            <Paper className="second-container" style={{ backgroundColor: "#12171d", height: "91.5vh" }}>
-                                <InfoHeader date={selectedDate} country={props.country} data={props.caseData}/>
+                            <Paper className="second-container" style={{ backgroundColor: "#12171d" }}>
+                                <InfoHeader isMobile={isMobile} date={selectedDate} country={props.country} data={props.caseData}/>
                                 <MainMap style={props.mapStyle} mapStart={props.mapStart}/>
-                                <MainGraph data={props.caseData}/>
+                                <Paper className="second-container" style={{ backgroundColor: "#12171d", height: "9.5vh"}}></Paper>
                             </Paper>
                         </Grid>
 
@@ -48,7 +49,7 @@ const TimelineBody = (props) => {
 
 
 
-                    <Grid container style={{ height: "2vh", marginTop: "3vh" }}>
+                    <Grid container style={{ height: "2vh", marginTop: "5vh" }}>
                         <Footer />
                     </Grid>
                 </Grid>

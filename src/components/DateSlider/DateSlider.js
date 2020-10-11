@@ -111,18 +111,16 @@ class DateSlider extends Component {
     renderDateTime(date) {
         return (
             <div
-                className="dateslider-date-container"
                 style={{
                     width: "80%",
                     textAlign: "center",
                     fontFamily: "Roboto",
-                    paddingTop: "0.8%",
+                    paddingTop: this.props.isMobile ? "0.8%" : "5%",
                     margin: 5
                 }}
             >
                 <div
-                    className="dateslider-date"
-                    style={{ fontSize: 42, fontWeight: "bold", color: "#c43a31" }}>
+                    style={{ fontSize: this.props.isMobile ? 34 : 18, color: "#c43a31" }}>
 
                     {format(date, "MMMM dd yyyy")}
 
@@ -141,7 +139,7 @@ class DateSlider extends Component {
             .map(d => +d);
 
         return (
-            <Paper className="dateslider-container" style={{ backgroundColor: "#12171d", height: "19vh" }}>
+            <Paper className="dateslider-container" style={{ backgroundColor: "#12171d", height: "19vh", }}>
 
                 <Fab className="dateslider-button" style={{ float: "left", marginTop: "2%", marginLeft: "2%" }} aria-label="prev" size="small" onClick={() => {
                     if (this.state.currentMonth - 1 >= 0) {
@@ -151,7 +149,7 @@ class DateSlider extends Component {
                     <ArrowLeftIcon />
                 </Fab>
 
-                <Fab className="dateslider-button" style={{ float: "left", marginTop: "2%", marginLeft: "8%" }} aria-label="prev" size="small" onClick={() => {
+                <Fab className="dateslider-button" style={{ float: "left", marginTop: "2%", marginLeft: "8%"  }} aria-label="prev" size="small" onClick={() => {
                     if (this.state.currentMonth === 0) {
                         if (this.state.dateSelected === 1582952400000) {
                             this.changeDay(-1);
@@ -263,7 +261,7 @@ class DateSlider extends Component {
 
                 {this.renderDateTime(dateSelected)}
 
-                <div style={{ margin: "2%", marginTop: "4%", height: 60, width: "97%" }}>
+                <div style={{ margin: "2%", marginTop: "6%", height: 60, width: "97%" }}>
                     <Slider
                         mode={1}
                         step={fullDay}

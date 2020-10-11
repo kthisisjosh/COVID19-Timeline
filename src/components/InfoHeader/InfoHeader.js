@@ -81,13 +81,13 @@ const InfoHeader = (props) => {
         >
             <List >
                 <ListItem button key={uuidv4()} style={{ border: "0.5px solid black" }}>
-                    <Link to="/world" style={{ fontSize: 30, color: "#c43a31", fontWeight: "bold", textDecorationLine: "none" }}>The World</Link>
+                    <Link to="/world" style={{ fontSize: 24, color: "#c43a31", fontWeight: "bold", textDecorationLine: "none" }}>The World</Link>
                 </ListItem>
                 <ListItem button key={uuidv4()} style={{ border: "0.5px solid black" }}>
-                    <Link to="/canada" style={{ fontSize: 30, color: "#c43a31", fontWeight: "bold", textDecorationLine: "none" }}>Canada</Link>
+                    <Link to="/canada" style={{ fontSize: 24, color: "#c43a31", fontWeight: "bold", textDecorationLine: "none" }}>Canada</Link>
                 </ListItem>
                 <ListItem button key={uuidv4()} style={{ border: "0.5px solid black" }}>
-                    <Link to="/usa" style={{ fontSize: 30, color: "#c43a31", fontWeight: "bold", textDecorationLine: "none" }}>United States of America</Link>
+                    <Link to="/usa" style={{ fontSize: 24, color: "#c43a31", fontWeight: "bold", textDecorationLine: "none" }}>United States of America</Link>
                 </ListItem>
             </List>
         </div>
@@ -102,21 +102,22 @@ const InfoHeader = (props) => {
 
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
-                        <Typography className="infoheader-confirmed-num-text" variant="h3" style={{fontSize: "38px"}}>
+                        <Typography variant="h3" style={{fontSize: props.isMobile ? "32px" : "12px"}}>
                             {commaNumber(confirmed)}
                         </Typography>
-                        <Typography className="infoheader-confirmed-text" align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
+                        <Typography align="center" variant="subtitle1" style={{ color: "#c6c1ba", fontSize: props.isMobile ? 14 : 8 }}>
                             confirmed
                         </Typography>
                     </Grid>
                 </Grid>
+                {console.log(props.isMobile)}
 
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
-                        <Typography className="infoheader-confirmed-yes-num-text" variant="h3" style={{fontSize: "38px"}}>
+                        <Typography variant="h3" style={{fontSize: props.isMobile ? "32px" : "12px"}}>
                             +{commaNumber(confirmedYes)}
                         </Typography>
-                        <Typography className="infoheader-confirmed-yes-text" align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
+                        <Typography align="center" variant="subtitle1" style={{ color: "#c6c1ba", fontSize: props.isMobile ? 14 : 6, lineHeight: props.isMobile ? null : 1.2  }}>
                             from yesterday
                             </Typography>
                     </Grid>
@@ -129,8 +130,8 @@ const InfoHeader = (props) => {
                             <React.Fragment key={anchor}>
                                 <ToolTip title="Change" arrow disableFocusListener>
                                     <Button onClick={toggleDrawer(anchor, true)} aria-label="change">
-                                        <Paper className="glowing-border" variant="outlined" style={{ paddingRight: "2.8vw", backgroundColor: "#b0aca7"}}>
-                                            <Typography className="infoheader-country-text" align="center" variant="h3" style={{ fontWeight: "bold", paddingLeft: "2.6vw" }}>
+                                        <Paper className="glowing-border" variant="outlined" style={{ paddingRight: "1vw", backgroundColor: "#b0aca7"}}>
+                                            <Typography className="infoheader-country-text" align="center" variant="h3" style={{ fontWeight: "bold", paddingLeft: "1vw" }}>
                                                 {props.country}
                                             </Typography>
                                         </Paper>
@@ -142,30 +143,26 @@ const InfoHeader = (props) => {
                             </React.Fragment>
                         ))}
 
-                        <Typography className="infoheader-country-update-text" align="center" variant="h6" style={{ color: "#c6c1ba" }}>
-                            map updated as of March 28 2020.
-                        </Typography>
-
                     </Grid>
                 </Grid>
 
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
-                        <Typography className="infoheader-recovered-num-text" variant="h3">
+                        <Typography className="infoheader-recovered-num-text" variant="h4">
                             {recovered}
                         </Typography>
-                        <Typography className="infoheader-recovered-text" align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
+                        <Typography className="infoheader-recovered-text" align="center" variant="subtitle1" style={{ color: "#c6c1ba", fontSize: props.isMobile ? 14 : 6}}>
                             recovered
-                            </Typography>
+                        </Typography>
                     </Grid>
                 </Grid>
 
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
-                        <Typography className="infoheader-recovered-yes-num-text" variant="h3">
+                        <Typography className="infoheader-recovered-yes-num-text" variant="h4">
                             +{recoveredYes}
                         </Typography>
-                        <Typography className="infoheader-recovered-yes-text" align="center" variant="subtitle1" style={{ color: "#c6c1ba" }}>
+                        <Typography className="infoheader-recovered-yes-text" align="center" variant="subtitle1" style={{ color: "#c6c1ba",  fontSize: props.isMobile ? 14 : 6, lineHeight: props.isMobile ? null : 1.2}}>
                             from yesterday
                         </Typography>
                     </Grid>

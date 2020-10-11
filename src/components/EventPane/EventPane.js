@@ -72,7 +72,7 @@ class EventPane extends React.Component {
         return (
 
             <div className="article-container">
-                <Element name="test7" className="element" id="containerElement" style={{ height: '67vh', overflowY: 'scroll', }}>
+                <Element name="test7" className="element" id="containerElement" style={{ height:'60vh', overflowY: 'scroll', }}>
 
                     <Typography
                         className="keyevents-text"
