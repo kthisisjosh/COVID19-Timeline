@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.9.7",
     "@material-ui/icons": "^4.9.1",
+    "axios": "^0.20.0",
     "comma-number": "^2.0.1",
     "cra-template": "1.0.3",
     "d3-scale": "^3.2.1",
@@ -13,6 +14,7 @@
     "leaflet": "^1.6.0",
     "mapbox-gl": "^1.9.0",
     "mapbox-gl-leaflet": "0.0.11",
+    "moment": "^2.29.1",
     "react": "^16.13.1",
     "react-compound-slider": "^2.5.0",
     "react-dom": "^16.13.1",

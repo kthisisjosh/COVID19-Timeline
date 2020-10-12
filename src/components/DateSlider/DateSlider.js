@@ -10,6 +10,7 @@ import Paper from "@material-ui/core/Paper";
 import Fab from "@material-ui/core/Fab";
 import { DateContext } from "../../contexts/DateContext";
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
+import moment from "moment"
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 
 const sliderStyle = {
@@ -23,83 +24,19 @@ function formatTick(ms) {
 
 const fullDay = 86400000;
 
-const monthMSTimes = [{
-    start: 1581397200000,
-    end: 1582952400000
-},
-{
-    start: 1583038800000,
-    end: 1585627200000
-},
-{
-    start: 1585713600000,
-    end: 1588219200000
-},
-{
-    start: 1588305600000,
-    end: 1590897600000
-},
-{
-    start: 1590984000000,
-    end: 1593489600000
-}]
-
 class DateSlider extends Component {
     static contextType = DateContext;
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         this.state = {
             currentMonth: 1,
-            selected: 1583211600000,
-            dateSelected: 1583211600000,
-            min: new Date(1583038800000),
-            max: new Date(1585627200000)
+            selected: this.props.date.valueOf(),
+            dateSelected: this.props.date.valueOf(),
+            min: this.props.date.startOf("year").valueOf(),
+            max: this.props.date.endOf("year").valueOf()
         };
-    }
-
-    changeMonth = (newMonthAdd, updateSelectedDate) => {
-        if (newMonthAdd === 1) {
-            if (this.state.currentMonth === 0) {
-                this.setState({ dateSelected: 1583038800000, selected: 1583038800000 });
-                updateSelectedDate(1583038800000);
-            } else if (this.state.currentMonth === 1) {
-                this.setState({ dateSelected: 1585713600000, selected: 1585713600000 });
-                updateSelectedDate(1585713600000);
-            } else if (this.state.currentMonth === 2) {
-                this.setState({ dateSelected: 1588305600000, selected: 1588305600000 });
-                updateSelectedDate(1588305600000);
-            } else if (this.state.currentMonth === 3) {
-                this.setState({ dateSelected: 1590897600000, selected: 1590897600000 });
-                updateSelectedDate(1590897600000);
-            }
-        } else {
-            if (this.state.currentMonth === 1) {
-                this.setState({ dateSelected: 1582952400000, selected: 1582952400000 });
-                updateSelectedDate(1582952400000);
-            } else if (this.state.currentMonth === 2) {
-                this.setState({ dateSelected: 1585627200000, selected: 1585627200000 });
-                updateSelectedDate(1585627200000);
-            } else if (this.state.currentMonth === 3) {
-                this.setState({ dateSelected: 1588219200000, selected: 1588219200000 });
-                updateSelectedDate(1588219200000);
-            } else if (this.state.currentMonth === 4) {
-                this.setState({ dateSelected: 1590984000000, selected: 1590984000000 });
-                updateSelectedDate(1590984000000);
-            }
-        }
-
-        this.setState({ min: new Date(monthMSTimes[this.state.currentMonth + newMonthAdd].start), max: new Date(monthMSTimes[this.state.currentMonth + newMonthAdd].end) });
-        this.setState({ currentMonth: this.state.currentMonth + newMonthAdd });
-    }
-
-    changeDay = (toAdd) => {
-        if (toAdd === 1) {
-            this.setState({ dateSelected: this.state.dateSelected + fullDay, selected: this.state.dateSelected + fullDay });
-        } else {
-            this.setState({ dateSelected: this.state.dateSelected - fullDay, selected: this.state.dateSelected - fullDay });
-        }
     }
 
     onUpdate = ([ms]) => {
@@ -122,7 +59,7 @@ class DateSlider extends Component {
                 <div
                     style={{ fontSize: this.props.isMobile ? 34 : 18, color: "#c43a31" }}>
 
-                    {format(date, "MMMM dd yyyy")}
+                    {date.format("MMMM D YYYY")}
 
                 </div>
             </div>
@@ -142,124 +79,32 @@ class DateSlider extends Component {
             <Paper className="dateslider-container" style={{ backgroundColor: "#12171d", height: "19vh", }}>
 
                 <Fab className="dateslider-button" style={{ float: "left", marginTop: "2%", marginLeft: "2%" }} aria-label="prev" size="small" onClick={() => {
-                    if (this.state.currentMonth - 1 >= 0) {
-                        this.changeMonth(-1, updateSelectedDate);
+                    if (this.props.date.month() - 1 >= 0) {
+                        updateSelectedDate(this.props.date.subtract(1, 'months'))
                     }
                 }}>
                     <ArrowLeftIcon />
                 </Fab>
 
                 <Fab className="dateslider-button" style={{ float: "left", marginTop: "2%", marginLeft: "8%"  }} aria-label="prev" size="small" onClick={() => {
-                    if (this.state.currentMonth === 0) {
-                        if (this.state.dateSelected === 1582952400000) {
-                            this.changeDay(-1);
-                            updateSelectedDate(this.state.dateSelected - fullDay);
-                        }
-                        if (this.state.dateSelected < 1582952400000 && this.state.dateSelected > 1581397200000) {
-                            this.changeDay(-1);
-                            updateSelectedDate(this.state.dateSelected - fullDay);
-                        }
-                    } else if (this.state.currentMonth === 1) {
-                        if (this.state.dateSelected === 1585627200000) {
-                            this.changeDay(-1);
-                            updateSelectedDate(this.state.dateSelected - fullDay);
-                        }
-                        if (this.state.dateSelected < 1585627200000 && this.state.dateSelected > 1583038800000) {
-                            this.changeDay(-1);
-                            updateSelectedDate(this.state.dateSelected - fullDay);
-                        }
-                    } else if (this.state.currentMonth === 2) {
-                        if (this.state.dateSelected === 1588219200000) {
-                            this.changeDay(-1);
-                            updateSelectedDate(this.state.dateSelected - fullDay);
-                        }
-                        if (this.state.dateSelected < 1588219200000 && this.state.dateSelected > 1585713600000) {
-                            this.changeDay(-1);
-                            updateSelectedDate(this.state.dateSelected - fullDay);
-                        }
-                    } else if (this.state.currentMonth === 3) {
-                        if (this.state.dateSelected === 1590897600000) {
-                            this.changeDay(-1);
-                            updateSelectedDate(this.state.dateSelected - fullDay);
-                        }
-                        if (this.state.dateSelected < 1590897600000 && this.state.dateSelected > 1588305600000) {
-                            this.changeDay(-1);
-                            updateSelectedDate(this.state.dateSelected - fullDay);
-                        }
-                    } else if (this.state.currentMonth === 4) {
-                        if (this.state.dateSelected === 1593489600000) {
-                            this.changeDay(-1);
-                            updateSelectedDate(this.state.dateSelected - fullDay);
-                        }
-                        if (this.state.dateSelected < 1593489600000 && this.state.dateSelected > 1590984000000) {
-                            this.changeDay(-1);
-                            updateSelectedDate(this.state.dateSelected - fullDay);
-                        }
-                    }
+                    updateSelectedDate(this.props.date.subtract(1, 'days'))
                 }}>
                     <ArrowLeftIcon />
                 </Fab>
 
                 <Fab className="dateslider-button" style={{ float: "right", marginTop: "2%", marginRight: "2%" }} aria-label="next" size="small" onClick={() => {
-                    if (this.state.currentMonth + 1 <= 4) {
-                        this.changeMonth(1, updateSelectedDate);
-                    }
+                    updateSelectedDate(this.props.date.add(1, 'months'))
                 }}>
                     <ArrowRightIcon />
                 </Fab>
 
                 <Fab className="dateslider-button" style={{ float: "right", marginTop: "2%", marginRight: "8%" }} aria-label="next" size="small" onClick={() => {
-                    if (this.state.currentMonth === 0) {
-                        if (this.state.dateSelected === 1581397200000) {
-                            this.changeDay(1);
-                            updateSelectedDate(this.state.dateSelected + fullDay);
-                        }
-                        if (this.state.dateSelected < 1582952400000 && this.state.dateSelected > 1581397200000) {
-                            this.changeDay(1);
-                            updateSelectedDate(this.state.dateSelected + fullDay);
-                        }
-                    } else if (this.state.currentMonth === 1) {
-                        if (this.state.dateSelected === 1583038800000) {
-                            this.changeDay(1);
-                            updateSelectedDate(this.state.dateSelected + fullDay);
-                        }
-                        if (this.state.dateSelected < 1585627200000 && this.state.dateSelected > 1583038800000) {
-                            this.changeDay(1);
-                            updateSelectedDate(this.state.dateSelected + fullDay);
-                        }
-                    } else if (this.state.currentMonth === 2) {
-                        if (this.state.dateSelected === 1585713600000) {
-                            this.changeDay(1);
-                            updateSelectedDate(this.state.dateSelected + fullDay);
-                        }
-                        if (this.state.dateSelected < 1588219200000 && this.state.dateSelected > 1585713600000) {
-                            this.changeDay(1);
-                            updateSelectedDate(this.state.dateSelected + fullDay);
-                        }
-                    } else if (this.state.currentMonth === 3) {
-                        if (this.state.dateSelected === 1588305600000) {
-                            this.changeDay(1);
-                            updateSelectedDate(this.state.dateSelected + fullDay);
-                        }
-                        if (this.state.dateSelected < 1590897600000 && this.state.dateSelected > 1588305600000) {
-                            this.changeDay(1);
-                            updateSelectedDate(this.state.dateSelected + fullDay);
-                        }
-                    } else if (this.state.currentMonth === 4) {
-                        if (this.state.dateSelected === 1590984000000) {
-                            this.changeDay(1);
-                            updateSelectedDate(this.state.dateSelected + fullDay);
-                        }
-                        if (this.state.dateSelected < 1593489600000 && this.state.dateSelected > 1590984000000) {
-                            this.changeDay(1);
-                            updateSelectedDate(this.state.dateSelected + fullDay);
-                        }
-                    }
+                    updateSelectedDate(this.props.date.add(0.5, 'days'))
                 }}>
                     <ArrowRightIcon />
                 </Fab>
 
-                {this.renderDateTime(dateSelected)}
+                {this.renderDateTime(this.props.date)}
 
                 <div style={{ margin: "2%", marginTop: "6%", height: 60, width: "97%" }}>
                     <Slider
@@ -268,8 +113,9 @@ class DateSlider extends Component {
                         domain={[+min, +max]}
                         rootStyle={sliderStyle}
                         onUpdate={this.onUpdate}
-                        onChange={() => updateSelectedDate(this.state.dateSelected)}
-                        values={[+selected]}
+                        onChange={([ms]) => updateSelectedDate(moment(ms))}
+                        values={[this.props.date.valueOf()]}
+                        disabled={true}
                     >
                         <Rail>
                             {({ getRailProps }) => <SliderRail getRailProps={getRailProps} />}
@@ -283,6 +129,7 @@ class DateSlider extends Component {
                                             handle={handle}
                                             domain={[+min, +max]}
                                             getHandleProps={getHandleProps}
+                                            disabled={true}
                                         />
                                     ))}
                                 </div>

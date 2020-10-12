@@ -11,8 +11,8 @@ function App() {
       <DateContextProvider>
         <Router>
           <Switch>
-            <Route path="/" exact component={World} />
-            <Route path="/world" component={World} />
+            <Route path="/" exact component={Canada} />
+            {/*<Route path="/world" component={World} />*/}
             <Route path="/canada" component={Canada} />
             <Route path="/usa" component={USA} />
           </Switch>

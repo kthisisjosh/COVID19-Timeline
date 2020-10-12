@@ -1,10 +1,11 @@
 import React, { createContext, Component } from 'react';
+import moment from "moment"
 
 export const DateContext = createContext();
 
 class DateContextProvider extends Component {
     state = {
-        selectedDate: 1583211600000,
+        selectedDate: moment().utc().startOf("day"),
     }
 
     updateSelectedDate = (updatedSelectedDate) => {

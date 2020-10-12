@@ -4,12 +4,37 @@ import EventPanel from "../EventPanel/EventPanel";
 import Typography from "@material-ui/core/Typography";
 import { DateContext } from "../../contexts/DateContext";
 import { v4 as uuidv4 } from "uuid";
+import axios from "axios"
 
 class EventPane extends React.Component {
     static contextType = DateContext;
     constructor(props) {
         super(props);
         this.scrollToTop = this.scrollToTop.bind(this);
+    }
+
+    renderEvents(date) {
+        const month = date.month();
+        const day = date.date();
+        
+        
+            this.props.data[month - 1][day - 1].articles.map((article) => {
+            let isImage = false;
+            if (article.img !== null) {
+                isImage = true;
+            }
+            return (
+                <Element name="firstInsideContainer" style={{ marginBottom: '1%', marginLeft: "2%", marginRight: "2%" }} key={uuidv4()}>
+                    <EventPanel
+                        content={article.content}
+                        img={article.img}
+                        link={article.link}
+                        credit={article.credit}
+                        isImage={isImage}
+                    />
+                </Element>
+            )
+        })
     }
 
     componentDidMount() {
@@ -64,15 +89,15 @@ class EventPane extends React.Component {
     }
     render() {
         const { selectedDate } = this.context;
-        const date = new Date(selectedDate);
+        const date = selectedDate;
 
-        const month = date.getMonth();
-        const day = date.getDate();
+        const month = date.month();
+        const day = date.date();
 
         return (
 
             <div className="article-container">
-                <Element name="test7" className="element" id="containerElement" style={{ height:'60vh', overflowY: 'scroll', }}>
+                <Element name="test7" className="element" id="containerElement" style={{ height:'60vh', overflowY: 'scroll' }}>
 
                     <Typography
                         className="keyevents-text"
@@ -85,18 +110,33 @@ class EventPane extends React.Component {
                         }}>
                         Key Events</Typography>
 
-                    {this.props.data[month - 1][day - 1].articles.map((article) => {
+                    {this.props.data[month][day - 1].articles.map((article) => {
                         let isImage = false;
-                        if (article.img !== null) {
+                        const currArticle = {}
+                        if (article.description != null){
+                            currArticle.content = article.title
+                            currArticle.img = article.urlToImage
+                            if (currArticle.img == null) {
+                                currArticle.img = article.image
+                            }
+                            currArticle.link = article.url
+                            //currArticle.credit = article.source.name
+                        } else {
+                            currArticle.content = article.content
+                            currArticle.img = article.img
+                            currArticle.link = article.link
+                            currArticle.credit = article.credit
+                        }
+                        if (currArticle.img !== null) {
                             isImage = true;
                         }
                         return (
                             <Element name="firstInsideContainer" style={{ marginBottom: '1%', marginLeft: "2%", marginRight: "2%" }} key={uuidv4()}>
                                 <EventPanel
-                                    content={article.content}
-                                    img={article.img}
-                                    link={article.link}
-                                    credit={article.credit}
+                                    content={currArticle.content}
+                                    img={currArticle.img}
+                                    link={currArticle.link}
+                                    credit={currArticle.credit}
                                     isImage={isImage}
                                 />
                             </Element>

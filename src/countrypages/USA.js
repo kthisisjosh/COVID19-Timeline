@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import Timelinebody from "../components/TimelineBody/TimelineBody";
-import USACaseData from "../data/countrycasedata/USACaseData";
 import USAArticleData from "../data/countryarticledata/USAArticleData";
 
 const USAMar28MapStyle = "mapbox://styles/kthisisjosh/ck8c2mp7i2ll31inetwptk1nx";
@@ -11,7 +10,6 @@ const USA = () => {
         <Fragment>
             <Timelinebody
                 country="America"
-                caseData={USACaseData}
                 articleData={USAArticleData}
                 mapStyle={USAMar28MapStyle}
                 mapStart={MapStart}

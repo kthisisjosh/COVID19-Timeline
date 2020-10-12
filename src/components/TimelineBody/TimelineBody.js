@@ -7,6 +7,7 @@ import InfoHeader from "../InfoHeader/InfoHeader";
 import DateSlider from "../DateSlider/DateSlider";
 import MainGraph from "../MainGraph/MainGraph";
 import MainMap from "../MainMap/MainMap.js";
+import moment from "moment"
 import Footer from "../Footer/Footer";
 import { DateContext } from "../../contexts/DateContext";
 import { useMediaQuery } from 'react-responsive'
@@ -14,10 +15,12 @@ import { useMediaQuery } from 'react-responsive'
 // <MainMap style={props.mapStyle} mapStart={props.mapStart}/>
 const TimelineBody = (props) => {
     const isMobile = useMediaQuery({ query: '(min-device-width: 960px)' })
+    const [date, setDate] = React.useState(moment().utc().startOf("day"))
 
     return (
         <DateContext.Consumer>{(context) => {
             const { selectedDate } = context;
+            setDate(selectedDate)
 
             return (
                 <Grid container className="main-container" spacing={1} style={{ backgroundColor: "#222831", height: "90%", paddingTop: "1vh", paddingBottom: 0 }}>
@@ -29,8 +32,8 @@ const TimelineBody = (props) => {
                                 <Typography className="covid-title" variant="h3" align="center" style={{ paddingTop: "0.9rem", fontSize: 36 }}>
                                     COVID-19 Timeline
                                     </Typography>
-                                <EventPane isMobile={isMobile} data={props.articleData}/>
-                                <DateSlider isMobile={isMobile} />
+                                <EventPane isMobile={isMobile} data={props.articleData} country={props.country}/>
+                                <DateSlider isMobile={isMobile} date={date} />
                             </Paper>
 
                         </Grid>
@@ -38,7 +41,7 @@ const TimelineBody = (props) => {
 
                         <Grid item md={7} xs={12} zeroMinWidth style={{ height: "98", marginTop:"1vh" }}>
                             <Paper className="second-container" style={{ backgroundColor: "#12171d" }}>
-                                <InfoHeader isMobile={isMobile} date={selectedDate} country={props.country} data={props.caseData}/>
+                                <InfoHeader isMobile={isMobile} date={date} country={props.country}/>
                                 <MainMap style={props.mapStyle} mapStart={props.mapStart}/>
                                 <Paper className="second-container" style={{ backgroundColor: "#12171d", height: "9.5vh"}}></Paper>
                             </Paper>

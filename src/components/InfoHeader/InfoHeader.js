@@ -11,7 +11,9 @@ import { Link } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 import Paper from "@material-ui/core/Paper";
 import ToolTip from "@material-ui/core/Tooltip";
+import moment from "moment"
 var commaNumber = require("comma-number");
+const axios = require("axios").default
 
 const useStyles = makeStyles({
     list: {
@@ -27,16 +29,18 @@ const InfoHeader = (props) => {
     const [state, setState] = React.useState({
         right: false,
     });
+    const [cases, setCases] = React.useState(0)
+    const [prevCases, setPrevCases] = React.useState(0)
 
     let confirmed = 0;
     let confirmedYes = 0;
     let recovered = "N/A";
     let recoveredYes = "N/A";
 
-    const selectedDate = new Date(props.date);
+    //const selectedDate = new Date(props.date);
 
-    const month = selectedDate.getMonth();
-    const day = selectedDate.getDate();
+    /*const month = selectedDate.month();
+    const day = selectedDate.date();
 
     if (month === 1) {
         confirmed = ((props.data[month - 1].daily[day - 11].cases));
@@ -59,6 +63,28 @@ const InfoHeader = (props) => {
     } catch (err) {
         confirmed = "N/A";
         confirmedYes = "N/A";
+    } */
+
+    React.useEffect(() => {
+        fetchCases(props.date)
+    }, [props])
+
+    const fetchCases = (date) => {
+        var country = null
+        if (props.country == "Canada") {
+            country = "canada"
+        } else if (props.country == "America") {
+            country = "united-states"
+        } else {
+            country="global"
+        }
+        axios.all([axios.get(`https://api.covid19api.com/total/country/${country}/status/confirmed?from=${date.startOf("day").toISOString()}&to=${date.add(1, "days").startOf("day").toISOString()}`),
+        axios.get(`https://api.covid19api.com/total/country/${country}/status/confirmed?from=${date.subtract(2, "days").startOf("day").toISOString()}&to=${date.add(1, "days").startOf("day").toISOString()}`)])
+        .then(
+            axios.spread((...responses) => {
+                setCases(responses[0].data[0].Cases)
+                setPrevCases(responses[1].data[0].Cases)
+        })).catch((err) => console.log(err))
     }
 
     const toggleDrawer = (anchor, open) => event => {
@@ -81,9 +107,6 @@ const InfoHeader = (props) => {
         >
             <List >
                 <ListItem button key={uuidv4()} style={{ border: "0.5px solid black" }}>
-                    <Link to="/world" style={{ fontSize: 24, color: "#c43a31", fontWeight: "bold", textDecorationLine: "none" }}>The World</Link>
-                </ListItem>
-                <ListItem button key={uuidv4()} style={{ border: "0.5px solid black" }}>
                     <Link to="/canada" style={{ fontSize: 24, color: "#c43a31", fontWeight: "bold", textDecorationLine: "none" }}>Canada</Link>
                 </ListItem>
                 <ListItem button key={uuidv4()} style={{ border: "0.5px solid black" }}>
@@ -102,20 +125,19 @@ const InfoHeader = (props) => {
 
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
-                        <Typography variant="h3" style={{fontSize: props.isMobile ? "32px" : "12px"}}>
-                            {commaNumber(confirmed)}
+                        <Typography variant="h3" style={{fontSize: props.isMobile ? "28px" : "12px"}}>
+                            {commaNumber(cases)}
                         </Typography>
                         <Typography align="center" variant="subtitle1" style={{ color: "#c6c1ba", fontSize: props.isMobile ? 14 : 8 }}>
                             confirmed
                         </Typography>
                     </Grid>
                 </Grid>
-                {console.log(props.isMobile)}
 
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
-                        <Typography variant="h3" style={{fontSize: props.isMobile ? "32px" : "12px"}}>
-                            +{commaNumber(confirmedYes)}
+                        <Typography variant="h3" style={{fontSize: props.isMobile ? "28px" : "12px"}}>
+                            +{commaNumber(cases - prevCases)}
                         </Typography>
                         <Typography align="center" variant="subtitle1" style={{ color: "#c6c1ba", fontSize: props.isMobile ? 14 : 6, lineHeight: props.isMobile ? null : 1.2  }}>
                             from yesterday
