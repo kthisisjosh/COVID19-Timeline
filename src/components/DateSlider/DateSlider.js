@@ -52,7 +52,7 @@ class DateSlider extends Component {
                     width: "80%",
                     textAlign: "center",
                     fontFamily: "Roboto",
-                    paddingTop: this.props.isMobile ? "0.8%" : "5%",
+                    paddingTop: this.props.isMobile ? "4%" : "5%",
                     margin: 5
                 }}
             >
@@ -60,7 +60,6 @@ class DateSlider extends Component {
                     style={{ fontSize: this.props.isMobile ? 34 : 18, color: "#c43a31" }}>
 
                     {date.format("MMMM D YYYY")}
-
                 </div>
             </div>
         );
@@ -76,37 +75,43 @@ class DateSlider extends Component {
             .map(d => +d);
 
         return (
-            <Paper className="dateslider-container" style={{ backgroundColor: "#12171d", height: "19vh", }}>
+            <Paper className="dateslider-container" style={{ backgroundColor: "#12171d", height: "19vh" }}>
 
-                <Fab className="dateslider-button" style={{ float: "left", marginTop: "2%", marginLeft: "2%" }} aria-label="prev" size="small" onClick={() => {
-                    if (this.props.date.month() - 1 >= 0) {
+                <Fab className="dateslider-button" style={{ float: "left", marginTop: "5%", marginLeft: "2%" }} aria-label="prev" size="small" onClick={() => {
+                    if (moment(this.props.date).subtract(1, "months").isAfter("2020-01-01")) {
                         updateSelectedDate(this.props.date.subtract(1, 'months'))
                     }
                 }}>
                     <ArrowLeftIcon />
                 </Fab>
 
-                <Fab className="dateslider-button" style={{ float: "left", marginTop: "2%", marginLeft: "8%"  }} aria-label="prev" size="small" onClick={() => {
-                    updateSelectedDate(this.props.date.subtract(1, 'days'))
+                <Fab className="dateslider-button" style={{ float: "left", marginTop: "5%", marginLeft: "8%"  }} aria-label="prev" size="small" onClick={() => {
+                    if (moment(this.props.date).subtract(1, "days").isAfter("2019-12-31")) {
+                        updateSelectedDate(this.props.date.subtract(1, 'days'))
+                    }
                 }}>
                     <ArrowLeftIcon />
                 </Fab>
 
-                <Fab className="dateslider-button" style={{ float: "right", marginTop: "2%", marginRight: "2%" }} aria-label="next" size="small" onClick={() => {
-                    updateSelectedDate(this.props.date.add(1, 'months'))
+                <Fab className="dateslider-button" style={{ float: "right", marginTop: "5%", marginRight: "2%" }} aria-label="next" size="small" onClick={() => {
+                    if (moment(this.props.date).add(1, "months").isBefore()) {
+                        updateSelectedDate(this.props.date.add(1, 'months'))
+                    }
                 }}>
                     <ArrowRightIcon />
                 </Fab>
 
-                <Fab className="dateslider-button" style={{ float: "right", marginTop: "2%", marginRight: "8%" }} aria-label="next" size="small" onClick={() => {
-                    updateSelectedDate(this.props.date.add(0.5, 'days'))
+                <Fab className="dateslider-button" style={{ float: "right", marginTop: "5%", marginRight: "8%" }} aria-label="next" size="small" onClick={() => {
+                    if (moment(this.props.date).add(0.5, "days").isBefore()) {
+                        updateSelectedDate(this.props.date.add(0.5, 'days'))
+                    }
                 }}>
                     <ArrowRightIcon />
                 </Fab>
 
                 {this.renderDateTime(this.props.date)}
 
-                <div style={{ margin: "2%", marginTop: "6%", height: 60, width: "97%" }}>
+                {/*<div style={{ margin: "2%", marginTop: "6%", height: 60, width: "97%" }}>
                     <Slider
                         mode={1}
                         step={fullDay}
@@ -164,7 +169,7 @@ class DateSlider extends Component {
                             )}
                         </Ticks>
                     </Slider>
-                </div>
+                </div>*/}
             </Paper>
         );
     }

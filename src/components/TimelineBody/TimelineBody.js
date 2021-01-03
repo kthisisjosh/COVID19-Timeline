@@ -31,7 +31,7 @@ const TimelineBody = (props) => {
                             <Paper style={{ backgroundColor: "#12171d"}}>
                                 <Typography className="covid-title" variant="h3" align="center" style={{ paddingTop: "0.9rem", fontSize: 36 }}>
                                     COVID-19 Timeline
-                                    </Typography>
+                                </Typography>
                                 <EventPane isMobile={isMobile} data={props.articleData} country={props.country}/>
                                 <DateSlider isMobile={isMobile} date={date} />
                             </Paper>

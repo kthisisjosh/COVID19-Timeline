@@ -91,8 +91,10 @@ class EventPane extends React.Component {
         const { selectedDate } = this.context;
         const date = selectedDate;
 
+        const year = date.year()
         const month = date.month();
         const day = date.date();
+        console.log(year)
 
         return (
 
@@ -110,7 +112,7 @@ class EventPane extends React.Component {
                         }}>
                         Key Events</Typography>
 
-                    {this.props.data[month][day - 1].articles.map((article) => {
+                    {this.props.data[year][month][day - 1].articles.map((article) => {
                         let isImage = false;
                         const currArticle = {}
                         if (article.description != null){

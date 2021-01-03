@@ -12,6 +12,8 @@ import { v4 as uuidv4 } from "uuid";
 import Paper from "@material-ui/core/Paper";
 import ToolTip from "@material-ui/core/Tooltip";
 import moment from "moment"
+import { css } from "@emotion/core"
+import SyncLoader from "react-spinners/SyncLoader"
 var commaNumber = require("comma-number");
 const axios = require("axios").default
 
@@ -31,6 +33,8 @@ const InfoHeader = (props) => {
     });
     const [cases, setCases] = React.useState(0)
     const [prevCases, setPrevCases] = React.useState(0)
+    const [isLoading, setIsLoading] = React.useState(false)
+    const [isError, setIsError] = React.useState(false)
 
     let confirmed = 0;
     let confirmedYes = 0;
@@ -70,6 +74,8 @@ const InfoHeader = (props) => {
     }, [props])
 
     const fetchCases = (date) => {
+        setIsLoading(true)
+        setIsError(false)
         var country = null
         if (props.country == "Canada") {
             country = "canada"
@@ -82,9 +88,17 @@ const InfoHeader = (props) => {
         axios.get(`https://api.covid19api.com/total/country/${country}/status/confirmed?from=${date.subtract(2, "days").startOf("day").toISOString()}&to=${date.add(1, "days").startOf("day").toISOString()}`)])
         .then(
             axios.spread((...responses) => {
-                setCases(responses[0].data[0].Cases)
-                setPrevCases(responses[1].data[0].Cases)
-        })).catch((err) => console.log(err))
+                try {
+                    setCases(responses[0].data[0].Cases)
+                    setPrevCases(responses[1].data[0].Cases)
+                } catch (err) {
+                    setIsError(true)
+                }
+                setIsLoading(false)
+        })).catch((err) => {
+            setIsError(true)
+            console.log(err)
+        })
     }
 
     const toggleDrawer = (anchor, open) => event => {
@@ -116,7 +130,11 @@ const InfoHeader = (props) => {
         </div>
     );
 
-
+        const override = css`
+            display: block;
+            margin: 0 auto;
+            border-color: red;
+        `;
 
     return (
         <div style={{ margin: "1rem", marginTop: "0.75%" }}>
@@ -125,20 +143,31 @@ const InfoHeader = (props) => {
 
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
-                        <Typography variant="h3" style={{fontSize: props.isMobile ? "28px" : "12px"}}>
-                            {commaNumber(cases)}
-                        </Typography>
-                        <Typography align="center" variant="subtitle1" style={{ color: "#c6c1ba", fontSize: props.isMobile ? 14 : 8 }}>
-                            confirmed
-                        </Typography>
+                        {isLoading ? <div className="sweet-loading">
+                                    <SyncLoader color={"#c43a31"} loading={isLoading} css={override} size={10} />
+                                    </div>
+                                    : [
+                                        ( isError
+                                        ? <Typography className="infoheader-recovered-num-text" variant="h4">
+                                        N/A
+                                    </Typography> : <Typography variant="h3" style={{fontSize: props.isMobile ? "28px" : "12px"}}>
+                                                    {commaNumber(cases)} </Typography>)]}
+                                    <Typography align="center" variant="subtitle1" style={{ color: "#c6c1ba", fontSize: props.isMobile ? 14 : 8 }}>
+                                        confirmed
+                                    </Typography>
                     </Grid>
                 </Grid>
 
                 <Grid container sm={2} xs={2} item={true} justify="center">
                     <Grid item >
-                        <Typography variant="h3" style={{fontSize: props.isMobile ? "28px" : "12px"}}>
-                            +{commaNumber(cases - prevCases)}
-                        </Typography>
+                        {isLoading ? <div className="sweet-loading">
+                                    <SyncLoader color={"#c43a31"} loading={isLoading} css={override} size={10} />
+                                    </div> : [
+                                        ( isError
+                                        ? <Typography className="infoheader-recovered-num-text" variant="h4">
+                                        N/A
+                                    </Typography> : <Typography variant="h3" style={{fontSize: props.isMobile ? "28px" : "12px"}}>
+                                                    +{commaNumber(cases-prevCases)} </Typography>)]}
                         <Typography align="center" variant="subtitle1" style={{ color: "#c6c1ba", fontSize: props.isMobile ? 14 : 6, lineHeight: props.isMobile ? null : 1.2  }}>
                             from yesterday
                             </Typography>

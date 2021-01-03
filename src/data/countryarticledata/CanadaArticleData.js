@@ -1,4 +1,4 @@
-const data = [
+const data = { "2020": [
     
     // JANUARY
 
@@ -3596,6 +3596,1123 @@ const data = [
         {
             day: 3,
             articles: [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "Explainer: How Canada will distribute COVID-19 vaccines - Reuters",
+            "description": "Canada is readying a plan to distribute a first round of COVID-19 vaccines to the most vulnerable groups as soon as regulatory approvals are issued, but managing the nationwide rollout will be one of the most complex logistical undertakings in the country's h…",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-canada-vaccine-exp-idUSKBN28D3D2",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201203&t=2&i=1543385413&r=LYNXMPEGB21W8&w=800",
+            "publishedAt": "2020-12-03T21:59:00Z",
+            "content": "By Reuters Staff\r\nOTTAWA (Reuters) - Canada is readying a plan to distribute a first round of COVID-19 vaccines to the most vulnerable groups as soon as regulatory approvals are issued, but managing … [+2797 chars]"
+        },
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "Canada approves COVID-19 vaccine - Reuters UK",
+            "description": "Health Canada on Wednesday approved the COVID-19 vaccine from Pfizer Inc and BioNTech SE, clearing the way for shots to be delivered and administered across the country.",
+            "url": "https://uk.reuters.com/article/healt-coronavirus-cananda-vaccine-idUKKBN28J2HH",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201209&t=2&i=1543983323&r=LYNXMPEGB81DP&w=800",
+            "publishedAt": "2020-12-09T16:53:00Z",
+            "content": "By Reuters Staff\r\n(Reuters) - Health Canada on Wednesday approved the COVID-19 vaccine from Pfizer Inc and BioNTech SE, clearing the way for shots to be delivered and administered across the country.… [+1632 chars]"
+        },
+                {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "Health Canada approves Pfizer and BioNTech's COVID-19 vaccine - Reuters",
+            "description": "Health Canada on Wednesday approved the COVID-19 vaccine from Pfizer Inc and BioNTech SE, clearing the way for shots to be delivered and administered across the country.",
+            "url": "https://www.reuters.com/article/health-coronavirus-canada-vaccine-idUSKBN28J2AT",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201209&t=2&i=1543978702&r=LYNXMPEGB81A0&w=800",
+            "publishedAt": "2020-12-09T16:12:00Z",
+            "content": "By Reuters Staff\r\nFILE PHOTO: A vial of the Pfizer/BioNTech COVID-19 vaccine is seen ahead of being administered at the Royal Victoria Hospital, on the first day of the largest immunization program i… [+512 chars]"
+        },
+                {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Allison Martell, Steve Scherer",
+            "title": "Health Canada approves Pfizer and BioNTech's COVID-19 vaccine - Reuters Canada",
+            "description": "Health Canada on Wednesday approved the COVID-19 vaccine from Pfizer Inc and BioNTech SE, clearing the way for shots to be delivered and administered across the country.",
+            "url": "https://ca.reuters.com/article/health-coronavirus-canada-vaccine-idCAKBN28J2AT",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201209&t=2&i=1543980109&r=LYNXMPEGB81A0&w=800",
+            "publishedAt": "2020-12-09T16:15:00Z",
+            "content": "By Allison Martell, Steve Scherer\r\nTORONTO/OTTAWA (Reuters) -Health Canada on Wednesday approved the COVID-19 vaccine from Pfizer Inc and BioNTech SE, clearing the way for shots to be delivered and a… [+1940 chars]"
+        },
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Coronavirus: Canada approves Pfizer vaccine, will start administering \"within days\" - Global News",
+            "description": "<ol><li>Coronavirus: Canada approves Pfizer vaccine, will start administering \"within days\"  Global News\r\n</li><li>Health Canada approves Pfizer-BioNTech COVID-19 vaccine  CBC.ca\r\n</li><li>'Historic moment': Health Canada approves Pfizer COVID-19 vaccine  CTV…",
+            "url": "https://www.youtube.com/watch?v=MCVRBxALErc",
+            "urlToImage": "https://i.ytimg.com/vi/MCVRBxALErc/maxresdefault.jpg",
+            "publishedAt": "2020-12-09T19:40:11Z",
+            "content": null
+        },
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "COVID-19 modelling shows Canada could see 1700 more deaths by Christmas - CBC News: The National",
+            "description": "<ol><li>COVID-19 modelling shows Canada could see 1700 more deaths by Christmas  CBC News: The National\r\n</li><li>Federal officials say action 'urgently needed' as COVID-19 cases rise, holidays begin  CBC.ca\r\n</li><li>Full update on new Canada COVID-19 modell…",
+            "url": "https://www.youtube.com/watch?v=Febl7Y8S2LE",
+            "urlToImage": "https://i.ytimg.com/vi/Febl7Y8S2LE/maxresdefault.jpg",
+            "publishedAt": "2020-12-12T03:01:44Z",
+            "content": null
+        }
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "Cowichan Valley Citizen"
+            },
+            "author": "The Canadian Press",
+            "title": "Canada gives first doses of COVID-19 vaccine – Cowichan Valley Citizen - Cowichan Valley Citizen",
+            "description": "<ol><li>Canada gives first doses of COVID-19 vaccine – Cowichan Valley Citizen  Cowichan Valley Citizen\r\n</li><li>First COVID-19 vaccinations administered in Canada, kicking off massive campaign  Yahoo News Canada\r\n</li><li>COVID-19 vaccine doses shipped acro…",
+            "url": "https://www.cowichanvalleycitizen.com/news/canada-gives-first-doses-covid-19-vaccine/",
+            "urlToImage": "https://www.cowichanvalleycitizen.com/wp-content/uploads/2020/12/23627723_web1_CP113223575-1024x684.jpg",
+            "publishedAt": "2020-12-14T19:30:00Z",
+            "content": "Canada has administered its first doses of COVID-19 vaccine.\r\nFive front-line workers in Ontario are among the first Canadians to receive the vaccine at one of Toronto’s hospitals.\r\nThree personal su… [+1432 chars]"
+        },
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "NPR"
+            },
+            "author": "Emma Jacobs",
+            "title": "Canada Administers Its 1st COVID-19 Vaccine Shots",
+            "description": "Canada joins the United Kingdom and the United States as the first Western countries to provide the vaccine developed by Pfizer and BioNTech, as the coronavirus pandemic rages toward winter.",
+            "url": "https://www.npr.org/sections/coronavirus-live-updates/2020/12/14/946301025/canada-administers-its-1st-covid-19-vaccine-shots",
+            "urlToImage": "https://media.npr.org/assets/img/2020/12/14/2020-12-14t173507z_1453160604_rc25nk94m8ok_rtrmadp_3_health-coronavirus-canada_wide-5992519056dc0d384f04043e5e24020b201e4c51.jpg?s=1400",
+            "publishedAt": "2020-12-14T21:10:06Z",
+            "content": "A health care worker administers a Pfizer-BioNTech COVID-19 vaccine to personal support worker Anita Quidangen at The Michener Institute, in Toronto, Canada, on Monday. Quidangen was one of the first… [+2292 chars]"
+        },
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "The Canadian Press",
+            "title": "Canada passes 500,000 COVID-19 cases following Saskatchewan report - Yahoo News Canada",
+            "description": "<ol><li>Canada passes 500,000 COVID-19 cases following Saskatchewan report  Yahoo News Canada\r\n</li><li>Dr. Theresa Tam ‘emotional,’ thankful for speed of coronavirus vaccine delivery  Global News\r\n</li><li>Today’s coronavirus news: Ontario to enter lockdown …",
+            "url": "https://ca.news.yahoo.com/covid-19-vaccinations-now-underway-162812631.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/npAStPuj1H6rogftjT6ppg--~B/aD01ODA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/cp.org/c198f105bed24dd1a2c1958263cfec04",
+            "publishedAt": "2020-12-19T20:31:00Z",
+            "content": "Canada surpassed 500,000 confirmed cases of COVID-19 on Saturday as infections continued to surge while the vaccine rollout reached its final province.\r\nSaskatchewan pushed the country over the grim … [+1932 chars]"
+        },
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Covid-19 pandemic: International alarm grows over new variant",
+            "description": "A host of countries around the world ban UK arrivals in a bid to contain the new strain.",
+            "url": "https://www.bbc.co.uk/news/world-europe-55404087",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1702A/production/_116205249_mediaitem116205248.jpg",
+            "publishedAt": "2020-12-21T21:59:47Z",
+            "content": "image captionMuch of Europe has banned UK travellers along with others around the world\r\nThere is growing international alarm over a new variant of the coronavirus in the UK, with a host of countries… [+3670 chars]"
+        },
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Canada to boost screening of UK travelers, sees no sign of mutated COVID-19 - Reuters India",
+            "description": "Canada to boost screening of UK travelers, sees no sign of mutated COVID-19  Reuters India",
+            "url": "https://in.reuters.com/article/health-coronavirus-canada-idINKBN28X0DO",
+            "urlToImage": null,
+            "publishedAt": "2020-12-23T04:12:00Z",
+            "content": "FILE PHOTO: A nurse guides people being tested for coronavirus disease (COVID-19) outside a hospital in Toronto, Ontario, Canada December 10, 2020. REUTERS/Chris Helgren\r\nWorld News\r\nDavid Ljunggren\r… [+1991 chars]"
+        },
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "Canada approves Moderna's COVID-19 vaccine - health ministry - Reuters",
+            "description": "Canada approved Moderna Inc's coronavirus vaccine on Wednesday, the health ministry said on its website, paving the way for up to 168,000 doses to be delivered by the end of the year.",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-canada-idUSKBN28X1VW",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201223&t=2&i=1545572938&r=LYNXMPEGBM117&w=800",
+            "publishedAt": "2020-12-23T15:15:00Z",
+            "content": "By Reuters Staff\r\nFILE PHOTO: Michelle Chester, DNP, director, employee health services, Northwell shows the Moderna coronavirus disease (COVID-19) vaccine at Northwell Health's Long Island Jewish Va… [+434 chars]"
+        },
+                {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Coronavirus: Trudeau discusses Canada's COVID-19 response plan after Moderna vaccine approved | LIVE - Global News",
+            "description": "<ol><li>Coronavirus: Trudeau discusses Canada's COVID-19 response plan after Moderna vaccine approved | LIVE  Global News\r\n</li><li>Health Canada greenlights another COVID-19 vaccine candidate for human trials  CTV News\r\n</li><li>Health Canada approves Modern…",
+            "url": "https://www.youtube.com/watch?v=rORPsU-dqCs",
+            "urlToImage": "https://i.ytimg.com/vi/rORPsU-dqCs/maxresdefault_live.jpg",
+            "publishedAt": "2020-12-23T16:54:03Z",
+            "content": null
+        },
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "The Canadian Press",
+            "title": "Health Canada authorizes Moderna's COVID-19 vaccine - Yahoo News Canada",
+            "description": "<ol><li>Health Canada authorizes Moderna's COVID-19 vaccine  Yahoo News Canada\r\n</li><li>Health Canada approves 'game-changer' Moderna COVID-19 vaccine  CTV News\r\n</li><li>Pfizer to supply U.S. with additional 100M doses of vaccine  CP24 Toronto's Breaking Ne…",
+            "url": "https://ca.news.yahoo.com/cp-newsalert-health-canada-authorizes-151203743.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2020-12/feee5c00-43f3-11eb-bffa-c809b57fff33",
+            "publishedAt": "2020-12-23T15:36:00Z",
+            "content": "OTTAWA Canadians received an early Christmas present on Wednesday as Health Canada declared a new COVID-19 vaccine from U.S. biotech firm Moderna safe for use, paving the way for a second inoculation… [+4135 chars]"
+        },
+                {
+            "source": {
+                "id": null,
+                "name": "Global News"
+            },
+            "author": "Katie Dangerfield",
+            "title": "Canada extends U.K. flight ban 2 more weeks amid COVID-19 mutations - Global News",
+            "description": "<ol><li>Canada extends U.K. flight ban 2 more weeks amid COVID-19 mutations  Global News\r\n</li><li>Canada extends U.K. travel ban into January  CTV News\r\n</li><li>Coronavirus: Anxiety growing over new COVID-19 strain in the UK  Global News\r\n</li><li>With Covi…",
+            "url": "https://globalnews.ca/news/7539542/coronavirus-uk-mutations-canada-travel-ban/",
+            "urlToImage": "https://globalnews.ca/wp-content/uploads/2020/12/CP18735420.jpg?quality=85&strip=all&w=720&h=379&crop=1",
+            "publishedAt": "2020-12-23T18:41:33Z",
+            "content": "Canada will extend its ban on flights from the United Kingdom another two weeks in order to prevent the spread of a new coronavirus strain, Prime Minister Justin Trudeau announced Wednesday.\r\nThe mea… [+2437 chars]"
+        },
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "Moderna COVID-19 vaccine distribution started in Canada by FedEX, Innomar Strategies - Reuters",
+            "description": "FedEx Corp's Canadian subsidiary and Innomar Strategies, a Canada-based unit of U.S. drug distributor AmerisourceBergen Corp said on Thursday they have started to distribute Moderna Inc's COVID-19 vaccine across Canada.",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-canada-vaccine-idUSKBN28Z00C",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201225&t=2&i=1545746051&r=LYNXMPEGBO001&w=800",
+            "publishedAt": "2020-12-25T00:10:00Z",
+            "content": "By Reuters Staff\r\nFILE PHOTO: Michelle Chester, DNP, director, employee health services, Northwell shows the Moderna coronavirus disease (COVID-19) vaccine at Northwell Health's Long Island Jewish Va… [+704 chars]"
+        },
+                {
+            "source": {
+                "id": null,
+                "name": "lintelligencer"
+            },
+            "author": null,
+            "title": "Coronavirus Canada Updates: BC reports 582 new cases of COVID-19, 10 new in Island Health - lintelligencer",
+            "description": "<ol><li>Coronavirus Canada Updates: BC reports 582 new cases of COVID-19, 10 new in Island Health  lintelligencer\r\n</li><li>Public cautioned after potential COVID-19 exposures at Revelstoke restaurant  Revelstoke Review\r\n</li><li>COVID-19 in B.C.: Second mink…",
+            "url": "https://www.lintelligencer.com/coronavirus-canada-updates-b-c-reports-582-new-cases-of-covid-19-10-new-in-island-health-10376-2020/",
+            "urlToImage": "https://www.lintelligencer.com/wp-content/uploads/2020/12/Coronavirus-Canada-Updates-B.C.-reports-582-new-cases-of-COVID-19-10-new-in-Island-Health.jpg",
+            "publishedAt": "2020-12-25T13:15:00Z",
+            "content": "British Columbia has reported 582 new cases of COVID-19 across the province in the last 24 hours with 12 additional deaths in that span.\r\nOf the 582 new cases, 10 are linked to the Island Health regi… [+2801 chars]"
+        },
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "Toronto Sun"
+            },
+            "author": "Eddie Chau",
+            "title": "First cases of COVID-19 variant reported in Ontario - Toronto Sun",
+            "description": "<ol><li>First cases of COVID-19 variant reported in Ontario  Toronto Sun\r\n</li><li>Coronavirus: Ontario confirms 1st cases of new COVID-19 variant in Canada  Global News\r\n</li><li>Province confirms two cases of COVID-19 variant first discovered in UK  The Nor…",
+            "url": "https://torontosun.com/news/provincial/first-cases-of-covid-19-variant-reported-in-ontario",
+            "urlToImage": "https://smartcdn.prod.postmedia.digital/torontosun/wp-content/uploads/2020/12/GettyImages-1203949841-scaled-e1609015843841.jpg?quality=100&strip=all",
+            "publishedAt": "2020-12-26T21:28:06Z",
+            "content": "Ontario is the first province in Canada to report the COVID-19 variant.\r\nOriginating in the U.K., the variant has also now been detected in numerous other countries, including France, Spain, Italy, S… [+370 chars]"
+        },
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "CP24 Toronto's Breaking News"
+            },
+            "author": "Bryann Aguilar",
+            "title": "Third case of new COVID-19 variant confirmed in Ottawa - CP24 Toronto's Breaking News",
+            "description": "Third case of new COVID-19 variant confirmed in Ottawa",
+            "url": "https://www.cp24.com/news/third-case-of-new-covid-19-variant-confirmed-in-ottawa-1.5245998",
+            "urlToImage": "https://www.cp24.com/polopoly_fs/1.5212378.1606855391!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg",
+            "publishedAt": "2020-12-27T21:00:00Z",
+            "content": "A third case of the new COVID-19 variant first discovered in the United Kingdom has been confirmed in Ottawa, provincial health officials reported on Sunday.\r\nThe person recently travelled from the U… [+2608 chars]"
+        },
+                {
+            "source": {
+                "id": null,
+                "name": "Ctvnews.ca"
+            },
+            "author": null,
+            "title": "Health officials identify U.K. coronavirus variant in Vancouver Island resident - CTV Edmonton",
+            "description": "<ol><li>Health officials identify U.K. coronavirus variant in Vancouver Island resident  CTV Edmonton\r\n</li><li>Third case of new COVID-19 variant confirmed in Ottawa  CP24 Toronto's Breaking News\r\n</li><li>Opinion: U.K. variant of COVID-19 is in B.C. Now wha…",
+            "url": "https://vancouverisland.ctvnews.ca/health-officials-identify-u-k-coronavirus-variant-in-vancouver-island-resident-1.5246053",
+            "urlToImage": "https://www.ctvnews.ca/polopoly_fs/1.5203876.1606318639!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg",
+            "publishedAt": "2020-12-27T22:35:00Z",
+            "content": "VANCOUVER -- \r\nThe new coronavirus variant, first identified in the U.K., has been identified in B.C., according to a statement from the provincial health officer and the B.C. Ministry of Health.\r\nTh… [+2859 chars]"
+        },
+                {
+            "source": {
+                "id": null,
+                "name": "Toronto Sun"
+            },
+            "author": "Canadian Press",
+            "title": "Ontario reports 2,005 COVID-19 cases, 18 more deaths - Toronto Sun",
+            "description": "<ol><li>Ontario reports 2,005 COVID-19 cases, 18 more deaths  Toronto Sun\r\n</li><li>Global National: Dec. 27, 2020 | More cases of COVID-19 variant reported in BC, Ontario  Global News\r\n</li><li>Opinion: U.K. variant of COVID-19 is in B.C. Now what?  Vancouve…",
+            "url": "https://torontosun.com/news/provincial/ontario-reports-2005-covid-19-cases-18-more-deaths",
+            "urlToImage": "https://smartcdn.prod.postmedia.digital/torontosun/wp-content/uploads/2020/12/GettyImages-1209817307-scaled-e1608141057857.jpg?quality=100&strip=all",
+            "publishedAt": "2020-12-27T17:32:11Z",
+            "content": "Chatham-Kent police said this morning that a local church member will be reporting to court next month after over 100 maskless people gathered inside Old Colony Mennonite Church in Wheatley, Ont. on … [+1199 chars]"
+        },
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+{
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Coronavirus: More than 1000 have died of COVID-19 in Alberta, top doctor says | FULL - Global News",
+            "description": "Coronavirus: More than 1000 have died of COVID-19 in Alberta, top doctor says",
+            "url": "https://www.youtube.com/watch?v=jKEA3Vq9kTk",
+            "urlToImage": "https://i.ytimg.com/vi/jKEA3Vq9kTk/maxresdefault.jpg",
+            "publishedAt": "2020-12-28T23:04:50Z",
+            "content": null
+        },
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "Canada will require COVID-19 test results for arriving passengers - Reuters",
+            "description": "Canada will soon begin to require that all travelers test negative for COVID-19 before arriving in the country, a federal minister said on Wednesday.",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-canada-idUSKBN294213",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201230&t=2&i=1546194105&r=LYNXMPEGBT16S&w=800",
+            "publishedAt": "2020-12-30T18:15:00Z",
+            "content": "By Reuters Staff\r\nFILE PHOTO: A nurse guides people being tested for coronavirus disease (COVID-19) outside a hospital in Toronto, Ontario, Canada December 10, 2020. REUTERS/Chris Helgren\r\n(Reuters) … [+361 chars]"
+        },        {
+            "source": {
+                "id": null,
+                "name": "Global News"
+            },
+            "author": "hannahjacksonglobal",
+            "title": "Canada sees 6,442 new coronavirus cases as communities receive 2nd vaccine - Global News",
+            "description": "<ol><li>Canada sees 6,442 new coronavirus cases as communities receive 2nd vaccine  Global News\r\n</li><li>Moderna vaccine to arrive before New Year's Day, Haggie says, as N.L. reports 1 new COVID-19 case  CBC.ca\r\n</li><li>First shipment of Moderna COVID-19 va…",
+            "url": "https://globalnews.ca/news/7546230/canada-coronavirus-december-29/",
+            "urlToImage": "https://globalnews.ca/wp-content/uploads/2020/12/CP112399632.jpg?quality=85&strip=all&w=720&h=379&crop=1",
+            "publishedAt": "2020-12-30T01:27:04Z",
+            "content": "Canada added 6,442 new cases of the novel coronavirus on Tuesday, pushing the country’s total number of infections to 565,054.\r\nHealth officials also said 156 more people have died after testing posi… [+4997 chars]"
+        },
+            ]
+        },
+        {
+            day: 31,
+            articles: [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "Canada to require air travelers to test negative for COVID-19 - Reuters",
+            "description": "Canada will require air travelers aged 5 and up to test negative for COVID-19 before arrival, starting Jan. 7, Transport Minister Marc Garneau said on Thursday, as the country tightens travel restrictions amid soaring cases of the novel coronavirus.",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-canada-idUSKBN2951SI",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201231&t=2&i=1546306097&r=LYNXMPEGBU0W1&w=800",
+            "publishedAt": "2020-12-31T21:35:00Z",
+            "content": "By Reuters Staff\r\nMONTREAL (Reuters) -Canada will require air travelers aged 5 and up to test negative for COVID-19 before arrival, starting Jan. 7, Transport Minister Marc Garneau said on Thursday, … [+2051 chars]"
+        },
+            ]
+        },
+    ],
+], "2021" : [
+
+    // JAN
+    [
+        {
+            day: 1,
+            articles: [
+                {
+            "source": {
+                "id": null,
+                "name": "CP24 Toronto's Breaking News"
+            },
+            "author": "David Friend",
+            "title": "Cinemas that struggled through 2020, hope coronavirus doesn't crush them in 2021 - CP24 Toronto's Breaking News",
+            "description": "Cinemas that struggled through 2020, hope coronavirus doesn't crush them in 2021",
+            "url": "https://www.cp24.com/entertainment-news/canada-s-movie-theatres-face-uncertain-future-in-2021-due-to-pandemic-1.5250526",
+            "urlToImage": "https://www.cp24.com/polopoly_fs/1.5250530.1609511063!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg",
+            "publishedAt": "2021-01-01T14:31:00Z",
+            "content": "TORONTO -- If anything is certain about the future of movie theatres in 2021, it's that nobody can be certain about anything.\r\nAfter a year that saw Canada's film exhibition industry roiled by the CO… [+6933 chars]"
+        },
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "Ctvnews.ca"
+            },
+            "author": "Katherine DeClerq, Katherine DeClerq",
+            "title": "Ontario logs more than 5800 new COVID-19 infections over two days, sets new single-day record - CTV Toronto",
+            "description": "<ol><li>Ontario logs more than 5800 new COVID-19 infections over two days, sets new single-day record  CTV Toronto\r\n</li><li>Ontario reports record 3,363 new COVID-19 cases, 95 more deaths since New Year's Eve  Toronto Sun\r\n</li><li>Ontario reports more than …",
+            "url": "https://toronto.ctvnews.ca/ontario-logs-more-than-5-800-new-covid-19-infections-over-two-days-sets-new-single-day-record-1.5251217",
+            "urlToImage": "https://www.ctvnews.ca/polopoly_fs/1.4973229.1591539745!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg",
+            "publishedAt": "2021-01-02T15:20:00Z",
+            "content": "TORONTO -- \r\nMore than 5,800 new COVID-19 infections and nearly 100 deaths related to the disease were logged in Ontario over the past two days as the province smashed their previous record for most … [+2792 chars]"
+        },
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Coronavirus: Calls for resignations as more Canadian politicians caught flouting travel guidelines - Global News",
+            "description": "<ol><li>Coronavirus: Calls for resignations as more Canadian politicians caught flouting travel guidelines  Global News\r\n</li><li>B.C. politicians stick close to home as peers in other provinces face backlash for holiday travel  CBC.ca\r\n</li><li>Canada corona…",
+            "url": "https://www.youtube.com/watch?v=33W0XTAbgOI",
+            "urlToImage": "https://i.ytimg.com/vi/33W0XTAbgOI/maxresdefault.jpg",
+            "publishedAt": "2021-01-03T03:45:01Z",
+            "content": null
+        },
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+    ],
+
+    // FEB
+
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+        {
+            "source": {
+                "id": "the-globe-and-mail",
+                "name": "The Globe And Mail"
+            },
+            "author": null,
+            "title": "COVID-19 variants reveal evolution’s power to rearm pandemic - The Globe and Mail",
+            "description": "<ol><li>COVID-19 variants reveal evolution’s power to rearm pandemic  The Globe and Mail\r\n</li><li>Coronavirus: What's happening in Canada and around the world on Friday  CBC.ca\r\n</li><li>Canada ‘actively monitoring’ new coronavirus variants  Global News\r\n</l…",
+            "url": "https://www.theglobeandmail.com/canada/article-covid-19-variants-reveal-evolutions-power-to-rearm-pandemic/",
+            "urlToImage": "https://www.theglobeandmail.com/resizer/Mp7dq5qmzbpF9GJKBDol51eUjGo=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/tgam/B6ZCOAICLZDVRL4G5PHFE5X43A.jpeg",
+            "publishedAt": "2020-12-26T12:00:00Z",
+            "content": "A 3D illustration of a SARS-CoV-2 virus particle.\r\nNick Woolridge/Biomedical Communication\r\nAnyone curious to see evolution playing out in real time need look no further than NextStrain.org, a websit… [+11286 chars]"
+        },
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+        {
+            day: 31,
+            articles: [
+
+            ]
+        },
+    ],
+    // MAR
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+    ],
+
+    // APR
+
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
 
             ]
         },
@@ -3771,6 +4888,1526 @@ const data = [
             ]
         },
     ],
-]
+    // MAY
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+    ],
+
+    // JUN
+
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+        {
+            day: 31,
+            articles: [
+
+            ]
+        },
+    ],
+    // JUL
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+    ],
+
+    // AUG
+
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+        {
+            day: 31,
+            articles: [
+
+            ]
+        },
+    ],
+    // SEP
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+    ],
+
+    // OCT
+
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+        {
+            day: 31,
+            articles: [
+
+            ]
+        },
+    ],
+    // NOV
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+    ],
+
+    // DECEMBER
+
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+        {
+            day: 31,
+            articles: [
+
+            ]
+        },
+    ],
+]}
 
 export default data;

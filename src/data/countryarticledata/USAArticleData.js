@@ -1,4 +1,4 @@
-const data = [
+const data = { "2020": [
 
     // JANUARY
 
@@ -3022,6 +3022,669 @@ const data = [
         {
             day: 8,
             articles: [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Kanishka Singh",
+            "title": "Exclusive: Fitch says upgrades of major economies unlikely in 2021 despite COVID-19 vaccine - Reuters",
+            "description": "Fitch Ratings told Reuters on Tuesday that upgrades of any major economy are unlikely in 2021 despite recent developments related to COVID-19 vaccination, and that countries in Latin America, the Middle East and Africa show the highest level of vulnerability …",
+            "url": "https://www.reuters.com/article/us-global-ratings-sovereign-fitch-exclus-idUSKBN28I31J",
+            "urlToImage": "https://s1.reutersmedia.net/resources_v2/images/rcom-default.png?w=800",
+            "publishedAt": "2020-12-08T21:05:00Z",
+            "content": "(Reuters) - Fitch Ratings told Reuters on Tuesday that upgrades of any major economy are unlikely in 2021 despite recent developments related to COVID-19 vaccination, and that countries in Latin Amer… [+3011 chars]"
+        },
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "COVID-19 surges in U.S. and Canada worrisome as winter approaches - WHO director - Reuters",
+            "description": "The jumps in weekly COVID-19 case counts in the United States and Canada is particularly worrisome as winter approaches, the World Health Organization director for the Americas, Carissa Etienne, said on Wednesday.",
+            "url": "https://www.reuters.com/article/health-coronavirus-americas-idUSKBN28J2CW",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201209&t=2&i=1543980691&r=LYNXMPEGB81B6&w=800",
+            "publishedAt": "2020-12-09T16:28:00Z",
+            "content": "By Reuters Staff\r\nFILE PHOTO: A patient is wheeled into a hospital during the coronavirus (COVID-19) pandemic in the Manhattan borough of New York City, New York, U.S., December 4, 2020. REUTERS/Carl… [+585 chars]"
+        },
+        
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Rich McKay",
+            "title": "U.S. poised to hit 16 million COVID cases within days even as vaccine begins rollout - Reuters",
+            "description": "The United States is poised to hit a record 16 million COVID-19 cases in the coming days and deaths are closing in on the 300,000 mark, even as millions of doses of a new vaccine are expected to start rolling out across America before Sunday.",
+            "url": "https://www.reuters.com/article/health-coronavirus-usa-idUSKBN28M0QG",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201212&t=2&i=1544350306&r=LYNXMPEGBB0DO&w=800",
+            "publishedAt": "2020-12-12T16:44:00Z",
+            "content": "(Reuters) - The United States is poised to hit a record 16 million COVID-19 cases in the coming days and deaths are closing in on the 300,000 mark, even as millions of doses of a new vaccine are expe… [+2095 chars]"
+        },
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Eduardo Muñoz",
+            "title": "'I couldn't wait': U.S. vaccine reaches more workers on pandemic's front lines - Reuters India",
+            "description": "The United States extended its rollout of the first authorized COVID-19 vaccine on Tuesday, inoculating healthcare workers as part of a massive campaign to protect all Americans and contain a U.S. outbreak that has killed more than 300,000 people.",
+            "url": "https://in.reuters.com/article/health-coronavirus-usa-idINKBN28P2AV",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201215&t=2&i=1544652184&r=LYNXMPEGBE1FP&w=800",
+            "publishedAt": "2020-12-15T17:02:00Z",
+            "content": "NEWARK, N.J. (Reuters) - The United States extended its rollout of the first authorized COVID-19 vaccine on Tuesday, inoculating healthcare workers as part of a massive campaign to protect all Americ… [+3939 chars]"
+        },
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": null,
+            "title": "America’s First Coronavirus Vaccinations",
+            "description": "As the first shots are administered in the United States, we hear what it was like for health care workers in North Dakota and New Orleans.",
+            "url": "https://www.nytimes.com/2020/12/15/podcasts/the-daily/coronavirus-vaccinations-united-states.html",
+            "urlToImage": "https://static01.nyt.com/images/2020/12/15/world/15daily/15daily-facebookJumbo.jpg",
+            "publishedAt": "2020-12-15T11:02:47Z",
+            "content": "<ul><li>Mondays vaccinations, the first in a staggeringly complicated national campaign, were a moment infused with hope and pain for hundreds of Americas health care workers.\r\n</li><li>Some of the m… [+1432 chars]"
+        },
+                {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": null,
+            "title": "America’s First Coronavirus Vaccinations",
+            "description": "As the first shots are administered in the United States, we hear what it was like for health care workers in North Dakota and New Orleans.",
+            "url": "https://www.nytimes.com/2020/12/15/podcasts/the-daily/coronavirus-vaccinations-united-states.html",
+            "urlToImage": "https://static01.nyt.com/images/2020/12/15/world/15daily/15daily-facebookJumbo.jpg",
+            "publishedAt": "2020-12-15T11:02:47Z",
+            "content": "<ul><li>Mondays vaccinations, the first in a staggeringly complicated national campaign, were a moment infused with hope and pain for hundreds of Americas health care workers.\r\n</li><li>Some of the m… [+1432 chars]"
+        },
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Eduardo Muñoz",
+            "title": "U.S. COVID-19 immunization rollout expands as officials avow vaccine's safety - Reuters India",
+            "description": "The United States expanded its rollout of the newly approved COVID-19 vaccine to hundreds of additional distribution centers on Tuesday, inoculating thousands more healthcare workers in a mass immunization expected to reach the general public in the coming mo…",
+            "url": "https://in.reuters.com/article/health-coronavirus-usa-idINKBN28Q09K",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201216&t=2&i=1544699044&r=LYNXMPEGBF04Q&w=800",
+            "publishedAt": "2020-12-16T02:27:00Z",
+            "content": "NEWARK, N.J. (Reuters) - The United States expanded its rollout of the newly approved COVID-19 vaccine to hundreds of additional distribution centers on Tuesday, inoculating thousands more healthcare… [+5499 chars]"
+        },
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Kavya B, Roshan Abraham",
+            "title": "Global COVID-19 cases surpass 75 million - Reuters",
+            "description": "Global coronavirus infections surpassed the 75 million mark on Saturday, according to a Reuters tally, as several nations around the world begin vaccinating against the virus.",
+            "url": "https://www.reuters.com/article/health-coronavirus-global-cases-idUSKBN28T0UP",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201219&t=2&i=1545155789&r=LYNXMPEGBI0F9&w=800",
+            "publishedAt": "2020-12-19T19:00:00Z",
+            "content": "(Reuters) - Global coronavirus infections surpassed the 75 million mark on Saturday, according to a Reuters tally, as several nations around the world begin vaccinating against the virus.\r\nFILE PHOTO… [+2139 chars]"
+        },
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "U.S. officials eye new COVID-19 strain in UK, urge vigilance - Reuters India",
+            "description": "The United States is monitoring the new strain of COVID-19 emerging in the United Kingdom, multiple U.S. officials said on Sunday, adding that it was unclear whether the mutated variant had made its way to America.",
+            "url": "https://www.reuters.com/article/health-coronavirus-britain-usa-idINKBN28U0KM",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201220&t=2&i=1545214193&r=LYNXMPEGBJ0DJ&w=800",
+            "publishedAt": "2020-12-20T17:13:00Z",
+            "content": "By Reuters Staff\r\nWASHINGTON (Reuters) - The United States is monitoring the new strain of COVID-19 emerging in the United Kingdom, multiple U.S. officials said on Sunday, adding that it was unclear … [+1657 chars]"
+        },
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Susan Heavey, Gabriella Borter",
+            "title": "U.S. seeks to calm fears of U.K. virus variant as U.S. infections top 18 million - Reuters UK",
+            "description": "Total U.S. COVID-19 cases surpassed 18 million on Tuesday as health officials tried to tamp down fears about a new, highly transmissible variant of the coronavirus in the United Kingdom.",
+            "url": "https://uk.reuters.com/article/uk-health-coronavirus-usa-idUKKBN28W2B8",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201222&t=2&i=1545471841&r=LYNXMPEGBL1DZ&w=800",
+            "publishedAt": "2020-12-22T19:00:00Z",
+            "content": "WASHINGTON (Reuters) - Total U.S. COVID-19 cases surpassed 18 million on Tuesday as health officials tried to tamp down fears about a new, highly transmissible variant of the coronavirus in the Unite… [+3903 chars]"
+        },
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "The Points Guy"
+            },
+            "author": "Zach Honig",
+            "title": "The only reason I’m still comfortable traveling during the pandemic",
+            "description": "A few weeks ago, following several months of travel during the pandemic for both work and leisure, TPG’s director of travel content, Summer Hull, decided to cancel her upcoming trips. And I certainly share her concerns. The novel coronavirus is raging across …",
+            "url": "http://thepointsguy.com/guide/why-i-feel-comfortable-traveling/",
+            "urlToImage": "https://thepointsguy.global.ssl.fastly.net/us/originals/2020/12/IMG_4702.jpeg",
+            "publishedAt": "2020-12-25T14:00:38Z",
+            "content": "A few weeks ago, following several months of travel during the pandemic for both work and leisure, TPG’s director of travel content, Summer Hull, decided to cancel her upcoming trips. And I certainly… [+10923 chars]"
+        },
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "Virus Updates: Clear Majority of Americans Embrace Vaccines, Surveys Show",
+            "description": "The portion of people saying they are now likely or certain to take the vaccine has grown from about 50 percent this summer to more than 60 percent.",
+            "url": "https://www.nytimes.com/live/2020/12/26/world/covid-updates-coronavirus",
+            "urlToImage": "https://static01.nyt.com/images/2020/12/23/science/26virus-briefing-vaccine-confidence/merlin_181350519_1f9bfe28-a0d7-4412-ae66-d8d6f5ddd72b-facebookJumbo.jpg",
+            "publishedAt": "2020-12-26T15:10:21Z",
+            "content": "LiveUpdated Dec. 26, 2020, 10:20 a.m. ET\r\nDec. 26, 2020, 10:20 a.m. ET\r\nThe truck logjam at a British port is easing. Africa struggles with its second wave.\r\nHeres what you need to know:\r\nEver since … [+20408 chars]"
+        },
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+        {
+            "source": {
+                "id": "al-jazeera-english",
+                "name": "Al Jazeera English"
+            },
+            "author": "Al Jazeera",
+            "title": "Trump defends veto of massive US defence spending bill",
+            "description": "In series of Saturday morning tweets, US president repeats claim $740bn legislation is a 'gift to Russia and China'.",
+            "url": "https://www.aljazeera.com/news/2020/12/26/trump-defends-veto-of-massive-us-defence-spending-bill",
+            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2020/12/000_8XP4NF.jpg?resize=1200%2C630",
+            "publishedAt": "2020-12-26T16:16:12Z",
+            "content": "President Donald Trump has defended his decision to veto legislation authorising the United States militarys $740bn annual budget, saying in a series of Saturday morning tweets that the bill is a tra… [+3669 chars]"
+        },
+                {
+            "source": {
+                "id": null,
+                "name": "The Intercept"
+            },
+            "author": "Peter Maass",
+            "title": "Hiding Covid-19: How the Trump Administration Suppresses Photography of the Pandemic",
+            "description": "The U.S. government has reinforced media restrictions at hospitals, reducing the flow of disturbing images of the pandemic.\nThe post Hiding Covid-19: How the Trump Administration Suppresses Photography of the Pandemic appeared first on The Intercept.",
+            "url": "https://theintercept.com/2020/12/27/covid-photography-hospitals/",
+            "urlToImage": "https://theintercept.imgix.net/wp-uploads/sites/1/2020/12/AP20346697083259-ft.jpg?auto=compress%2Cformat&q=90&fit=crop&w=1200&h=800",
+            "publishedAt": "2020-12-27T11:00:56Z",
+            "content": "As Covid-19 tore\r\n through the United States in the spring, a senior official in the Trump administration quietly reinforced a set of guidelines that prevented journalists from getting inside all but… [+19471 chars]"
+        },
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Kimberly Leonard",
+            "title": "Fireside chats, hard-hitting ads, owning mistakes: 5 experts lay out how America should wage an effective COVID-19 fight",
+            "description": "Summary List PlacementAmerica is getting a new president and a shot in the arm by way of the coronavirus vaccine, but a return to some semblance of normality is far off since the US still lacks an effective strategy for handling a runaway pandemic that it was…",
+            "url": "https://www.businessinsider.com/biden-covid-strategy-us-coronavirus-vaccine-test-distribution-trump-2020-12",
+            "urlToImage": "https://i.insider.com/5fe10676c910a400192e8d13?width=1200&format=jpeg",
+            "publishedAt": "2020-12-28T14:16:48Z",
+            "content": "America is getting a new president and a shot in the arm by way of the coronavirus vaccine, but a return to some semblance of normality is far off since the US still lacks an effective strategy for h… [+13302 chars]"
+        },
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Sarah Newey",
+            "title": "Coronavirus latest news: Longer interval between jabs key to Oxford vaccine success, regulators say",
+            "description": "Major incident declared at Essex hospitals 'Route out' of pandemic - Oxford vaccine approved in the UK Oxford vaccine Q&A;: How does it work and what happens...",
+            "url": "https://news.yahoo.com/coronavirus-latest-news-exhausted-doctors-034235302.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/0Uu.TIH5SUp83Eq.wAtSpA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwMDA7aD0xMjUw/https://s.yimg.com/uu/api/res/1.2/ZJLYw4B3D0VUI4iIaRKlgg--~B/aD0xMzY2O3c9MjE4NjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en-GB/the_telegraph_258/7e7954b19b36d5ac217d051869461058",
+            "publishedAt": "2020-12-30T03:42:35Z",
+            "content": "The key to the success of the Oxford-AstraZeneca vaccine is a longer gap between the two doses, regulators have said, after Matt Hancock heralded the jab's approval as a \"Great British success story\"… [+55174 chars]"
+        },
+                {
+            "source": {
+                "id": null,
+                "name": "The Atlantic"
+            },
+            "author": "Ed Yong",
+            "title": "Pandemic Year Two",
+            "description": "As vaccines roll out, the U.S. will face a choice about what to learn and what to forget.",
+            "url": "https://www.theatlantic.com/health/archive/2020/12/pandemic-year-two/617528/",
+            "urlToImage": "https://cdn.theatlantic.com/thumbor/yTkFPKfAZhD1CYgEyrO_gs6-v3g=/0x43:2000x1085/960x500/media/img/mt/2020/12/coronaYear2/original.jpg",
+            "publishedAt": "2020-12-29T12:00:00Z",
+            "content": "Editor’s Note: The Atlantic is making vital coverage of the coronavirus available to all readers. Find the collection here. The influenza pandemic that began in 1918 killed as many as 100 million peo… [+39584 chars]"
+        },
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "Fate of $2,000 Checks in Limbo as Senate Eyes Military Bill",
+            "description": "President Trump continued his pressure campaign for the larger checks, but a measure by Senator Mitch McConnell, the majority leader, tying them to other demands left their fate uncertain.",
+            "url": "https://www.nytimes.com/live/2020/12/30/us/biden-trump",
+            "urlToImage": "https://static01.nyt.com/images/2020/12/30/us/politics/30transition-briefing-congress-1/30transition-briefing-congress-1-facebookJumbo.jpg",
+            "publishedAt": "2020-12-30T14:48:18Z",
+            "content": "LiveUpdated Dec. 30, 2020, 9:31 a.m. ET\r\nDec. 30, 2020, 9:31 a.m. ET\r\nPresident Trump continued his pressure campaign for the larger checks, but a measure by Senator Mitch McConnell, the majority lea… [+10889 chars]"
+        },
+                {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "From USA TODAY Network and wire reports, USA TODAY",
+            "title": "Cruise ship docks, Navajo Nation, veterans vaccinated: News from around our 50 states",
+            "description": "How the COVID-19 pandemic is affecting every state",
+            "url": "https://www.usatoday.com/story/news/50-states/2020/12/30/cruise-ship-docks-navajo-nation-veterans-vaccinated-news-around-states/115235234/",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/IKIbGbi.q_.4QnSfdVcy4w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwMDA7aD0xMzE1/https://s.yimg.com/uu/api/res/1.2/CEltAuTj72zTGTvMfFzd5g--~B/aD0yMDAwO3c9MzA0MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en-us/usa_today_news_641/1e3ee5d5f1ea0b34024a55922a229529",
+            "publishedAt": "2020-12-30T08:35:37Z",
+            "content": "Alabama\r\nMontgomery: Residents at Alabamas four state veterans homes were set to receive COVID-19 vaccinations beginning Tuesday. The arrival of the vaccine is a bright spot amid a record-setting sur… [+51924 chars]"
+        },
+            ]
+        },
+        {
+            day: 31,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "The Atlantic"
+            },
+            "author": "Robinson Meyer, Alexis C. Madrigal",
+            "title": "America Has Not Fixed Its Deadliest Pandemic Errors",
+            "description": "The COVID Tracking Project’s extensive, daily data collection reveals the simple yet devastating ways the U.S. has failed.",
+            "url": "https://www.theatlantic.com/health/archive/2020/12/america-has-not-fixed-its-deadliest-pandemic-errors/617532/",
+            "urlToImage": "https://cdn.theatlantic.com/thumbor/RtUi8sau97KsQKLD53ixTCTM5Dc=/0x43:2000x1085/960x500/https://cdn.theatlantic.com/assets/media/img/mt/2020/12/CovidDataLacking/original.png",
+            "publishedAt": "2020-12-31T15:32:31Z",
+            "content": "As the pandemic enters its second year, the coronavirus has remade everyday life in the United States. More than 19 million Americans have been diagnosed with COVID-19 since March, and at least 330,0… [+7989 chars]"
+        },
+            ]
+        },
+    ]], "2021" : [
+
+    // JAN
+    [
+        {
+            day: 1,
+            articles: [
+        {
+            "source": {
+                "id": "rt",
+                "name": "RT"
+            },
+            "author": "RT",
+            "title": "Empty streets vs jubilant crowds: Stark contrast between NYC & Wuhan on NYE provokes envy & accusations",
+            "description": "Side-by-side comparisons of how New York City and Wuhan, China rang in the new year have sparked a heated debate on social media about whether the US should have embraced Beijing’s approach to handling the coronavirus pandemic. Read Full Article at RT.com",
+            "url": "https://www.rt.com/news/511286-wuhan-nyc-nye-crowds-covid/",
+            "urlToImage": "https://cdni.rt.com/files/2021.01/article/5feeec4285f540131f06a10c.png",
+            "publishedAt": "2021-01-01T09:39:05Z",
+            "content": "Photographs showing empty streets on Times Square, typically a hub of merry-making on New Year’s Eve, spread across social media on Thursday night, with several commentators noting that the mood was … [+3712 chars]"
+        },
+                {
+            "source": {
+                "id": null,
+                "name": "Democracy Now!"
+            },
+            "author": "mail@democracynow.org (Democracy Now!)",
+            "title": "People's Vaccine: Calls Grow for Equal Access to Coronavirus Vaccine as Rich Countries Hoard Supply",
+            "description": "While the United States, Britain and other wealthy countries race to vaccinate their populations against the coronavirus, a new report finds that as much as 90% of the population in dozens of poorer countries could be forced to wait until at least 2022 becaus…",
+            "url": "https://www.democracynow.org/2021/1/1/people_s_vaccine_calls_grow_for",
+            "urlToImage": "https://www.democracynow.org/images/story/03/56003/full_hd/SEG1-WHO-Africa-2.jpg",
+            "publishedAt": "2021-01-01T13:01:55Z",
+            "content": "AMYGOODMAN: As the United States, Britain and other nations begin unprecedented mass vaccination campaigns to combat the COVID-19 pandemic, other parts of the world may not have access to vaccines fo… [+20927 chars]"
+        },
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+        {
+            "source": {
+                "id": null,
+                "name": "Daily Mail"
+            },
+            "author": "Karen Ruiz, Keith Griffith",
+            "title": "US COVID-19: Country sets single-day record after 275,897 Americans test positive",
+            "description": "At least 275,897 new COVID-19 infections were reported across the country as of Saturday evening, as hospitalizations remained above six figures once again.",
+            "url": "https://www.dailymail.co.uk/news/article-9107511/US-COVID-19-Country-sets-single-day-record-275-897-Americans-test-positive.html",
+            "urlToImage": "https://i.dailymail.co.uk/1s/2021/01/03/02/37533204-0-image-a-63_1609640514100.jpg",
+            "publishedAt": "2021-01-03T02:35:44Z",
+            "content": "The United States has set yet another record for new COVID-19 cases with more than 275,000 people testing positive in a single day, as the growing number of hospitalizations continue to cripple the s… [+10684 chars]"
+        },
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+    ],
+
+    // FEB
+
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
 
             ]
         },
@@ -3167,6 +3830,1906 @@ const data = [
             ]
         },
     ],
-]
+    // MAR
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+    ],
+
+    // APR
+
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+        {
+            day: 31,
+            articles: [
+
+            ]
+        },
+    ],
+    // MAY
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+    ],
+
+    // JUN
+
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+        {
+            day: 31,
+            articles: [
+
+            ]
+        },
+    ],
+    // JUL
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+    ],
+
+    // AUG
+
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+        {
+            day: 31,
+            articles: [
+
+            ]
+        },
+    ],
+    // SEP
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+    ],
+
+    // OCT
+
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+        {
+            day: 31,
+            articles: [
+
+            ]
+        },
+    ],
+    // NOV
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+    ],
+
+    // DECEMBER
+
+    [
+        {
+            day: 1,
+            articles: [
+
+            ]
+        },
+        {
+            day: 2,
+            articles: [
+
+            ]
+        },
+        {
+            day: 3,
+            articles: [
+
+            ]
+        },
+        {
+            day: 4,
+            articles: [
+
+            ]
+        },
+        {
+            day: 5,
+            articles: [
+
+            ]
+        },
+        {
+            day: 6,
+            articles: [
+
+            ]
+        },
+        {
+            day: 7,
+            articles: [
+
+            ]
+        },
+        {
+            day: 8,
+            articles: [
+
+            ]
+        },
+        {
+            day: 9,
+            articles: [
+
+            ]
+        },
+        {
+            day: 10,
+            articles: [
+
+            ]
+        },
+
+        // PLACEHOLDER CUTOFF \\
+
+        {
+            day: 11,
+            articles: [
+
+            ]
+        },
+        {
+            day: 12,
+            articles: [
+
+            ]
+        },
+        {
+            day: 13,
+            articles: [
+
+            ]
+        },
+        {
+            day: 14,
+            articles: [
+
+            ]
+        },
+        {
+            day: 15,
+            articles: [
+
+            ]
+        },
+        {
+            day: 16,
+            articles: [
+
+            ]
+        },
+        {
+            day: 17,
+            articles: [
+
+            ]
+        },
+        {
+            day: 18,
+            articles: [
+
+            ]
+        },
+        {
+            day: 19,
+            articles: [
+
+            ]
+        },
+        {
+            day: 20,
+            articles: [
+
+            ]
+        },
+        {
+            day: 21,
+            articles: [
+
+            ]
+        },
+        {
+            day: 22,
+            articles: [
+
+            ]
+        },
+        {
+            day: 23,
+            articles: [
+
+            ]
+        },
+        {
+            day: 24,
+            articles: [
+
+            ]
+        },
+        {
+            day: 25,
+            articles: [
+
+            ]
+        },
+        {
+            day: 26,
+            articles: [
+
+            ]
+        },
+        {
+            day: 27,
+            articles: [
+
+            ]
+        },
+        {
+            day: 28,
+            articles: [
+
+            ]
+        },
+        {
+            day: 29,
+            articles: [
+
+            ]
+        },
+        {
+            day: 30,
+            articles: [
+
+            ]
+        },
+        {
+            day: 31,
+            articles: [
+
+            ]
+        },
+    ],
+]}
 
 export default data;
