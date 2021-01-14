@@ -1,11 +1,11 @@
 body {
-    background-color: #222831;
-    height: 100%;
-    overflow-x: hidden;
+  background-color: #222831;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 h3 {
-    color: #c43a31
+  color: #c43a31;
 }
 
 ::-webkit-scrollbar {
@@ -13,30 +13,30 @@ h3 {
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #07080a; 
+  background: #07080a;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #1c1f27; 
+  background: #1c1f27;
 }
 
 a {
-    color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 a:visited {
-    color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 a:hover {
-    color:#c43a31;
+  color: #c43a31;
 }
 a:active {
-    color:#0000FF;
+  color: #0000ff;
 }
 
 @media screen and (max-width: 813px) {
@@ -50,10 +50,10 @@ a:active {
     height: 19vh !important;
   }
   .first-container {
-    height: 37vh
+    height: 37vh;
   }
   .dateslider-date-container .dateslider-date {
-    font-size: 22.6px !important; 
+    font-size: 22.6px !important;
   }
   .dateslider-button {
     width: 25px !important;

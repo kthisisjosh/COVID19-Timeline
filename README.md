@@ -21,20 +21,24 @@ Made with React.js
 View day-by-day stats & key news events all in one place, alongside a graph made with <a href="https://www.npmjs.com/package/victory-chart">VictoryCharts</a> and choropleth map via <a href="https://www.mapbox.com/">Mapbox</a> to visualize the spread of COVID-19.
 </p>
 
-  - Received funding from DigitalOcean's COVID-19 <a href="https://www.digitalocean.com/community/pages/covid-19">support fund</a> for projects related to COVID-19.
+- Received funding from DigitalOcean's COVID-19 <a href="https://www.digitalocean.com/community/pages/covid-19">support fund</a> for projects related to COVID-19.
 
 ## Features
+
 View day-by-day COVID-19 stats, daily key news events, and a choropleth map for:
-  - The World
-  - Canada
-  - United States of America
+
+- The World
+- Canada
+- United States of America
 
 ### Future Updates
+
 - More countries to be supported.
 
 View the <a target="_blank" href="https://trello.com/b/w5cCK8un">trello</a> board.
 
 ## Showcase
+
 ![Showcase Demo](https://github.com/kthisisjosh/readme-assets/blob/master/covid19-timeline/Showcase.gif)
 
 <details>
@@ -74,7 +78,9 @@ $ npm start
 ```
 
 ## Support ⭐
+
 If you like the project, please star the repo.
 
 ## License
+
 [MIT](https://github.com/kthisisjosh/COVID19-Timeline/blob/master/LICENSE)

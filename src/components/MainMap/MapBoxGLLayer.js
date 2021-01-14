@@ -1,25 +1,25 @@
-import L from "leaflet";
-import { } from "mapbox-gl-leaflet";
-import PropTypes from "prop-types";
-import { GridLayer, withLeaflet } from "react-leaflet";
+import L from 'leaflet';
+import {} from 'mapbox-gl-leaflet';
+import PropTypes from 'prop-types';
+import { GridLayer, withLeaflet } from 'react-leaflet';
 
 class MapBoxGLLayer extends GridLayer {
-    createLeafletElement(props) {
-        return L.mapboxGL(props);
-    }
+  createLeafletElement(props) {
+    return L.mapboxGL(props);
+  }
 }
 
 /*
-* Props are the options supported by Mapbox Map object
-* Find options here:https://www.mapbox.com/mapbox-gl-js/api/#new-mapboxgl-map-options-
-*/
+ * Props are the options supported by Mapbox Map object
+ * Find options here:https://www.mapbox.com/mapbox-gl-js/api/#new-mapboxgl-map-options-
+ */
 MapBoxGLLayer.propTypes = {
-    accessToken: PropTypes.string.isRequired,
-    style: PropTypes.string
+  accessToken: PropTypes.string.isRequired,
+  style: PropTypes.string,
 };
 
 MapBoxGLLayer.defaultProps = {
-    style: "mapbox://styles/kthisisjosh/ck8c3fxcz2mdf1ineebd7raon"
+  style: 'mapbox://styles/kthisisjosh/ck8c3fxcz2mdf1ineebd7raon',
 };
 
-export default withLeaflet(MapBoxGLLayer);  
+export default withLeaflet(MapBoxGLLayer);

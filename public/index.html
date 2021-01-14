@@ -1,22 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="View all the world-wide events pertaining to COVID-19 as they happen."
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css"
+    />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="text/javascript">
+      (window.heap = window.heap || []),
+        (heap.load = function (e, t) {
+          (window.heap.appid = e), (window.heap.config = t = t || {});
+          var r = document.createElement('script');
+          (r.type = 'text/javascript'),
+            (r.async = !0),
+            (r.src = 'https://cdn.heapanalytics.com/js/heap-' + e + '.js');
+          var a = document.getElementsByTagName('script')[0];
+          a.parentNode.insertBefore(r, a);
+          for (
+            var n = function (e) {
+                return function () {
+                  heap.push(
+                    [e].concat(Array.prototype.slice.call(arguments, 0)),
+                  );
+                };
+              },
+              p = [
+                'addEventProperties',
+                'addUserProperties',
+                'clearEventProperties',
+                'identify',
+                'resetIdentity',
+                'removeEventProperty',
+                'setEventProperties',
+                'track',
+                'unsetEventProperty',
+              ],
+              o = 0;
+            o < p.length;
+            o++
+          )
+            heap[p[o]] = n(p[o]);
+        });
+      heap.load('664938576');
+    </script>
+    <title>COVID-19 Timeline</title>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="/icon.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="View all the world-wide events pertaining to COVID-19 as they happen." />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
-  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.js'></script>
-  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css' rel='stylesheet' />
-  <link rel="stylesheet" href="./styles.css">
-  <title>COVID-19 Timeline</title>
-</head>
-
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-</body>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
 </html>
