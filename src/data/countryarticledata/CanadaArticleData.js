@@ -4495,11 +4495,39 @@ const data = {
       },
       {
         day: 16,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Global News"
+            },
+            "author": "Kieron O'Dea",
+            "title": "Inside the hunt for coronavirus variants in Canada - Global News",
+            "description": "<ol><li>Inside the hunt for coronavirus variants in Canada  Global News\r\n</li><li>How the spread of coronavirus variants could completely change the pandemic in Canada  CBC.ca\r\n</li><li>View Full coverage on Google News</li></ol>",
+            "url": "https://globalnews.ca/news/7578348/coronavirus-variants-canada/",
+            "urlToImage": "https://globalnews.ca/wp-content/uploads/2021/01/transmission-1-1.jpg?quality=85&strip=all&w=720&h=379&crop=1",
+            "publishedAt": "2021-01-16T11:00:00Z",
+            "content": "A genetic hunt is underway as Canadian scientists in a sophisticated, nationwide network of labs aim to detect and disrupt the new and highly contagious U.K. and South African variants of the coronav… [+5319 chars]"
+        },
+        ],
       },
       {
         day: 17,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Castanet.net"
+            },
+            "author": null,
+            "title": "A look at COVID-19 vaccinations in Canada on Jan. 17, 2021 - Canada News - Castanet.net",
+            "description": "<ol><li>A look at COVID-19 vaccinations in Canada on Jan. 17, 2021 - Canada News  Castanet.net\r\n</li><li>N.B. reports 36 new cases of COVID-19; largest one-day case count since pandemic began  CTV News Atlantic\r\n</li><li>Every single passenger on board 2 inte…",
+            "url": "https://www.castanet.net/news/Canada/322188/A-look-at-COVID-19-vaccinations-in-Canada-on-Jan-17-2021",
+            "urlToImage": "https://www.castanet.net/content/2021/1/50724573656_b8ccf4730c_k_p3499163_p3505441.jpg",
+            "publishedAt": "2021-01-18T03:42:00Z",
+            "content": "The latest numbers on COVID-19 vaccinations in Canada as of 10:30 p.m. ET on Sunday Jan. 17, 2021.\r\nIn Canada, the provinces are reporting 27,451 new vaccinations administered for a total of 570,742 … [+6035 chars]"
+        },
+        ],
       },
       {
         day: 18,
@@ -4507,7 +4535,21 @@ const data = {
       },
       {
         day: 19,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Coronavirus: Trudeau, federal ministers provide update on Canada's COVID-19 response | FULL - Global News",
+            "description": "<ol><li>Coronavirus: Trudeau, federal ministers provide update on Canada's COVID-19 response | FULL  Global News\r\n</li><li>Biden presidency will improve battered Canada-U.S. relationship but won't be without obstacles, experts warn  CBC.ca\r\n</li><li>PM warns …",
+            "url": "https://www.youtube.com/watch?v=FNgdvN6ZNbg",
+            "urlToImage": "https://i.ytimg.com/vi/FNgdvN6ZNbg/maxresdefault.jpg",
+            "publishedAt": "2021-01-19T18:10:18Z",
+            "content": null
+        },
+        ],
       },
       {
         day: 20,
@@ -4523,15 +4565,57 @@ const data = {
       },
       {
         day: 23,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Canada NewsWire"
+            },
+            "author": null,
+            "title": "Statement from the Chief Public Health Officer of Canada on January 23, 2021 - Canada NewsWire",
+            "description": "<ol><li>Statement from the Chief Public Health Officer of Canada on January 23, 2021  Canada NewsWire\r\n</li><li>Canada is on the hunt for coronavirus variants — but may not be able to keep up with outbreaks  CBC.ca\r\n</li><li>View Full coverage on Google News<…",
+            "url": "https://www.newswire.ca/news-releases/statement-from-the-chief-public-health-officer-of-canada-on-january-23-2021-844896340.html",
+            "urlToImage": "https://www.newswire.ca/content/dam/newswire-ca/logos/cnw_en_facebook_sharing_logo.png",
+            "publishedAt": "2021-01-23T17:00:00Z",
+            "content": "OTTAWA, ON, Jan. 23, 2021 /CNW/ - As the resurgence of COVID-19 activity continues in Canada, we are tracking a range of epidemiological indicators to monitor where the disease is most active, where … [+4787 chars]"
+        },
+        ],
       },
       {
         day: 24,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Health Canada approves Canadian-made rapid COVID-19 testing system - CBC News",
+            "description": "<ol><li>Health Canada approves Canadian-made rapid COVID-19 testing system  CBC News\r\n</li><li>Canadian rapid COVID-19 testing device has been approved by Health Canada, manufacturer says  CityNews Toronto\r\n</li><li>Spartan Bioscience says Health Canada appro…",
+            "url": "https://www.youtube.com/watch?v=FJFFqVZUmms",
+            "urlToImage": "https://i.ytimg.com/vi/FJFFqVZUmms/maxresdefault.jpg",
+            "publishedAt": "2021-01-24T00:02:54Z",
+            "content": null
+        },
+        ],
       },
       {
         day: 25,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Citynews.ca"
+            },
+            "author": null,
+            "title": "‘It wasn’t called COVID at the time:’ One year since Canada’s first COVID-19 case - CityNews Toronto",
+            "description": "<ol><li>‘It wasn’t called COVID at the time:’ One year since Canada’s first COVID-19 case  CityNews Toronto\r\n</li><li>Health Canada approves Canadian-made rapid COVID-19 testing system  CBC News\r\n</li><li>Health Canada approves Spartan Bioscience's previously…",
+            "url": "https://toronto.citynews.ca/2021/01/24/it-wasnt-called-covid-at-the-time-one-year-since-canadas-first-covid-19-case-2/",
+            "urlToImage": "https://toronto.citynews.ca/wp-content/blogs.dir/sites/10/2020/03/CPT10849685.jpg",
+            "publishedAt": "2021-01-24T16:20:20Z",
+            "content": "TORONTO — The patient, when he came into the hospital ER with what seemed to be mild pneumonia, wasn’t that sick and might otherwise have been sent home.\r\nExcept the man had just returned from China,… [+6498 chars]"
+        }
+        ],
       },
       {
         day: 26,
@@ -4543,11 +4627,39 @@ const data = {
       },
       {
         day: 28,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Ctvnews.ca"
+            },
+            "author": "Mia Rabson",
+            "title": "Holiday season vacations coincide with rise in COVID-19 travel-related cases - CTV News",
+            "description": "<ol><li>Holiday season vacations coincide with rise in COVID-19 travel-related cases  CTV News\r\n</li><li>Coronavirus: What's happening in Canada and around the world on Thursday  CBC.ca\r\n</li><li>Travel To Canada Behind Recent Uptick Of Coronavirus Infections…",
+            "url": "https://www.ctvnews.ca/health/coronavirus/holiday-season-vacations-coincide-with-rise-in-covid-19-travel-related-cases-1.5285538",
+            "urlToImage": "https://www.ctvnews.ca/polopoly_fs/1.5253765.1609841077!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg",
+            "publishedAt": "2021-01-28T09:40:00Z",
+            "content": "OTTAWA -- \r\nAs the federal government prepares to slap new restrictions on international travel, Health Canada data suggest a worrying uptick of infections directly connected to foreign arrivals.\r\nWh… [+4129 chars]"
+        },
+        ],
       },
       {
         day: 29,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "BRIEF-Pfizer has assured Canada it will receive 4 million doses of its Covid-19 vaccine by March 31 as initially agreed - Ottawa - Reuters",
+            "description": "BRIEF-Pfizer has assured Canada it will receive 4 million doses of its Covid-19 vaccine by March 31 as initially agreed - Ottawa  Reuters",
+            "url": "https://www.reuters.com/article/brief-pfizer-has-assured-canada-it-will-idUSL1N2K325U",
+            "urlToImage": "https://s1.reutersmedia.net/resources_v2/images/rcom-default.png?w=800",
+            "publishedAt": "2021-01-28T17:43:00Z",
+            "content": "By Reuters Staff\r\nJan 28 (Reuters) - Pfizer Inc:\r\n* PFIZER HAS ASSURED CANADA IT WILL RECEIVE 4 MILLION DOSES OF ITS COVID-19 VACCINE BY MARCH 31 AS INITIALLY AGREED - SENIOR OFFICIAL\r\n* CANADA IS CO… [+530 chars]"
+        },
+        ],
       },
       {
         day: 30,
@@ -4580,7 +4692,21 @@ const data = {
       },
       {
         day: 6,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "the-globe-and-mail",
+                "name": "The Globe And Mail"
+            },
+            "author": "The Canadian Press",
+            "title": "Coronavirus today: Canada nears 800,000 cases of COVID-19 as top doctor notes ‘hopeful signs’ - The Globe and Mail",
+            "description": "Coronavirus today: Canada nears 800,000 cases of COVID-19 as top doctor notes ‘hopeful signs’  The Globe and MailView Full coverage on Google News",
+            "url": "https://www.theglobeandmail.com/canada/article-coronavirus-today-quebec-nears-10000-deaths-reports-1204-new-covid-19/",
+            "urlToImage": "https://www.theglobeandmail.com/resizer/aB0ljo9sEgDtKLoct97ffFESjD8=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/tgam/3IJHZD7EINM7RAQG5AWSYZ7K2M.jpg",
+            "publishedAt": "2021-02-06T18:16:28Z",
+            "content": "People wait to be tested for COVID-19 at a clinic in Montreal on Jan. 31, 2021.\r\nGraham Hughes/The Canadian Press\r\nCanada is nearing another grim milestone in the COVID-19 pandemic, even as the count… [+6169 chars]"
+        },
+        ],
       },
       {
         day: 7,
@@ -4596,7 +4722,21 @@ const data = {
       },
       {
         day: 10,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Matthew Lavietes, Jack Graham",
+            "title": "Mistrust, mobility slow COVID-19 vaccine push for N.America homeless - Reuters",
+            "description": "With the coronavirus pandemic showing no signs of abating in the United States and Canada, some cities have begun vaccinating their homeless - an effort clinicians warn will be challenging given the incomparable circumstances they face.",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-homeless-feature-t-idUSKBN2AA146",
+            "urlToImage": "https://s1.reutersmedia.net/resources_v2/images/rcom-default.png?w=800",
+            "publishedAt": "2021-02-10T10:00:00Z",
+            "content": "NEW YORK/TORONTO (Thomson Reuters Foundation) - With the coronavirus pandemic showing no signs of abating in the United States and Canada, some cities have begun vaccinating their homeless - an effor… [+5862 chars]"
+        },
+        ],
       },
 
       // PLACEHOLDER CUTOFF \\
@@ -4611,7 +4751,34 @@ const data = {
       },
       {
         day: 13,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Narcity"
+            },
+            "author": "Lisa Belmonte",
+            "title": "Canada Has Now Secured 84 Million COVID-19 Vaccine Doses & Here's When They'll Arrive - Narcity Canada",
+            "description": "<ol><li>Canada Has Now Secured 84 Million COVID-19 Vaccine Doses & Here's When They'll Arrive  Narcity Canada\r\n</li><li>The daunting math of Trudeau's goal to have all willing Canadians get COVID vaccine by September  National Post\r\n</li><li>Japan approves fi…",
+            "url": "https://www.narcity.com/en-ca/news/covid19-vaccine-update-canadas-getting-doses-earlier-heres-when",
+            "urlToImage": "https://www.narcity.com/u/2021/02/13/2cc0ff37d0d78a14475658e1e1a4246e.png_1200x630.png",
+            "publishedAt": "2021-02-13T15:37:00Z",
+            "content": null
+        },
+          {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": null,
+            "title": "Coronavirus: The growing threat of variants in Canada - Global News",
+            "description": "<ol><li>Coronavirus: The growing threat of variants in Canada  Global News\r\n</li><li>42 new cases of COVID-19 in Ottawa on Friday; resolved cases surpass 13000  CTV News Ottawa\r\n</li><li>BC seeks injunction against 3 churches  CBC.ca\r\n</li><li>Stay-at-home or…",
+            "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9Nko3dTBmbUt4UEXSAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2021-02-13T02:10:47Z",
+            "content": null
+        },
+        ],
       },
       {
         day: 14,
@@ -4619,11 +4786,39 @@ const data = {
       },
       {
         day: 15,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "India's Serum says will ship AstraZeneca vaccine to Canada in 'less than a month' - Reuters",
+            "description": "The Serum Institute of India will ship the Oxford University/AstraZeneca COVID-19 vaccine to Canada in less than one month, Serum's chief executive said on Monday.",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-canada-idUSKBN2AF0KA",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210215&t=2&i=1551565612&r=LYNXMPEH1E0B2&w=800",
+            "publishedAt": "2021-02-15T08:23:00Z",
+            "content": "By Reuters Staff\r\nFILE PHOTO: Vials of AstraZeneca's Covishield coronavirus (COVID-19) vaccine, are seen before they are packaged inside a lab at Serum Institute of India, Pune, India, November 30, 2… [+1029 chars]"
+        },
+        ],
       },
       {
         day: 16,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "HuffPost Canada"
+            },
+            "author": "Zi-Ann Lum",
+            "title": "Canada Revises COVID-19 Vaccination List To Prioritize Racialized Adults - HuffPost Canada",
+            "description": "<ol><li>Canada Revises COVID-19 Vaccination List To Prioritize Racialized Adults  HuffPost Canada\r\n</li><li>‘Perfect storm’: Is Canada headed for a third wave of COVID-19?  Global News\r\n</li><li>Today’s coronavirus news: Ontario lifts stay-at-home order in 27…",
+            "url": "https://www.huffingtonpost.ca/entry/covid-vaccine-racialized-canadians_ca_602b2a52c5b6f88289fdeb9f",
+            "urlToImage": "https://img.huffingtonpost.com/asset/602b2ff026000034006bc522.jpeg?cache=kwZwaU9Xjv&ops=1200_630",
+            "publishedAt": "2021-02-16T02:45:28Z",
+            "content": "OTTAWA — Adults from racialized communities disproportionately affected by the COVID-19 pandemic should be prioritized for shots in the second stage of the vaccination campaign, says new guidance fro… [+2861 chars]"
+        },
+        ],
       },
       {
         day: 17,

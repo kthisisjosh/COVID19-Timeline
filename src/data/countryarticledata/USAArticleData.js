@@ -3430,31 +3430,168 @@ const data = {
       },
       {
         day: 16,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Ctvnews.ca"
+            },
+            "author": "Deb Riechmann and Matthew Lee",
+            "title": "Trump's presidency not just a blip in U.S. foreign policy - CTV News",
+            "description": "U.S. President-elect Joe Biden's plan to scrap President Donald Trump's vision of 'America First, in favour of 'diplomacy first' will depend on whether he's able to regain the trust of allies and convince them that Trumpism is just a blip in the annals of U.S…",
+            "url": "https://www.ctvnews.ca/world/trump-s-presidency-not-just-a-blip-in-u-s-foreign-policy-1.5269664",
+            "urlToImage": "https://www.ctvnews.ca/polopoly_fs/1.5159827.1603596005!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg",
+            "publishedAt": "2021-01-16T13:33:00Z",
+            "content": "WASHINGTON -- \r\nU.S. President-elect Joe Biden's plan to scrap President Donald Trump's vision of \"America First\" in favour of \"diplomacy first\" will depend on whether he's able to regain the trust o… [+7579 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Global News"
+            },
+            "author": "DEB RIECHMANN and MATTHEW LEE",
+            "title": "Biden to face difficulties in U.S. foreign policy after Trump’s presidency - Global News",
+            "description": "<ol><li>Biden to face difficulties in U.S. foreign policy after Trump’s presidency  Global News\r\n</li><li>In inaugural address, Biden will appeal to national unity  CTV News\r\n</li><li>Why Joe Biden Is Going Ahead With An Outdoor Inauguration  HuffPost Canada\r…",
+            "url": "https://globalnews.ca/news/7580694/trump-foreign-policy/",
+            "urlToImage": "https://globalnews.ca/wp-content/uploads/2021/01/1000-44.jpeg?quality=85&strip=all&w=720&h=379&crop=1",
+            "publishedAt": "2021-01-16T14:33:56Z",
+            "content": "U.S. President-elect Joe Bidens plan to scrap President Donald Trumps vision of America First in favor of diplomacy first will depend on whether hes able to regain the trust of allies and convince th… [+7959 chars]"
+        },
+        ],
       },
       {
         day: 17,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "States Reel After Trump Administration’s Vaccine Promises Unravel",
+            "description": "The administration said that it would release a stockpile of doses, but most of it had already been shipped out. Here’s the latest pandemic news.",
+            "url": "https://www.nytimes.com/live/2021/01/17/world/covid-19-coronavirus",
+            "urlToImage": "https://static01.nyt.com/images/2021/01/17/multimedia/17virus-briefing-governor-reax/17virus-briefing-governor-reax-facebookJumbo.jpg",
+            "publishedAt": "2021-01-17T15:02:08Z",
+            "content": "LiveUpdated Jan. 17, 2021, 9:35 a.m. ET\r\nJan. 17, 2021, 9:35 a.m. ET\r\nThe world is bracing for a surge of virus variants that are more contagious. Another member of Congress has tested positive.\r\nHer… [+21531 chars]"
+        },
+        ],
       },
       {
         day: 18,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Biden inauguration: Executive orders to reverse Trump policies",
+            "description": "The new president will repeal Trump travel bans and re-join the Paris climate accord after being sworn in.",
+            "url": "https://www.bbc.co.uk/news/world-us-canada-55694415",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/6D83/production/_116553082_326520dc-c062-4e56-b2e9-3b25afc3d88f.jpg",
+            "publishedAt": "2021-01-17T10:21:17Z",
+            "content": "image captionMr Biden is reportedly planning a '10-day blitz' of measures to kickstart presidency\r\nDetails are emerging of a raft of executive orders planned by US president-elect Joe Biden as soon a… [+5504 chars]"
+        },
+        ],
       },
       {
         day: 19,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Analysis by Maeve Reston, CNN",
+            "title": "Analysis: A nation on edge braces for the transfer of power",
+            "description": "The nation is entering inauguration week with an unnerving police and military presence guarding the vestiges of democracy -- with Americans holding their breath as federal officials warn about threats of violence and potential unrest that have clouded prepar…",
+            "url": "https://www.cnn.com/2021/01/17/politics/donald-trump-joe-biden-transfer-of-power/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210116114808-02-washington-dc-security-0116-super-tease.jpg",
+            "publishedAt": "2021-01-17T05:22:01Z",
+            "content": "(CNN)The nation is entering inauguration week with an unnerving police and military presence guarding the vestiges of democracy -- with Americans holding their breath as federal officials warn about … [+8494 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "Yellen to tell lawmakers 'act big' on coronavirus relief - Reuters",
+            "description": "Janet Yellen, U.S. President-elect Joe Biden's nominee for Treasury Secretary, urged lawmakers on Tuesday to \"act big\" on the next coronavirus relief package, adding that the benefits outweigh the costs of a higher debt burden.",
+            "url": "https://www.reuters.com/article/us-usa-markets-yellen-quotes/yellen-to-tell-lawmakers-act-big-on-coronavirus-relief-idUSKBN29O2HN",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210119&t=2&i=1548354467&r=LYNXMPEH0I1I1&w=800",
+            "publishedAt": "2021-01-19T20:27:00Z",
+            "content": "By Reuters Staff\r\nNEW YORK (Reuters) - Janet Yellen, U.S. President-elect Joe Bidens nominee for Treasury Secretary, urged lawmakers on Tuesday to act big on the next coronavirus relief package, addi… [+5786 chars]"
+        },
+        ],
       },
       {
         day: 20,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "Virus Tightens Its Grip on Texas",
+            "description": "The precarious situation in the state, which has seen more than 2.1 million cases and 32,000 deaths, is a threat to the gradual progress the United States is making in trying to flatten its curve.",
+            "url": "https://www.nytimes.com/live/2021/01/20/world/covid-19-coronavirus",
+            "urlToImage": "https://static01.nyt.com/images/2021/01/19/us/19virus-briefing-texas1/19virus-briefing-texas1-facebookJumbo.jpg",
+            "publishedAt": "2021-01-20T10:43:09Z",
+            "content": "LiveUpdated Jan. 20, 2021, 5:45 a.m. ET\r\nJan. 20, 2021, 5:45 a.m. ET\r\nThe precarious situation in the state, which has seen more than 2.1 million cases and 32,000 deaths, is a threat to the gradual p… [+24538 chars]"
+        },
+        ],
       },
       {
         day: 21,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Mimi Dwyer, Mica Rosenberg, Ted Hesson, Kristina Cooke",
+            "title": "Biden begins presidency as Trump ended his - with a sharp focus on immigration - Reuters",
+            "description": "Within hours of being sworn in as president on Wednesday, Joe Biden will announce an immigration bill that would open a path to citizenship for millions of immigrants in the country unlawfully, a sharp contrast to the policies of outgoing Republican President…",
+            "url": "https://www.reuters.com/article/us-usa-biden-immigration-idUSKBN29P12L",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210120&t=2&i=1548422900&r=LYNXMPEH0J0JV&w=800",
+            "publishedAt": "2021-01-20T10:08:36Z",
+            "content": "LOS ANGELES (Reuters) - Within hours of being sworn in as president on Wednesday, Joe Biden will announce an immigration bill that would open a path to citizenship for millions of immigrants in the c… [+5379 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "JONATHAN LEMIRE, ZEKE MILLER and ALEXANDRA JAFFE",
+            "title": "Biden takes the helm, appeals for unity to take on crises",
+            "description": "Joe Biden was sworn in as the 46th president of the United States, declaring that “democracy has prevailed” and summoning American resilience and unity to...",
+            "url": "https://news.yahoo.com/biden-takes-helm-appeals-unity-051103839.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/DQI2tIXaVLU9hATTDcjt2Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwMDA7aD0xMzI5/https://s.yimg.com/uu/api/res/1.2/WabuaRWGgKnFl.gGYaA43A--~B/aD0zNTI4O3c9NTMxMTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/ap.org/2594beabb50855a677de565e3b8e0352",
+            "publishedAt": "2021-01-21T05:11:03Z",
+            "content": "WASHINGTON (AP) Joe Biden was sworn in as the 46th president of the United States, declaring that democracy has prevailed and summoning American resilience and unity to confront the deeply divided na… [+9080 chars]"
+        },
+        ],
       },
       {
         day: 22,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": null,
+            "title": "The week in 44 photos",
+            "description": "Take a look at 44 photos of the week from January 15 to January 21.",
+            "url": "https://www.cnn.com/2021/01/21/world/gallery/photos-this-week-january-15-january-21/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210120205605-79-biden-inauguration-unf-super-tease.jpg",
+            "publishedAt": "2021-01-22T00:14:00Z",
+            "content": "Open Menu\r\nprevious image\r\nnext image\r\nJoe Biden and his wife, Jill, arrive at his inauguration on Wednesday, January 20. Biden, the 46th president of the United States, pledged to be a president for… [+9166 chars]"
+        },
+        ],
       },
       {
         day: 23,
@@ -3470,11 +3607,39 @@ const data = {
       },
       {
         day: 26,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Tina Sfondeles",
+            "title": "Biden bucks Trump's pandemic approach that favored friendlier states and brings Republican governors into the fold",
+            "description": "Summary List PlacementFormer President Donald Trump drew a line between red and blue states in his approach to the COVID-19 pandemic. It was a divisive approach that favored states that voted for him and angered Democratic governors who frequently blasted his…",
+            "url": "https://www.businessinsider.com/joe-biden-covid-strategy-red-blue-states-republican-governors-pandemic-2021-1",
+            "urlToImage": "https://i.insider.com/600f3bc580e4540019816abe?width=1200&format=jpeg",
+            "publishedAt": "2021-01-26T00:55:30Z",
+            "content": "Former President Donald Trump drew a line between red and blue states in his approach to the COVID-19 pandemic. It was a divisive approach that favored states that voted for him and angered Democrati… [+7233 chars]"
+        },
+        ],
       },
       {
         day: 27,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "President Biden Vows to Speed Up the Pace of Inoculations",
+            "description": "President Biden said the number of coronavirus vaccines reaching the states would increase next week. In Europe, production delays and slow progress with vaccinations leave the E.U. and Britain fighting over doses.",
+            "url": "https://www.nytimes.com/live/2021/01/27/world/covid-19-coronavirus",
+            "urlToImage": "https://static01.nyt.com/images/2021/01/27/business/27virus-briefing-biden-virus1/27virus-briefing-biden-virus1-facebookJumbo.jpg",
+            "publishedAt": "2021-01-27T10:53:46Z",
+            "content": "LiveUpdated Jan. 27, 2021, 5:51 a.m. ET\r\nJan. 27, 2021, 5:51 a.m. ET\r\nPresident Biden said the number of coronavirus vaccines reaching the states would increase next week. In Europe, production delay… [+24446 chars]"
+        },
+        ],
       },
       {
         day: 28,
@@ -3495,7 +3660,21 @@ const data = {
     [
       {
         day: 1,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "Biden to Meet With Republicans on Next Stimulus Plan",
+            "description": "A group of 10 Republican senators are pitching their plan as a way for President Biden to pass a stimulus bill with bipartisan support and overcome any filibuster.",
+            "url": "https://www.nytimes.com/live/2021/02/01/us/biden-administration",
+            "urlToImage": "https://static01.nyt.com/images/2021/02/01/world/01new-washington-setup/01new-washington-setup-facebookJumbo.jpg",
+            "publishedAt": "2021-02-01T13:56:39Z",
+            "content": "LiveUpdated Feb. 1, 2021, 9:07 a.m. ET\r\nFeb. 1, 2021, 9:07 a.m. ET\r\nthe NEW WASHINGTON\r\nA group of 10 Republican senators are pitching their plan as a way for President Biden to pass a stimulus bill … [+14918 chars]"
+        },
+        ],
       },
       {
         day: 2,
@@ -3507,7 +3686,34 @@ const data = {
       },
       {
         day: 4,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "The Atlantic"
+            },
+            "author": "Yasmeen Serhan",
+            "title": "Joe Biden’s ‘America First’ Vaccine Strategy",
+            "description": "Although the new administration has reversed many of the isolationist policies of its predecessor, the United States’ commitment to its own vaccine procurement remains unchanged.",
+            "url": "https://www.theatlantic.com/international/archive/2021/02/joe-biden-vaccines-america-first/617903/",
+            "urlToImage": "https://cdn.theatlantic.com/thumbor/6UxFWyNaVvcoFi3r6zVW5g7ks00=/0x83:2000x1125/960x500/media/img/mt/2021/02/VaccineNationalism/original.jpg",
+            "publishedAt": "2021-02-04T11:00:00Z",
+            "content": "When it came to shifting the United States’ pandemic posturing, Joe Biden wasted no time. Within hours of his inauguration, the president retracted the previous administration’s decision to withdraw … [+9590 chars]"
+        },
+        {
+            "source": {
+                "id": "al-jazeera-english",
+                "name": "Al Jazeera English"
+            },
+            "author": "Al Jazeera",
+            "title": "Biden lays out foreign policy plan to reverse Trump agenda",
+            "description": "In his first foreign policy speech as president, Biden says he will rebuild relations with allies and pursue diplomacy.",
+            "url": "https://www.aljazeera.com/news/2021/2/4/biden-reverses-trump-foreign-policy-in-state-department-speech",
+            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2021/02/2021-02-04T190613Z_741519025_RC2VLL9LS5PJ_RTRMADP_3_USA-BIDEN-STATE.jpg?resize=1200%2C630",
+            "publishedAt": "2021-02-04T19:57:52Z",
+            "content": "US President Joe Biden laid out his foreign policy agenda on Thursday afternoon, unveiling a return to standing shoulder to shoulder with our allies and key partners once more after years of the prev… [+5596 chars]"
+        },
+        ],
       },
       {
         day: 5,
@@ -3515,7 +3721,21 @@ const data = {
       },
       {
         day: 6,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Carolyn Y. Johnson, William Wan",
+            "title": "Mutated virus may reinfect people already stricken once with covid-19, sparking debate and concerns - The Washington Post",
+            "description": "<ol><li>Mutated virus may reinfect people already stricken once with covid-19, sparking debate and concerns  The Washington Post\r\n</li><li>First case of South African COVID-19 variant found in Virginia  13News Now\r\n</li><li>Covid US: At least 628 'super varia…",
+            "url": "https://www.washingtonpost.com/health/2021/02/05/virus-variant-reinfection-south-africa/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/E75S6FDG4EI6XOVYOB7YO2OXQU.jpg&w=1440",
+            "publishedAt": "2021-02-06T00:33:00Z",
+            "content": "Anthony S. Fauci, director of the National Institute of Allergy and Infectious Diseases, noted that it appears a vaccine is better than natural infection in protecting people, calling it a big, stron… [+8690 chars]"
+        },
+        ],
       },
       {
         day: 7,
@@ -3523,11 +3743,39 @@ const data = {
       },
       {
         day: 8,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Daily Beast"
+            },
+            "author": "Pilar Melendez",
+            "title": "Texas Rep. Ron Wright Dies After COVID-19 Diagnosis",
+            "description": "via United States CongressRep. Ron Wright (R-TX), who tested positive for the coronavirus last month, died on Sunday, his family confirmed on Monday morning....",
+            "url": "https://www.thedailybeast.com/texas-rep-ron-wright-dies-after-covid-19-diagnosis?source=articles&via=rss",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/SlkJ0MynQokf.eyZexI1Zg--~B/aD00ODA7dz04NTQ7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/thedailybeast.com/650c5bc5b45255f944359e9554cf5655",
+            "publishedAt": "2021-02-08T16:15:26Z",
+            "content": "President Donald Trump uses his smartphone. AP Photo/Alex BrandonThe tally was in, it was clear Donald Trump had lost and he tweeted: either a new election should take place or results nullified. It … [+8584 chars]"
+        },
+        ],
       },
       {
         day: 9,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Vox"
+            },
+            "author": "Sean Illing",
+            "title": "“We did the worst job in the world”: Lawrence Wright on America’s botched Covid-19 response",
+            "description": "Lawrence Wright on the three moments that doomed the US response to the coronavirus",
+            "url": "https://www.vox.com/coronavirus-covid19/22202738/covid-19-coronavirus-america-anniversary-lawrence-wright",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/_GaTCprcOuiZb-yxqwvukJHFIOM=/0x94:2820x1570/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22290405/1213154754.jpg",
+            "publishedAt": "2021-02-09T13:30:00Z",
+            "content": "February 6 marks the anniversary of the first American death from the coronavirus.\r\nSince then, well over 400,000 Americans have died from complications related to Covid-19. Its likely many more will… [+17672 chars]"
+        },
+        ],
       },
       {
         day: 10,
@@ -3538,11 +3786,39 @@ const data = {
 
       {
         day: 11,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Forbes"
+            },
+            "author": "Tommy Beer, Forbes Staff, \n Tommy Beer, Forbes Staff\n https://www.forbes.com/sites/tommybeer/",
+            "title": "Trump's Policies Resulted In The Unnecessary Deaths Of Hundreds Of Thousands Of Americans: Lancet Report",
+            "description": "The Trump administration's cuts to global health programs and public health agencies greatly hindered the country's response to the Covid-19 pandemic, the report asserts.",
+            "url": "https://www.forbes.com/sites/tommybeer/2021/02/11/trumps-policies-resulted-in-the-unnecessary-deaths-of-hundreds-of-thousands-of-americans-lancet-report/",
+            "urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F6024813b0079c5e034582277%2F0x0.jpg%3FcropX1%3D0%26cropX2%3D4200%26cropY1%3D210%26cropY2%3D2571",
+            "publishedAt": "2021-02-11T05:30:00Z",
+            "content": "Decades of policy failures that the Trump administration exacerbated resulted in more than 450,000 unnecessary American deaths in 2018, with tens of thousands of additional deaths in other years also… [+4237 chars]"
+        },
+        ],
       },
       {
         day: 12,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "USA TODAY, N'dea Yancey-Bragg, USA TODAY",
+            "title": "'Stop killing us': Attacks on Asians, Asian Americans highlight rise in hate incidents amid COVID-19",
+            "description": "After a series of attacks on Asian Americans, including a 91-year-old man in California, activists say more must be done to curb violence and racism.",
+            "url": "https://www.usatoday.com/story/news/nation/2021/02/12/asian-hate-incidents-covid-19-lunar-new-year/4447037001/",
+            "urlToImage": "https://www.gannett-cdn.com/presto/2021/02/10/USAT/2dbb894f-ae26-4469-b512-80a36839730e-D9_10Great_Chinatowns_Oakland_20.JPG?crop=2459,1384,x0,y0&width=1600&height=800&fit=bounds",
+            "publishedAt": "2021-02-12T04:03:53Z",
+            "content": "Asian Americans have been victims of increased violence and harassment since the coronavirus pandemic began, but recent attacks have prompted some to \"hunker down\" again.\r\nUSA TODAY\r\nA series of viol… [+10964 chars]"
+        },
+        ],
       },
       {
         day: 13,
@@ -3550,11 +3826,39 @@ const data = {
       },
       {
         day: 14,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Ctvnews.ca"
+            },
+            "author": "Alexandra Jaffe and Jonathan Lemire",
+            "title": "Biden White House seeks to turn page on Trump - CTV News",
+            "description": "<ol><li>Biden White House seeks to turn page on Trump  CTV News\r\n</li><li>Trump acquitted in 2nd impeachment trial: How it played out  CBC News\r\n</li><li>After acquittal, Trump says ‘our movement has only just begun’  Al Jazeera English\r\n</li><li>With Trump's…",
+            "url": "https://www.ctvnews.ca/world/biden-white-house-seeks-to-turn-page-on-trump-1.5308487",
+            "urlToImage": "https://www.ctvnews.ca/polopoly_fs/1.5308488.1613307928!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg",
+            "publishedAt": "2021-02-14T13:06:00Z",
+            "content": "WASHINGTON -- \r\nThe end of former U.S. president Donald Trump's impeachment trial opens a new chapter for his successor in the White House.\r\nBut while President Joe Biden and his team are eager to mo… [+6554 chars]"
+        },
+        ],
       },
       {
         day: 15,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "al-jazeera-english",
+                "name": "Al Jazeera English"
+            },
+            "author": "Al Jazeera",
+            "title": "The ‘superspreaders’ behind COVID-19 conspiracy theories",
+            "description": "Investigation identifies people and groups behind some of the most viral misinformation about coronavirus origins.",
+            "url": "https://www.aljazeera.com/news/2021/2/15/the-superspreaders-behind-covid-19-conspiracy-theories",
+            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2020/02/95d3056d580c43bdb53c4f328155a590_18.jpeg?fit=1000%2C562",
+            "publishedAt": "2021-02-15T12:27:09Z",
+            "content": "As the coronavirus spread across the globe, so too did speculation about its origins. Perhaps the virus escaped from a lab. Maybe it was engineered as a bioweapon.\r\nLegitimate questions about the vir… [+16098 chars]"
+        },
+        ],
       },
       {
         day: 16,
