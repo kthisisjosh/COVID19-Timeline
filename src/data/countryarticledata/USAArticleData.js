@@ -3870,15 +3870,57 @@ const data = {
       },
       {
         day: 18,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "time",
+                "name": "Time"
+            },
+            "author": "MARILYNN MARCHIONE/AP",
+            "title": "U.S. Life Expectancy Drops By a Year Due to COVID-19 Deaths",
+            "description": "Life expectancy in America dropped a staggering one year during the first half of 2020 as the coronavirus pandemic caused a wave of deaths.",
+            "url": "https://time.com/5940692/us-life-expectancy-2020/",
+            "urlToImage": "https://api.time.com/wp-content/uploads/2021/02/us-life-expectancy-2020.jpg?quality=85&w=1200&h=628&crop=1",
+            "publishedAt": "2021-02-18T15:50:17Z",
+            "content": "Life expectancy in the United States dropped a staggering one year during the first half of 2020 as the coronavirus pandemic caused its first wave of deaths, health officials are reporting.\r\nMinoriti… [+3340 chars]"
+        },
+        ],
       },
       {
         day: 19,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "America is back - US Secretary of State Anthony Blinken",
+            "description": "The US top diplomat signals a sharp change of tack after the \"America First\" years under Donald Trump.",
+            "url": "https://www.bbc.co.uk/news/world-us-canada-56131781",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1017F/production/_117091956_hi065547597.jpg",
+            "publishedAt": "2021-02-19T18:58:53Z",
+            "content": "media captionUS Secretary of State Antony Blinken: \"We're determined to engage with the world\"\r\n\"America is back\" and is fully engaged in helping resolve issues including the pandemic, climate change… [+3046 chars]"
+        },
+        ],
       },
       {
         day: 20,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "Biden to Visit Coronavirus Vaccine Manufacturing Site",
+            "description": "President Biden is visiting a Pfizer production site in Michigan after he speaks at his first major international event as president, the Munich Security Conference.",
+            "url": "https://www.nytimes.com/live/2021/02/19/us/joe-biden-news",
+            "urlToImage": "https://static01.nyt.com/images/2021/02/19/us/politics/19new-washington-briefing-morning-lede/19new-washington-briefing-morning-lede-facebookJumbo.jpg",
+            "publishedAt": "2021-02-19T14:05:16Z",
+            "content": "LiveUpdated Feb. 19, 2021, 8:33 a.m. ET\r\nFeb. 19, 2021, 8:33 a.m. ET\r\nPresident Biden is visiting a Pfizer production site in Michigan after he speaks at his first major international event as presid… [+11314 chars]"
+        },
+        ],
       },
       {
         day: 21,
@@ -3894,19 +3936,75 @@ const data = {
       },
       {
         day: 24,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Nicole Wetsman",
+            "title": "Johnson & Johnson’s single-shot vaccine is effective, FDA confirms",
+            "description": "The FDA released its analysis of the Johnson & Johnson COVID-19 vaccine. The one-shot vaccine is safe and effective and protects against hospitalization and death. It could be authorized within days.",
+            "url": "https://www.theverge.com/2021/2/24/22298855/covid-vaccine-johnson-effective-fda-south-africa-variant",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/b3rp5UAdHWokprkSPWdFrdVIuiI=/0x502:3500x2334/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22325588/1231237368.jpg",
+            "publishedAt": "2021-02-24T15:45:23Z",
+            "content": "Johnson & Johnson vaccine vials at the Klerksdorp Hospital in South Africa. | Photo by Phill Magakoe / AFP via Getty Images\r\n\n \n\n The one-dose COVID-19 vaccine made by Johnson & Johnson protects agai… [+3208 chars]"
+        },
+        ],
       },
       {
         day: 25,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Dan Diamond",
+            "title": "‘It’s Up to You’: Ad campaign to encourage coronavirus vaccination gets underway - The Washington Post",
+            "description": "<ol><li>‘It’s Up to You’: Ad campaign to encourage coronavirus vaccination gets underway  The Washington Post\r\n</li><li>Johnson & Johnson Covid-19 vaccine is safe and effective, FDA analysis finds  CNN \r\n</li><li>FDA Staff Backs Johnson & Johnson Single-Shot …",
+            "url": "https://www.washingtonpost.com/health/2021/02/25/covid-vaccine-ad-council/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://d1i4t8bqe7zgj6.cloudfront.net/02-24-2021/t_5c181fe1989c4c14afd0677143893158_name_howitstarts_30s_V1_16x9_2021_02_23_v04_Titled_mp4_00_00_25_27_Still001.jpg&w=1440",
+            "publishedAt": "2021-02-25T05:01:00Z",
+            "content": "The campaign the first concerted effort urging Americans to get vaccinated against the novel coronavirus will further encourage those skeptical of the vaccines to visit a new website, getvaccineanswe… [+8868 chars]"
+        }
+        ],
       },
       {
         day: 26,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "One Pfizer Dose Strongly Protects Those Who’ve Had Virus, Studies Find",
+            "description": "Two new pieces of research support the case for giving just one dose of the Pfizer vaccine to people who have antibodies against the virus. The F.D.A. is meeting Friday to consider the Johnson & Johnson vaccine.",
+            "url": "https://www.nytimes.com/live/2021/02/26/world/covid-19-coronavirus",
+            "urlToImage": "https://static01.nyt.com/images/2021/02/26/world/26virus-briefing-uk-vaccine-1/26virus-briefing-uk-vaccine-1-facebookJumbo.jpg",
+            "publishedAt": "2021-02-26T10:08:42Z",
+            "content": "LiveUpdated Feb. 26, 2021, 5:08 a.m. ET\r\nFeb. 26, 2021, 5:08 a.m. ET\r\nTwo new pieces of research support the case for giving just one dose of the Pfizer vaccine to people who have antibodies against … [+22836 chars]"
+        },
+        ],
       },
       {
         day: 27,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Maggie Fox, CNN",
+            "title": "The US is about to get a third coronavirus vaccine. Here's how it's different from the others",
+            "description": "The United States is poised to get a third coronavirus vaccine -- this one made by Johnson & Johnson.",
+            "url": "https://www.cnn.com/2021/02/27/health/johnson-johnson-coronavirus-vaccine-explainer/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210224232512-03-johnson-and-johnson-coronavirus-vaccine-south-africa-super-tease.jpg",
+            "publishedAt": "2021-02-27T23:18:40Z",
+            "content": "(CNN)The United States is poised to get a third coronavirus vaccine -- this one made by Johnson &amp; Johnson.\r\nThe US Food and Drug Administration has given the vaccine emergency use authorization, … [+7531 chars]"
+        },
+        ],
       },
       {
         day: 28,
@@ -3937,7 +4035,21 @@ const data = {
       },
       {
         day: 3,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Shashank Nayar, Medha Singh",
+            "title": "US STOCKS-Futures advance as vaccines, stimulus boost bets on economic rebound - Reuters",
+            "description": "U.S. stock index futures rose on Wednesday as a swift global roll out of vaccines and a new round of stimulus bolstered bets on a quick economic rebound, with investors also focusing on private employment and service sector reports.",
+            "url": "https://www.reuters.com/article/us-usa-stocks-idUSKBN2AV1EG",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210303&t=2&i=1553589651&r=LYNXMPEH220R6&w=800",
+            "publishedAt": "2021-03-03T12:21:00Z",
+            "content": "(Reuters) - U.S. stock index futures rose on Wednesday as a swift global roll out of vaccines and a new round of stimulus bolstered bets on a quick economic rebound, with investors also focusing on p… [+2256 chars]"
+        },
+        ],
       },
       {
         day: 4,
@@ -3945,7 +4057,21 @@ const data = {
       },
       {
         day: 5,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Analysis by Chris Cillizza, CNN Editor-at-large",
+            "title": "Analysis: Is it OK to be optimistic about Covid-19 now?",
+            "description": "For the first time since the start of the Covid-19 pandemic, a majority of Americans believe our fight against the virus is getting better in a new Gallup national poll, the latest sign that optimism is creeping back into American life after a year of quarant…",
+            "url": "https://www.cnn.com/2021/03/05/politics/covid-19-gallup-optimism/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210304130227-02-texas-covid-19-0303-super-tease.jpg",
+            "publishedAt": "2021-03-05T17:23:16Z",
+            "content": "(CNN)For the first time since the start of the Covid-19 pandemic, a majority of Americans believe our fight against the virus is getting better in a new Gallup national poll, the latest sign that opt… [+5630 chars]"
+        },
+        ],
       },
       {
         day: 6,
@@ -3953,7 +4079,21 @@ const data = {
       },
       {
         day: 7,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Yelena Dzhanova",
+            "title": "Russian intelligence has reportedly launched a disinformation campaign attacking the Pfizer COVID-19 vaccine",
+            "description": "Summary List PlacementRussian intelligence officials are attempting to cast doubt on the Pfizer coronavirus vaccine, according to a new report from the Wall Street Journal. \nFour publications acting as fronts for Russian intelligence are disseminating informa…",
+            "url": "https://www.businessinsider.com/russia-trying-to-sow-public-doubt-about-pfizer-covid19-vaccine-2021-3",
+            "urlToImage": "https://i.insider.com/5fd12bf848a2590018262829?width=1200&format=jpeg",
+            "publishedAt": "2021-03-07T15:49:19Z",
+            "content": "Russian intelligence officials are attempting to cast doubt on the Pfizer coronavirus vaccine, according to a new report from the Wall Street Journal. \r\nFour publications acting as fronts for Russian… [+3398 chars]"
+        },
+        ],
       },
       {
         day: 8,
@@ -3961,7 +4101,21 @@ const data = {
       },
       {
         day: 9,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Opinion by David A. Andelman",
+            "title": "The case for issuing Covid-19 vaccine passports",
+            "description": "There was a time when international travelers had to carry a small yellow booklet called an \"International Vaccination Certificate.\" I still have mine, with stamps inside indicating I'd been vaccinated against typhoid, cholera, yellow fever, smallpox, even bu…",
+            "url": "https://www.cnn.com/2021/03/09/opinions/covid-19-vaccine-passports-andelman/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210122160109-covid-vaccination-passport-denmark-super-tease.jpg",
+            "publishedAt": "2021-03-09T05:36:04Z",
+            "content": "David A. Andelman, a contributor to CNN, twice winner of the Deadline Club Award, and executive director of The Red Lines Project, is the author of \"A Red Line in the Sand: Diplomacy, Strategy, and t… [+7217 chars]"
+        },
+        ],
       },
       {
         day: 10,
@@ -3980,7 +4134,21 @@ const data = {
       },
       {
         day: 13,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "345 Million Vaccine Doses Given Globally, but Some Countries Are at Zero",
+            "description": "North America and Europe are far outpacing most countries in Asia and Africa. A vigil for a London woman killed last week was canceled because of Covid-19 restrictions, causing an uproar.",
+            "url": "https://www.nytimes.com/live/2021/03/13/world/covid-19-coronavirus",
+            "urlToImage": "https://static01.nyt.com/images/2021/03/13/world/12-virus-briefing-global-vaccinations/merlin_183795717_c8a6728b-2a61-4e27-8ffb-66952ddb6f68-facebookJumbo.jpg",
+            "publishedAt": "2021-03-13T14:48:38Z",
+            "content": "LiveUpdated March 13, 2021, 9:52 a.m. ET\r\nMarch 13, 2021, 9:52 a.m. ET\r\nHeres what you need to know:\r\nMore than 345 million doses of Covid-19 vaccines have been administered worldwide in the three mo… [+11406 chars]"
+        },
+        ],
       },
       {
         day: 14,

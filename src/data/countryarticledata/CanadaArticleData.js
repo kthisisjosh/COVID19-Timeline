@@ -4822,7 +4822,21 @@ const data = {
       },
       {
         day: 17,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "HuffPost Canada"
+            },
+            "author": "Zi-Ann Lum",
+            "title": "Canada Revises COVID-19 Vaccination List To Prioritize Racialized Adults - HuffPost Canada",
+            "description": "<ol><li>Canada Revises COVID-19 Vaccination List To Prioritize Racialized Adults  HuffPost Canada\r\n</li><li>‘Perfect storm’: Is Canada headed for a third wave of COVID-19?  Global News\r\n</li><li>Today’s coronavirus news: Ontario lifts stay-at-home order in 27…",
+            "url": "https://www.huffingtonpost.ca/entry/covid-vaccine-racialized-canadians_ca_602b2a52c5b6f88289fdeb9f",
+            "urlToImage": "https://img.huffingtonpost.com/asset/602b2ff026000034006bc522.jpeg?cache=kwZwaU9Xjv&ops=1200_630",
+            "publishedAt": "2021-02-16T02:45:28Z",
+            "content": "OTTAWA — Adults from racialized communities disproportionately affected by the COVID-19 pandemic should be prioritized for shots in the second stage of the vaccination campaign, says new guidance fro… [+2861 chars]"
+        },
+      ],
       },
       {
         day: 18,
@@ -4834,7 +4848,21 @@ const data = {
       },
       {
         day: 20,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Citynews.ca"
+            },
+            "author": null,
+            "title": "Canada-US border to remain closed to non-essential travel until March 21 - CityNews Toronto",
+            "description": "<ol><li>Canada-US border to remain closed to non-essential travel until March 21  CityNews Toronto\r\n</li><li>A look at COVID-19 vaccinations in Canada on Thursday, Feb. 18, 2021  MSN Canada\r\n</li><li>When Canada gets excess COVID-19 vaccine they will be donat…",
+            "url": "https://toronto.citynews.ca/2021/02/19/canada-us-border-closed-to-non-essential-travel-until-at-least-march-21/",
+            "urlToImage": "https://toronto.citynews.ca/wp-content/blogs.dir/sites/10/2020/06/16/canadaunitedstatesborder-june16-e1592299180845.jpg",
+            "publishedAt": "2021-02-20T02:07:12Z",
+            "content": "The border between Canada and the United States will remain closed to non-essential travel for at least another month.\r\nPublic Safety Minister Bill Blair announced late Friday that the closure has be… [+659 chars]"
+        },
+        ],
       },
       {
         day: 21,
@@ -4858,7 +4886,34 @@ const data = {
       },
       {
         day: 26,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "northumberlandnews.com"
+            },
+            "author": null,
+            "title": "Today's coronavirus news: Health Canada approves AstraZeneca's COVID-19 vaccine; Mississauga mayor wants her city to move into red category - northumberlandnews.com",
+            "description": "<ol><li>Today's coronavirus news: Health Canada approves AstraZeneca's COVID-19 vaccine; Mississauga mayor wants her city to move into red category  northumberlandnews.com\r\n</li><li>The latest numbers on COVID-19 in Canada for Thursday, Feb. 25, 2021  Sudbury…",
+            "url": "https://www.northumberlandnews.com/news-story/10339198-today-s-coronavirus-news-health-canada-approves-astrazeneca-s-covid-19-vaccine-mississauga-mayor-w/",
+            "urlToImage": null,
+            "publishedAt": "2021-02-26T04:52:30Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "680 News"
+            },
+            "author": null,
+            "title": "Health Canada approves AstraZeneca COVID-19 vaccine - 680 News",
+            "description": "<ol><li>Health Canada approves AstraZeneca COVID-19 vaccine  680 News\r\n</li><li>Canada adds 3,091 new COVID-19 cases, 58 deaths as vaccinations ramp up  MSN Canada\r\n</li><li>Moderna 4Q Revenues Jump To $571M On Back Of COVID-19 Vaccine; Shares Rise 4%  Yahoo …",
+            "url": "https://www.680news.com/2021/02/26/health-canada-approves-astrazeneca-covid-19-vaccine-ontario-justin-trudeau/",
+            "urlToImage": "https://www.680news.com/wp-content/blogs.dir/sites/2/2021/02/GettyImages-1230709276-e1611831366302.jpg",
+            "publishedAt": "2021-02-26T13:19:47Z",
+            "content": "Health Canada has approved AstraZeneca’s COVID-19 vaccine.\r\nThe shot is the third to be given the green light for use in the country, following vaccines from Pfizer-BioNTech and Moderna.\r\nThe country… [+3444 chars]"
+        },
+        ],
       },
       {
         day: 27,
@@ -4901,11 +4956,39 @@ const data = {
       },
       {
         day: 5,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "Canada to authorize Johnson & Johnson's COVID-19 vaccine: CBC News - Reuters",
+            "description": "Health Canada will announce the approval of Johnson & Johnson's single-dose COVID-19 vaccine on Friday, CBC News reported, citing sources.",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-johnson-johnson-ca-idUSKBN2AX1O2",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210305&t=2&i=1553876218&r=LYNXMPEH240Y8&w=800",
+            "publishedAt": "2021-03-05T14:38:00Z",
+            "content": "By Reuters Staff\r\nFILE PHOTO: A vial of the Johnson &amp; Johnson's coronavirus disease (COVID-19) vaccine is seen at Northwell Health's South Shore University Hospital in Bay Shore, New York, U.S., … [+475 chars]"
+        },
+        ],
       },
       {
         day: 6,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "the-globe-and-mail",
+                "name": "The Globe And Mail"
+            },
+            "author": null,
+            "title": "What the approval of Johnson & Johnson’s COVID-19 vaccine means for Canadians - The Globe and Mail",
+            "description": "<ol><li>What the approval of Johnson & Johnson’s COVID-19 vaccine means for Canadians  The Globe and Mail\r\n</li><li>Health Canada approves Johnson & Johnson COVID-19 vaccine  CBC News: The National\r\n</li><li>A behind-the-scenes look at why Canada delayed 2nd …",
+            "url": "https://www.theglobeandmail.com/canada/article-what-the-approval-of-johnson-johnsons-covid-19-vaccine-means-for/",
+            "urlToImage": "https://www.theglobeandmail.com/resizer/oZjS1IYfsPp28fhVczlNLgMopbg=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/tgam/WXRSJLYKM5O6DMK32TIDI54CZM.jpg",
+            "publishedAt": "2021-03-06T01:35:41Z",
+            "content": "Registered nurse Florisa N. Lingad prepares a dose of a Johnson &amp; Johnson Covid-19 vaccine at a vaccination center established at the Hilton Chicago O'Hare Airport Hotel in Chicago, Illinois, on … [+6846 chars]"
+        }
+        ],
       },
       {
         day: 7,
@@ -4917,30 +5000,140 @@ const data = {
       },
       {
         day: 9,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "In Canada, Nursing Home Residents Are Vaccinated but Still Isolated",
+            "description": "Officials say they are waiting for scientific assurance that it is safe to ease regulations, but residents compare the situation to being in prison. In the U.S., a study finds young students losing ground in reading skills.",
+            "url": "https://www.nytimes.com/live/2021/03/09/world/covid-19-coronavirus",
+            "urlToImage": "https://static01.nyt.com/images/2021/03/09/multimedia/09virus-briefing-canada-care-homes1/09virus-briefing-canada-care-homes1-facebookJumbo.jpg",
+            "publishedAt": "2021-03-09T10:21:43Z",
+            "content": "Nursing homes in Canada were prioritized for the first precious doses of coronavirus vaccines to few objections they were ground zero for the pandemics cruel ravage. Around 66 percent of the countrys… [+7876 chars]"
+        },
+        ],
       },
       {
         day: 10,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Ctvnews.ca"
+            },
+            "author": "Rachel Aiello",
+            "title": "Canada entered expanded COVID-19 vaccination phase this week: Fortin - CTV News",
+            "description": "<ol><li>Canada entered expanded COVID-19 vaccination phase this week: Fortin  CTV News\r\n</li><li>Canada on track to receive 36.5 million COVID-19 vaccine doses by July  CBC.ca\r\n</li><li>Canada did better than the U.S. against the coronavirus, but now it’s lag…",
+            "url": "https://www.ctvnews.ca/health/coronavirus/canada-entered-expanded-covid-19-vaccination-phase-this-week-fortin-1.5341994",
+            "urlToImage": "https://www.ctvnews.ca/polopoly_fs/1.5342008.1615414149!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg",
+            "publishedAt": "2021-03-10T22:12:00Z",
+            "content": "OTTAWA -- \r\nWith 3.8 million COVID-19 vaccine doses delivered to date and weeks coming where there will be more than a million doses landing at a time, Canada has entered the much-anticipated ramp-up… [+2989 chars]"
+        },
+        ],
       },
 
       // PLACEHOLDER CUTOFF \\
 
       {
         day: 11,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Canice Leung",
+            "title": "One year with COVID: Alone in a pandemic | Pictures - Reuters",
+            "description": "A resident waves from her window at Residence Herron, a senior's long-term care facility, following a number of deaths in a coronavirus outbreak, in the suburb of Dorval in Montreal Quebec, Canada, Ap",
+            "url": "https://www.reuters.com/news/picture/one-year-with-covid-alone-in-a-pandemic-idUSRTX9PBBY",
+            "urlToImage": "https://s2.reutersmedia.net/resources/r/?m=02&d=20210311&t=2&i=1554545494&w=&fh=545&fw=810&ll=&pl=&sq=&r=2021-03-11T144316Z_39098_MRPRC2S3G98749L_RTRMADP_0_HEALTH-CORONAVIRUS-CANADA-QUEBEC",
+            "publishedAt": "2021-03-11T14:43:00Z",
+            "content": "Reuters, the news and media division of Thomson Reuters, is the worlds largest international multimedia news provider reaching more than one billion people every day. Reuters provides trusted busines… [+229 chars]"
+        },
+        ],
       },
       {
         day: 12,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Dania Nadeem, Carl O’Donnell",
+            "title": "Novavax vaccine 96% effective against original coronavirus version in UK trial - Reuters Canada",
+            "description": "Novavax Inc's COVID-19 vaccine was 96% effective in preventing cases caused by the original version of the coronavirus in a late-stage trial conducted in the United Kingdom, the company said on Thursday, moving it a step closer to regulatory approval.",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-vaccines-novavax-idUSKBN2B32ZO",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210311&t=2&i=1554591200&r=LYNXMPEH2A1RO&w=800",
+            "publishedAt": "2021-03-11T21:07:00Z",
+            "content": "FILE PHOTO: A Novavax logo is reflected in a drop on a syringe needle in this illustration taken November 9, 2020. REUTERS/Dado Ruvic/Illustration/File Photo\r\n(Reuters) - Novavax Incs COVID-19 vaccin… [+1173 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "Canada says no evidence AstraZenca vaccine causes adverse reactions - Reuters",
+            "description": "Canada on Thursday said there is no indication at this time that the AstraZeneca COVID-19 vaccine causes adverse effects such as blood clotting, which prompted Denmark and Norway to temporarily suspend the use of the shot earlier in the day.",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-canada-astrazeneca-idUSKBN2B405S",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210312&t=2&i=1554612628&r=LYNXMPEH2B02E&w=800",
+            "publishedAt": "2021-03-12T01:39:00Z",
+            "content": "By Reuters Staff\r\nFILE PHOTO: Vials labelled \"AstraZeneca COVID-19 Coronavirus Vaccine\" and a syringe are seen in front of a displayed AstraZeneca logo in this illustration taken March 10, 2021. REUT… [+548 chars]"
+        },
+        ],
       },
       {
         day: 13,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Ctvnews.ca"
+            },
+            "author": null,
+            "title": "Coronavirus: Researchers develop variant tracking software - CTV News",
+            "description": "<ol><li>Coronavirus: Researchers develop variant tracking software  CTV News\r\n</li><li>COVID might have been in Canada earlier than when it was first identified: expert - BC News  Castanet.net\r\n</li><li>Canada reports 30 new COVID-19 deaths, 2,968 more infect…",
+            "url": "https://www.ctvnews.ca/health/coronavirus/canadian-researchers-develop-software-to-track-covid-19-lineage-1.5346393",
+            "urlToImage": "https://www.ctvnews.ca/polopoly_fs/1.5111824.1600621552!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg",
+            "publishedAt": "2021-03-13T23:21:00Z",
+            "content": "TORONTO -- \r\nAs highly infectious variants of COVID-19 continue to spread around the world, Canadian researchers are among those who have tracked more than 300,000 versions of the virus.\r\nResearchers… [+3182 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "North Shore News"
+            },
+            "author": "Canadian Press",
+            "title": "A look at COVID-19 vaccinations in Canada on Mar. 13, 2021 - North Shore News",
+            "description": "<ol><li>A look at COVID-19 vaccinations in Canada on Mar. 13, 2021  North Shore News\r\n</li><li>Doctors look back at the past year of the COVID-19 pandemic  CBC News\r\n</li><li>A look at COVID-19 vaccinations in Canada on Friday, March 12, 2021  National Post\r\n…",
+            "url": "https://www.nsnews.com/national-news/a-look-at-covid-19-vaccinations-in-canada-on-mar-13-2021-3541479",
+            "urlToImage": "https://vmcdn.ca/f/files/shared/site_images/national_news_2017.jpg",
+            "publishedAt": "2021-03-13T09:07:18Z",
+            "content": "The latest numbers on COVID-19 vaccinations in Canada as of 4:00 a.m. ET on Saturday, March 13, 2021.\r\nIn Canada, the provinces are reporting 95,261 new vaccinations administered for a total of 2,814… [+8421 chars]"
+        },
+        ],
       },
       {
         day: 14,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "cbc-news",
+                "name": "CBC News"
+            },
+            "author": null,
+            "title": "Coronavirus: What's happening in Canada and around the world Sunday - CBC.ca",
+            "description": "<ol><li>Coronavirus: What's happening in Canada and around the world Sunday  CBC.ca\r\n</li><li>'We failed the most vulnerable': Dr. Tam's biggest takeaway after a year of COVID-19  CTV News\r\n</li><li>A look at when Canada could start administering COVID-19 vac…",
+            "url": "https://www.cbc.ca/news/world/coronavirus-covid19-canada-world-march14-2021-1.5949376",
+            "urlToImage": "https://i.cbc.ca/1.5949550.1615747266!/fileImage/httpImage/image.JPG_gen/derivatives/16x9_620/covid-ont-20210314.JPG",
+            "publishedAt": "2021-03-14T13:45:00Z",
+            "content": "The latest:\r\nCanada has now administered more than three million COVID-19 vaccine doses as of Sunday, according to a CBC News tally.\r\nThe milestone comes as provinces across the country expand access… [+4241 chars]"
+        },
+        ],
       },
       {
         day: 15,
