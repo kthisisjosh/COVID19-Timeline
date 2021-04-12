@@ -4130,7 +4130,21 @@ const data = {
       },
       {
         day: 12,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "Biden Sets High Expectations for an American Recovery",
+            "description": "Mr. Biden’s speech on Thursday night offered a tantalizing promise of seeing friends and family for July 4, but his plan depends on a successful rollout of the relief package and on members of the public getting the vaccine as soon as it is offered to them.",
+            "url": "https://www.nytimes.com/live/2021/03/12/us/joe-biden-news",
+            "urlToImage": "https://static01.nyt.com/images/2021/03/12/us/politics/12new-washington-briefing-memo/12new-washington-briefing-memo-facebookJumbo.jpg",
+            "publishedAt": "2021-03-12T15:17:50Z",
+            "content": "LiveUpdated March 12, 2021, 8:33 a.m. ET\r\nMarch 12, 2021, 8:33 a.m. ET\r\nMr. Bidens speech on Thursday night offered a tantalizing promise of seeing friends and family for July 4, but his plan depends… [+18819 chars]"
+        },
+        ],
       },
       {
         day: 13,
@@ -4152,11 +4166,39 @@ const data = {
       },
       {
         day: 14,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Biden administration enlists FEMA to help with surge of children at US-Mexico border - Reuters Africa",
+            "description": "Biden administration enlists FEMA to help with surge of children at US-Mexico border  Reuters Africa",
+            "url": "https://www.reuters.com/article/us-usa-immigration-children-idUSKBN2B6014",
+            "urlToImage": null,
+            "publishedAt": "2021-03-14T01:58:08Z",
+            "content": "Editor's picks\r\nTed Hesson\r\nAram Roston\r\nWASHINGTON (Reuters) - The U.S. Department of Homeland Security on Saturday ordered an emergency agency that usually responds to floods, storms and other majo… [+3078 chars]"
+        },
+        ],
       },
       {
         day: 15,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "The Atlantic"
+            },
+            "author": "Robinson Meyer, Alexis C. Madrigal",
+            "title": "America’s Coronavirus Catastrophe Began With Data",
+            "description": "The pivotal failure of the coronavirus crisis has never been addressed.",
+            "url": "https://www.theatlantic.com/science/archive/2021/03/americas-coronavirus-catastrophe-began-with-data/618287/",
+            "urlToImage": "https://cdn.theatlantic.com/thumbor/nKxhmXTz5V4M9jh7SwdDRftw06A=/0x43:2000x1085/960x500/https://cdn.theatlantic.com/media/img/mt/2021/03/Artboard_1/original.png",
+            "publishedAt": "2021-03-15T19:19:36Z",
+            "content": "A few minutes before midnight on March 4, 2020, the two of us emailed every U.S. state and the District of Columbia with a simple question: How many people have been tested in your state, total, for … [+15191 chars]"
+        },
+        ],
       },
       {
         day: 16,
@@ -4164,7 +4206,21 @@ const data = {
       },
       {
         day: 17,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "The Atlantic"
+            },
+            "author": "Derek Thompson",
+            "title": "The Original Sin of America’s COVID-19 Response",
+            "description": "America might have faced a high death total in the coronavirus pandemic no matter what it did. But the one thing that could have made a difference was more, better, and faster testing.",
+            "url": "https://www.theatlantic.com/ideas/archive/2021/03/the-original-sin-of-americas-covid-19-response/618300/",
+            "urlToImage": "https://cdn.theatlantic.com/thumbor/Xmp8X8VH2mskdINpTELpfBR4F2Q=/0x53:2496x1353/960x500/https://cdn.theatlantic.com/media/img/mt/2021/03/h_15455276/original.jpg",
+            "publishedAt": "2021-03-17T11:30:00Z",
+            "content": "The coronavirus pandemic may be in its final stage in the U.S. But it will not be the last pandemic of the 21st century.Since the turn of the century, SARS-CoV-2 is already the second virus to create… [+11812 chars]"
+        },
+        ],
       },
       {
         day: 18,
@@ -4172,7 +4228,21 @@ const data = {
       },
       {
         day: 19,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "WCVB Boston"
+            },
+            "author": null,
+            "title": "Here's what experts say is needed for US to return to normal. But these barriers stand in the way - WCVB Boston",
+            "description": "<ol><li>Here's what experts say is needed for US to return to normal. But these barriers stand in the way  WCVB Boston\r\n</li><li>Dr. Anthony Fauci on COVID-19 variants, latest on vaccines, concerns as spring approaches  CBS This Morning\r\n</li><li>Fauci warns …",
+            "url": "https://www.wcvb.com/article/here-s-what-experts-say-is-needed-for-us-to-return-to-normal-but-these-barriers-stand-in-the-way/35882461",
+            "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/covid-normalcy-1616163652.jpg?crop=1.00xw:0.847xh;0,0.0168xh&resize=1200:*",
+            "publishedAt": "2021-03-19T14:26:00Z",
+            "content": "Video above: Health expert says COVID-19 variants are cause for concern\r\nStates are pushing ahead with expanding COVID-19 vaccine access and rolling back restrictions on businesses and large gatherin… [+5933 chars]"
+        },
+        ],
       },
       {
         day: 20,
@@ -4196,7 +4266,21 @@ const data = {
       },
       {
         day: 25,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Science Magazine"
+            },
+            "author": "Monod, M., Blenkinsop, A., Xi, X., Hebert, D., Bershan, S., Tietze, S., Baguelin, M., Bradley, V. C., Chen, Y., Coupland, H., Filippi, S., Ish-Horowicz, J., McManus, M., Mellan, T., Gandy, A., Hutchinson, M., Unwin, H. J. T., van Elsland, S. L., Vollmer, M. A. C., Weber, S., Zhu, H., Bezancon, A., Ferguson, N. M., Mishra, S., Flaxman, S., Bhatt, S., Ratmann, O., on behalf of the Imperial College COVID-19 Response Team",
+            "title": "Age groups that sustain resurging COVID-19 epidemics in the United States",
+            "description": "How can the resurgent epidemics of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) during 2020 be explained? Are they a result of students going back to school? To address this question, Monod et al. created a contact matrix for infection based o…",
+            "url": "https://science.sciencemag.org/content/371/6536/eabe8372.full",
+            "urlToImage": "https://science.sciencemag.org/content/371/6536/eabe8372/F1.large.jpg",
+            "publishedAt": "2021-03-25T17:39:52Z",
+            "content": "Structured Abstract\r\nAbstract\r\nAfter initial declines, in mid-2020 a resurgence in transmission of novel coronavirus disease (COVID-19) occurred in the United States and Europe. As efforts to control… [+34226 chars]"
+        },
+        ],
       },
       {
         day: 26,
@@ -4208,7 +4292,19 @@ const data = {
       },
       {
         day: 28,
-        articles: [],
+        articles: [{
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "At Least 36 States Give Religious Leaders Vaccine Priority",
+            "description": "Clerics on the front line in hospitals, mortuaries and long-term care homes influence their flocks’ attitudes on vaccination. Facebook freezes the page of Venezuela’s president, Nicolás Maduro, after he promotes an untested Covid remedy.",
+            "url": "https://www.nytimes.com/live/2021/03/28/world/covid-vaccine-coronavirus-cases",
+            "urlToImage": "https://static01.nyt.com/images/2021/03/27/us/27virus-briefing-clergy/merlin_185133621_0026342a-cee8-412e-b576-dc9a570ac289-facebookJumbo.jpg",
+            "publishedAt": "2021-03-28T14:12:40Z",
+            "content": "LiveUpdated March 28, 2021, 10:17 a.m. ET\r\nMarch 28, 2021, 10:17 a.m. ET\r\nClerics on the front line in hospitals, mortuaries and long-term care homes influence their flocks attitudes on vaccination. … [+16102 chars]"
+        },],
       },
       {
         day: 29,
@@ -4229,15 +4325,57 @@ const data = {
       },
       {
         day: 2,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Alek Korab",
+            "title": "COVID Was the #3 Cause of Death in America. Here's #1 and #2. - Yahoo Canada Shine On",
+            "description": "The coronavirus has killed so many people, it became the third leading cause of death in 2020. “COVID ranked as the third leading cause of underlying death,”...",
+            "url": "https://ca.style.yahoo.com/covid-3-cause-death-america-160125708.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/fm_PRkRkuTXrAfnuhzGg6A--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/galvanized/a414e2b0467d37a785e0ad174012039c",
+            "publishedAt": "2021-04-02T16:01:25Z",
+            "content": "The coronavirus has killed so many people, it became the third leading cause of death in 2020. COVID ranked as the third leading cause of underlying death, said Dr. Rochelle Walensky, Director of the… [+5328 chars]"
+        },
+        ],
       },
       {
         day: 3,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "U.S. Is Being Vaccinated at a Rate of 3 Million Per Day",
+            "description": "Both Republican and Democratic governors are forcing schools to reopen. Citing fear of counterfeit vaccines, Kenya halts the private importation of doses.",
+            "url": "https://www.nytimes.com/live/2021/04/03/world/covid-vaccine-coronavirus-cases",
+            "urlToImage": "https://static01.nyt.com/images/2021/04/03/world/03virus-briefing-three-million-lede/merlin_184998792_4209828c-439d-47fb-92b9-0b989336c767-facebookJumbo.jpg",
+            "publishedAt": "2021-04-03T22:30:13Z",
+            "content": "LiveUpdated April 3, 2021, 6:39 p.m. ET\r\nApril 3, 2021, 6:39 p.m. ET\r\nHeres what you need to know:\r\nFor the first time, more than three million people, on average, are receiving a Covid-19 vaccine ea… [+33276 chars]"
+        },
+        ],
       },
       {
         day: 4,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "USA TODAY, Jordan Culver and John Bacon, USA TODAY",
+            "title": "US vaccine rollout envied in Canada; Italy enters three-day lockdown: Live COVID-19 updates:",
+            "description": "\"Meanwhile in Canada\" is trending on social media as more than 30% of Americans have received at least one shot, just 12% of Canadians. COVID-19 news.",
+            "url": "https://www.usatoday.com/story/news/health/2021/04/04/live-covid-news-canadians-envious-us-vaccination-program/7079932002/",
+            "urlToImage": "https://www.gannett-cdn.com/presto/2021/04/04/USAT/9b8b2c60-d48a-4f81-8e28-340411da5964-AP_Vatican_Pope_Easter_Vigil.jpg?crop=4567,2569,x0,y471&width=3200&height=1680&fit=bounds",
+            "publishedAt": "2021-04-04T17:28:12Z",
+            "content": "It's the second year Americans are celebrating Easter, Ramadan and Passover from home.\r\nUSA TODAY\r\nThe U.S. vaccine rollout may be bumpy, but it's the envy of our neighbors to the north.\r\n\"Meanwhile … [+6006 chars]"
+        },
+        ],
       },
       {
         day: 5,
@@ -4245,7 +4383,21 @@ const data = {
       },
       {
         day: 6,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Jordan Kelly-Linden",
+            "title": "Coronavirus latest news: Benefits of the AstraZeneca vaccine outweigh the risks, European regulator says",
+            "description": "Under 30s to be offered alternative to AstraZeneca vaccine Halt AstraZeneca jab for younger people, says adviser Brazil records record 4,000 deaths in one...",
+            "url": "https://news.yahoo.com/coronavirus-latest-news-liverpool-club-194244285.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/E2ElYwlGP1QvRjiSjlxVEw--~B/aD0xMzg7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/the_telegraph_258/ff9dcfe3a70e0a97bffd1a3f79d705d8",
+            "publishedAt": "2021-04-06T19:42:44Z",
+            "content": "Coronavirus Article Bar with counter ..\r\nThe EU medicine regulator has said that the benefits of the Oxford-AstraZeneca vaccine outweigh the risks of Covid but has said that \"unusual blood clots with… [+58794 chars]"
+        },
+        ],
       },
       {
         day: 7,

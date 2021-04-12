@@ -5141,7 +5141,21 @@ const data = {
       },
       {
         day: 16,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "Canada recommends use of AstraZeneca's COVID-19 vaccine in people over 65 - Reuters",
+            "description": "Canada on Tuesday updated its guideline to recommend use of AstraZeneca's COVID-19 vaccine in people aged 65 years and older.",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-canada-idUSKBN2B81SF",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210316&t=2&i=1555074810&r=LYNXMPEH2F100&w=800",
+            "publishedAt": "2021-03-16T13:08:00Z",
+            "content": "By Reuters Staff\r\nFILE PHOTO: A senior receives the vaccine against the coronavirus disease (COVID-19) as Quebec begins vaccinations for seniors over 85 years old in a clinic in Laval, Quebec, Canada… [+363 chars]"
+        },
+        ],
       },
       {
         day: 17,
@@ -5149,7 +5163,47 @@ const data = {
       },
       {
         day: 18,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "David Shepardson",
+            "title": "Canada extends travel restrictions at U.S. border: Canadian official - Reuters",
+            "description": "U.S. land borders with Canada will remain closed to non-essential travel until at least April 21, the Canadian government said Thursday.",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-usa-canada-idUSKBN2BA1OG",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210318&t=2&i=1555347426&r=LYNXMPEH2H0X7&w=800",
+            "publishedAt": "2021-03-18T13:19:00Z",
+            "content": "FILE PHOTO: A Canadian Border Service Agency officer walks between checkpoints at the Canada-United States border crossing at the Thousand Islands Bridge, which remains closed to non-essential traffi… [+663 chars]"
+        },
+          {
+            "source": {
+                "id": null,
+                "name": "Toronto Star"
+            },
+            "author": "",
+            "title": "A look at COVID-19 vaccinations in Canada on Mar. 18, 2021 - TheRecord.com",
+            "description": "<ol><li>A look at COVID-19 vaccinations in Canada on Mar. 18, 2021  TheRecord.com\r\n</li><li>Coronavirus: What's happening in Canada and around the world on March 17  CBC.ca\r\n</li><li>The scientific case for delaying the second dose of the COVID-19 vaccine  To…",
+            "url": "https://www.thestar.com/politics/2021/03/18/a-look-at-covid-19-vaccinations-in-canada-on-mar-18-2021.html",
+            "urlToImage": "https://images.thestar.com/EnDcLk1bz9JMAiucL-LL-HkrpE8=/1280x1024/smart/filters:cb(1616055086134)/https://www.therecord.com/content/dam/thestar/politics/2021/03/18/a-look-at-covid-19-vaccinations-in-canada-on-mar-18-2021/20210317220340-6052bdcee802a1ed271b6677jpeg.jpg",
+            "publishedAt": "2021-03-18T08:24:45Z",
+            "content": "The latest numbers on COVID-19 vaccinations in Canada as of 4:00 a.m. ET on Thursday, March 18, 2021.\r\nIn Canada, the provinces are reporting 138,091 new vaccinations administered for a total of 3,40… [+8167 chars]"
+        },
+          {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "White House says U.S. aims to share extra COVID-19 vaccine doses with Mexico, Canada - Reuters",
+            "description": "The White House said on Thursday the United States aims to share extra coronavirus vaccine doses with Mexico and Canada.",
+            "url": "https://www.reuters.com/article/health-coronavirus-usa-biden-idUSW1N2KF02G",
+            "urlToImage": "https://s1.reutersmedia.net/resources_v2/images/rcom-default.png?w=800",
+            "publishedAt": "2021-03-18T17:07:00Z",
+            "content": "By Reuters Staff\r\nWASHINGTON, March 18 (Reuters) - The White House said on Thursday the United States aims to share extra coronavirus vaccine doses with Mexico and Canada.\r\nWhite House spokeswoman Je… [+99 chars]"
+        },
+        ],
       },
       {
         day: 19,
@@ -5165,7 +5219,21 @@ const data = {
       },
       {
         day: 22,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Maryn McKenna",
+            "title": "Covid Spilled From Animals to Humans. Now It’s Spilling Back",
+            "description": "Bats likely gave it to a mystery animal that then gave it to people. We passed it on to minks. Where does it go from there—and could it come back to us?",
+            "url": "https://www.wired.com/story/covid-spilled-from-animals-to-humans-now-its-spilling-back/",
+            "urlToImage": "https://media.wired.com/photos/6054c55ffe20326fb03e5f03/191:100/w_1280,c_limit/Science_climatedesk_474930962.jpg",
+            "publishedAt": "2021-03-22T11:00:00Z",
+            "content": "By then, five more European Union nations, plus Canada, had also recorded cases on mink farmsbut they were no longer the only places affected. In August, the coronavirus was identified in minks on fu… [+3622 chars]"
+        },
+        ],
       },
       {
         day: 23,
@@ -5173,7 +5241,21 @@ const data = {
       },
       {
         day: 24,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Allison Martell, Steve Scherer",
+            "title": "Canada's lagging COVID-19 vaccine campaign set to ramp up as virus variants spread - Reuters",
+            "description": "Canada is expecting enough COVID-19 vaccine doses to double its supply by the end of next week to help ramp up a slow vaccination program as more contagious virus variants push the country toward a third wave of coronavirus infections.",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-vaccines-canada-idUSKBN2BG2GQ",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210324&t=2&i=1556057376&r=LYNXMPEH2N1IO&w=800",
+            "publishedAt": "2021-03-24T15:40:00Z",
+            "content": "TORONTO/OTTAWA (Reuters) - Canada is expecting enough COVID-19 vaccine doses to double its supply by the end of next week to help ramp up a slow vaccination program as more contagious virus variants … [+3694 chars]"
+        },
+        ],
       },
       {
         day: 25,
@@ -5181,7 +5263,21 @@ const data = {
       },
       {
         day: 26,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Steve Scherer, Julie Gordon",
+            "title": "Canada needs stricter health measures to counter rapid spread of COVID-19 variants - officials - Reuters UK",
+            "description": "COVID-19 variant cases are increasing rapidly in several parts of Canada and longer-range forecasts show that stronger public health restrictions will be required to counter the spread of the disease, health officials said on Friday.",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-canada-idUSKBN2BI2DJ",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210326&t=2&i=1556350764&r=LYNXMPEH2P1C2&w=800",
+            "publishedAt": "2021-03-26T15:27:54Z",
+            "content": "OTTAWA (Reuters) - COVID-19 variant cases are increasing rapidly in several parts of Canada and longer-range forecasts show that stronger public health restrictions will be required to counter the sp… [+1631 chars]"
+        },
+        ],
       },
       {
         day: 27,
@@ -5189,7 +5285,21 @@ const data = {
       },
       {
         day: 28,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Staff",
+            "title": "Mexico says COVID-19 deaths likely 60% higher than confirmed toll - Reuters Canada",
+            "description": "Mexico's death toll from the coronavirus pandemic is likely at least 60% higher than the confirmed number, putting it in excess of 300,000, according to government data.",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-mexico-toll-idUSKBN2BK0EY",
+            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210328&t=2&i=1556503099&r=LYNXMPEH2R0BA&w=800",
+            "publishedAt": "2021-03-28T14:44:00Z",
+            "content": "By Reuters Staff\r\nFILE PHOTO: Funeral and crematorium employees work on a coffin carrying the body of a person who died from the coronavirus disease (COVID-19) before its cremation, as the number of … [+1253 chars]"
+        },
+        ],
       },
       {
         day: 29,
@@ -5222,11 +5332,39 @@ const data = {
       },
       {
         day: 5,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": null,
+                "name": "Weyburn Review"
+            },
+            "author": "",
+            "title": "A look at COVID-19 vaccinations in Canada on Apr. 5, 2021 - Weyburn Review",
+            "description": "<ol><li>A look at COVID-19 vaccinations in Canada on Apr. 5, 2021  Weyburn Review\r\n</li><li>A look at COVID-19 vaccinations in Canada on Monday, April 5, 2021  Toronto Star\r\n</li><li>Coronavirus: What's happening in Canada and around the world on April 5  CBC…",
+            "url": "https://www.weyburnreview.com/a-look-at-covid-19-vaccinations-in-canada-on-apr-5-2021-1.24303094",
+            "urlToImage": "https://www.weyburnreview.com/polopoly_fs/1.1761165.1435612631!/fileImage/httpImage/weyburn-review-fb-logo.png",
+            "publishedAt": "2021-04-05T08:46:03Z",
+            "content": "The latest numbers on COVID-19 vaccinations in Canada as of 4:00 a.m. ET on Monday April 5, 2021. In Canada, the provinces are reporting 44,982 new vaccinations administered for a total of 6,233,533 … [+8080 chars]"
+        },
+        ],
       },
       {
         day: 6,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "the-globe-and-mail",
+                "name": "The Globe And Mail"
+            },
+            "author": "Mia Rabson",
+            "title": "Tam says younger, healthier people need intensive care quickly with variants of COVID-19 - The Globe and Mail",
+            "description": "<ol><li>Tam says younger, healthier people need intensive care quickly with variants of COVID-19  The Globe and Mail\r\n</li><li>Covid-19 variants have likely replaced original virus in many parts of Canada, health officials say  CNN \r\n</li><li>Global National:…",
+            "url": "https://www.theglobeandmail.com/canada/article-covid-19-vaccines-are-helping-but-they-wont-solve-the-pandemic-on/",
+            "urlToImage": "https://www.theglobeandmail.com/resizer/L5uBKAd2L7Mw7n-IBkfnxLGhmHA=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/tgam/O32Z4XYGBBPYPGF6G7DSKOBQQY.JPG",
+            "publishedAt": "2021-04-06T18:12:18Z",
+            "content": "A woman receives a dose of a COVID-19 vaccine, in Montreal, on March 15, 2021.\r\nANDREJ IVANOV/Reuters\r\nProvincial governments are grappling with how to bring the third wave of COVID-19 under control,… [+7010 chars]"
+        }
+        ],
       },
       {
         day: 7,
@@ -5238,7 +5376,21 @@ const data = {
       },
       {
         day: 9,
-        articles: [],
+        articles: [
+          {
+            "source": {
+                "id": "the-globe-and-mail",
+                "name": "The Globe And Mail"
+            },
+            "author": "Adina Bresge",
+            "title": "ICUs across Canada see near record of COVID-19 patients as new variant cases multiply - The Globe and Mail",
+            "description": "<ol><li>ICUs across Canada see near record of COVID-19 patients as new variant cases multiply  The Globe and Mail\r\n</li><li>Canada's third wave on track to become its worst yet as hospitalizations spike  CNN \r\n</li><li>Coronavirus: Canada breaks daily case re…",
+            "url": "https://www.theglobeandmail.com/canada/article-icus-across-canada-see-near-record-of-covid-19-patients-as-new-variant/",
+            "urlToImage": "https://www.theglobeandmail.com/resizer/zlzBbwGCkFyLPavvhrm8hII0x7U=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/tgam/R5AV7TZYAJO5PMRPHIXMJQOIZ4.jpg",
+            "publishedAt": "2021-04-09T21:33:01Z",
+            "content": "The number of COVID-19 patients in intensive care units across the country has reached a near record as the spread of more contagious variants drives up hospitalizations, prompting Ontario officials … [+5199 chars]"
+        },
+        ],
       },
       {
         day: 10,
